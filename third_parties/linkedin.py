@@ -4,8 +4,11 @@ import requests
 from dotenv import load_dotenv
 
 load_dotenv()
+# Retrieve the API key from environment variables
+api_key = os.getenv("PROXYCURL_API_KEY")
 
-
+# Print the API key to the console
+print(f"PROXYCURL_API_KEY: {api_key}")
 def scrape_linkedin_profile(linkedin_profile_url: str,mock:bool= False):
     """scrape information from LinkedIn profiles,
     Manually scrape the information from the LinkedIn profile"""
@@ -31,6 +34,6 @@ def scrape_linkedin_profile(linkedin_profile_url: str,mock:bool= False):
 if __name__ == "__main__":
     print(
         scrape_linkedin_profile(
-            linkedin_profile_url="https://www.linkedin.com/in/robert-le982/"
+            linkedin_profile_url="https://www.linkedin.com/in/eden-marco/"
         )
     )
