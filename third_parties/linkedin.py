@@ -28,6 +28,10 @@ def scrape_linkedin_profile(linkedin_profile_url: str,mock:bool= False):
             headers=header_dic,
             timeout=10,
         )
+        
+        data = response.json()
+        
+        return data
     
     
 
