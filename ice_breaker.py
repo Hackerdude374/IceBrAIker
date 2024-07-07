@@ -6,8 +6,11 @@ from langchain.chains import LLMChain
 from third_parties.linkedin import scrape_linkedin_profile
 from agents.linkedin_lookup_agent import lookup as linkedin_lookup_agent
 
-
-
+# Access the environment variables
+openai_api_key = os.getenv("OPENAI_API_KEY")
+proxycurl_api_key = os.getenv("PROXYCURL_API_KEY")
+print(f"Loaded OPENAI_API_KEY: {openai_api_key}")
+print(f"Loaded PROXYCURL_API_KEY: {proxycurl_api_key}")
 def ice_break_with(name: str) ->str:
     linkedin_username = linkedin_lookup_agent(name=name)
     linkedin_data = scrape_linkedin_profile(linkedin_profile_url=linkedin_username)
