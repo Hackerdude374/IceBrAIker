@@ -35,7 +35,8 @@ def lookup(name: str) -> str:
             description="useful for when you need get the LinkedIn Page URL"
         )
     ]
-    
+    # langchain object
+    react_prompt = hub.pull("hwchase17/react")
     
     
     if __name__ == "__main__":
