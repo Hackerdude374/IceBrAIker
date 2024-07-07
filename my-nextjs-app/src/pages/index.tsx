@@ -51,19 +51,19 @@ const Home = () => {
       )}
 
       {data && (
-        <div className="mt-8 bg-white p-8 rounded shadow-md w-full max-w-md">
-          <div className="text-center">
+        <div className="mt-8 bg-white p-8 rounded shadow-md w-full max-w-md fade-in">
+          <div className="text-center fade-in">
             <img
               src={data.picture_url}
               alt="Profile Picture"
-              className="w-40 h-40 rounded-full mx-auto mb-4"
+              className="w-40 h-40 rounded-full mx-auto mb-4 fade-in"
             />
           </div>
-          <div>
+          <div className="fade-in">
             <h2 className="text-2xl font-bold mb-2">Summary</h2>
             <p>{data.summary_and_facts.summary}</p>
           </div>
-          <div className="mt-4">
+          <div className="mt-4 fade-in">
             <h2 className="text-2xl font-bold mb-2">Interesting Facts</h2>
             <ul className="list-disc list-inside">
               {data.summary_and_facts.facts.map((fact: string, index: number) => (
@@ -71,7 +71,7 @@ const Home = () => {
               ))}
             </ul>
           </div>
-          <div className="mt-4">
+          <div className="mt-4 fade-in">
             <h2 className="text-2xl font-bold mb-2">Ice Breakers</h2>
             <ul className="list-disc list-inside">
               {data.ice_breakers.ice_breakers.map((iceBreaker: string, index: number) => (
@@ -79,7 +79,7 @@ const Home = () => {
               ))}
             </ul>
           </div>
-          <div className="mt-4">
+          <div className="mt-4 fade-in">
             <h2 className="text-2xl font-bold mb-2">Topics of Interest</h2>
             <ul className="list-disc list-inside">
               {data.interests.topics_of_interest.map((topic: string, index: number) => (
