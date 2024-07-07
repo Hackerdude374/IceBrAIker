@@ -30,7 +30,23 @@ def scrape_linkedin_profile(linkedin_profile_url: str,mock:bool= False):
         )
         
         data = response.json()
-        
+        # fields we dont want 
+        data = {
+            k: v 
+            for k, v in data.items()
+            if v not in ([], "", "", None)
+            and k not in ["people_also_viewed", "certifications"]
+            
+            
+            
+            
+            
+            
+        }
+        if data.get("groups"):
+            for group_dict in data.get("groups"):
+                group_dict.pop("profile_pic_url")
+         # fields we dont want end        
         return data
     
     
@@ -38,6 +54,6 @@ def scrape_linkedin_profile(linkedin_profile_url: str,mock:bool= False):
 if __name__ == "__main__":
     print(
         scrape_linkedin_profile(
-            linkedin_profile_url="https://www.linkedin.com/in/eden-marco/"
+            linkedin_profile_url="https://www.linkedin.com/in/eden-marco/", mock=True
         )
     )
