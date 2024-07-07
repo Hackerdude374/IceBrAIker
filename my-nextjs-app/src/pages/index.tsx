@@ -22,49 +22,66 @@ const Home = () => {
   };
 
   return (
-    <div>
-      <h1>IceBrAIker</h1>
-      <form onSubmit={handleSubmit}>
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
+      <h1 className="text-4xl font-bold mb-8">IceBrAIker</h1>
+      <form
+        onSubmit={handleSubmit}
+        className="bg-white p-8 rounded shadow-md w-full max-w-md"
+      >
         <input
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
           placeholder="Enter name"
+          className="border border-gray-300 p-2 w-full rounded mb-4"
           required
         />
-        <button type="submit">Do Your Magic</button>
+        <button
+          type="submit"
+          className="bg-blue-500 text-white p-2 w-full rounded hover:bg-blue-600"
+        >
+          Do Your Magic
+        </button>
       </form>
 
-      {loading && <div className="three-quarters-loader"></div>}
+      {loading && (
+        <div className="mt-8 flex justify-center items-center">
+          <div className="spinner"></div>
+        </div>
+      )}
 
       {data && (
-        <div>
-          <div>
-            <img src={data.picture_url} alt="Profile Picture" style={{ width: '300px', maxWidth: '100%', height: 'auto', borderRadius: '50%', marginBottom: '20px' }} />
+        <div className="mt-8 bg-white p-8 rounded shadow-md w-full max-w-md">
+          <div className="text-center">
+            <img
+              src={data.picture_url}
+              alt="Profile Picture"
+              className="w-40 h-40 rounded-full mx-auto mb-4"
+            />
           </div>
           <div>
-            <h2>Summary</h2>
+            <h2 className="text-2xl font-bold mb-2">Summary</h2>
             <p>{data.summary_and_facts.summary}</p>
           </div>
-          <div>
-            <h2>Interesting Facts</h2>
-            <ul>
+          <div className="mt-4">
+            <h2 className="text-2xl font-bold mb-2">Interesting Facts</h2>
+            <ul className="list-disc list-inside">
               {data.summary_and_facts.facts.map((fact: string, index: number) => (
                 <li key={index}>{fact}</li>
               ))}
             </ul>
           </div>
-          <div>
-            <h2>Ice Breakers</h2>
-            <ul>
+          <div className="mt-4">
+            <h2 className="text-2xl font-bold mb-2">Ice Breakers</h2>
+            <ul className="list-disc list-inside">
               {data.ice_breakers.ice_breakers.map((iceBreaker: string, index: number) => (
                 <li key={index}>{iceBreaker}</li>
               ))}
             </ul>
           </div>
-          <div>
-            <h2>Topics of Interest</h2>
-            <ul>
+          <div className="mt-4">
+            <h2 className="text-2xl font-bold mb-2">Topics of Interest</h2>
+            <ul className="list-disc list-inside">
               {data.interests.topics_of_interest.map((topic: string, index: number) => (
                 <li key={index}>{topic}</li>
               ))}
