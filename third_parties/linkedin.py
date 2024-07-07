@@ -1,18 +1,11 @@
-import os 
+import os
 import requests
-
 from dotenv import load_dotenv
 
 load_dotenv()
-# Retrieve the API key from environment variables
-api_key = os.getenv("PROXYCURL_API_KEY")
-api_key = os.getenv('OPENAI_API_KEY')
 
-# Print the API key to verify it's loaded correctly (for debugging purposes)
-print(f"Loaded API Key: {api_key}")
-# Print the API key to the console
-print(f"PROXYCURL_API_KEY: {api_key}")
-def scrape_linkedin_profile(linkedin_profile_url: str,mock:bool= False):
+
+def scrape_linkedin_profile(linkedin_profile_url: str, mock: bool = False):
     """scrape information from LinkedIn profiles,
     Manually scrape the information from the LinkedIn profile"""
 
@@ -31,32 +24,24 @@ def scrape_linkedin_profile(linkedin_profile_url: str,mock:bool= False):
             headers=header_dic,
             timeout=10,
         )
-        
-        data = response.json()
-        # fields we dont want 
-        data = {
-            k: v 
-            for k, v in data.items()
-            if v not in ([], "", "", None)
-            and k not in ["people_also_viewed", "certifications"]
-            
-            
-            
-            
-            
-            
-        }
-        if data.get("groups"):
-            for group_dict in data.get("groups"):
-                group_dict.pop("profile_pic_url")
-         # fields we dont want end        
-        return data
-    
-    
+
+    data = response.json()
+    data = {
+        k: v
+        for k, v in data.items()
+        if v not in ([], "", "", None)
+        and k not in ["people_also_viewed", "certifications"]
+    }
+    if data.get("groups"):
+        for group_dict in data.get("groups"):
+            group_dict.pop("profile_pic_url")
+
+    return data
+
 
 if __name__ == "__main__":
     print(
         scrape_linkedin_profile(
-            linkedin_profile_url="https://www.linkedin.com/in/eden-marco/", mock=True
+            linkedin_profile_url="https://www.linkedin.com/in/eden-marco/",
         )
     )

@@ -7,7 +7,7 @@ from chains.custom_chains import (
     get_ice_breaker_chain,
 )
 from third_parties.linkedin import scrape_linkedin_profile
-from third_parties.twitter import scrape_user_ttweets
+#from third_parties.twitter import scrape_user_ttweets
 from output_parsers import (
     Summary,
     IceBreaker,
