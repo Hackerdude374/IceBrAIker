@@ -6,7 +6,10 @@ from dotenv import load_dotenv
 load_dotenv()
 # Retrieve the API key from environment variables
 api_key = os.getenv("PROXYCURL_API_KEY")
+api_key = os.getenv('OPENAI_API_KEY')
 
+# Print the API key to verify it's loaded correctly (for debugging purposes)
+print(f"Loaded API Key: {api_key}")
 # Print the API key to the console
 print(f"PROXYCURL_API_KEY: {api_key}")
 def scrape_linkedin_profile(linkedin_profile_url: str,mock:bool= False):
