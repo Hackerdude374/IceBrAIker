@@ -1,50 +1,55 @@
-import os
-from dotenv import load_dotenv
-from langchain.prompts.prompt import PromptTemplate
-from langchain_openai import ChatOpenAI
-from langchain.chains import LLMChain
-from third_parties.linkedin import scrape_linkedin_profile
+from typing import Tuple
 from agents.linkedin_lookup_agent import lookup as linkedin_lookup_agent
+from agents.twitter_lookup_agent import lookup as twitter_lookup_agent
+from chains.custom_chains import (
+    get_summary_chain,
+    get_interests_chain,
+    get_ice_breaker_chain,
+)
+from third_parties.linkedin import scrape_linkedin_profile
+from third_parties.twitter import scrape_user_ttweets
+from output_parsers import (
+    Summary,
+    IceBreaker,
+    TopicOfInterest,
+)
 
-# Access the environment variables
-openai_api_key = os.getenv("OPENAI_API_KEY")
-proxycurl_api_key = os.getenv("PROXYCURL_API_KEY")
-print(f"Loaded OPENAI_API_KEY: {openai_api_key}")
-print(f"Loaded PROXYCURL_API_KEY: {proxycurl_api_key}")
-def ice_break_with(name: str) ->str:
+def ice_break_with(name: str) -> Tuple[Summary, TopicOfInterest, IceBreaker, str]:
+    # Step 1: Find their LinkedIn profile
     linkedin_username = linkedin_lookup_agent(name=name)
+    # Step 2: Get information from their LinkedIn profile
     linkedin_data = scrape_linkedin_profile(linkedin_profile_url=linkedin_username)
-    
-     
-    summary_template = """
-    Given LinkedIn info {information} about a person, I want you to create:
-    1. A short summary
-    2. Two interesting facts about them
-    """
-    
-    summary_prompt_template = PromptTemplate(
-        input_variables=["information"], template=summary_template
+
+    # Step 3: Find their Twitter profile
+    twitter_username = twitter_lookup_agent(name=name)
+    # Step 4: Get their recent tweets
+    tweets = scrape_user_tweets(username=twitter_username)
+
+    # Step 5: Summarize the LinkedIn and Twitter information
+    summary_chain = get_summary_chain()
+    summary_and_facts: Summary = summary_chain.invoke(
+        input={"information": linkedin_data, "twitter_posts": tweets},
     )
-    
-    llm = ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo")
-    
-        
-    chain = LLMChain(llm=llm, prompt=summary_prompt_template)
 
-    
-    res = chain.invoke(input={"information": linkedin_data})
-    
-    print(res)
-    
-    
-# def scrape_linkedin_profile(linkedin_profile_url):
-#     # This function should scrape LinkedIn profile data
-#     # For now, let's return dummy data
-#     return "LinkedIn profile information about Eden Marco"
+    # Step 6: Find topics they might be interested in
+    interests_chain = get_interests_chain()
+    interests: TopicOfInterest = interests_chain.invoke(
+        input={"information": linkedin_data, "twitter_posts": tweets}
+    )
 
-if __name__ == '__main__':
-    load_dotenv()
-    print("Ice Breaker Enter")
-    ice_break_with(name="Eden Marco")
-   
+    # Step 7: Create ice breakers using their LinkedIn and Twitter information
+    ice_breaker_chain = get_ice_breaker_chain()
+    ice_breakers: IceBreaker = ice_breaker_chain.invoke(
+        input={"information": linkedin_data, "twitter_posts": tweets}
+    )
 
+    # Return the summary, interests, ice breakers, and profile picture URL
+    return (
+        summary_and_facts,
+        interests,
+        ice_breakers,
+        linkedin_data.get("profile_pic_url"),
+    )
+
+if __name__ == "__main__":
+    pass
