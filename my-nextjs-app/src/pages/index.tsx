@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
-      <h1 className="text-4xl font-bold mb-8">IceBrAIker</h1>
+      <h1 className="text-4xl font-bold mb-8">IceBrAIker 🧊</h1>
       <form
         onSubmit={handleSubmit}
         className="bg-white p-8 rounded shadow-md w-full max-w-md"
