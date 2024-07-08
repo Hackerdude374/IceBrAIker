@@ -47,6 +47,11 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)  # Enable CORS
 
+
+@app.route("/")
+def home():
+    return jsonify(message="Welcome to IceBrAIker API!")
+
 @app.route("/process", methods=["POST"])
 def process():
     data = request.get_json()
