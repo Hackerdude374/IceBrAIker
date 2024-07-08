@@ -9,3 +9,4 @@ langchain_openai
 langchain_community
 pydantic
 langchainhub
+bs4
