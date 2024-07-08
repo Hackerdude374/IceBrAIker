@@ -20,8 +20,8 @@ def lookup(name: str) -> str:
         model_name="gpt-3.5-turbo",
         openai_api_key=os.environ["OPENAI_API_KEY"],
     )
-    template = """given the full name {name_of_person} I want you to get it me a link to their Linkedin profile page.
-                          Your answer should contain only a URL"""
+    template = """given the full name {name_of_person}, I want you to get me a link to their LinkedIn profile page.
+                  Your answer should contain only a URL."""
 
     prompt_template = PromptTemplate(
         template=template, input_variables=["name_of_person"]
