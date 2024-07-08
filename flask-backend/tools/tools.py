@@ -44,8 +44,22 @@
 from langchain_community.tools.tavily_search import TavilySearchResults
 
 
-def get_profile_url_tavily(name: str):
-    """Searches for Linkedin or twitter Profile Page."""
-    search = TavilySearchResults()
-    res = search.run(f"{name}")
-    return res[0]["url"]
+# def get_profile_url_tavily(name: str):
+#     """Searches for Linkedin or twitter Profile Page."""
+#     search = TavilySearchResults()
+#     res = search.run(f"{name}")
+#     return res[0]["url"]
+import requests
+from bs4 import BeautifulSoup
+
+def get_profile_url_tavily(query):
+    search_url = f"https://www.google.com/search?q={query} LinkedIn profile"
+    headers = {"User-Agent": "Mozilla/5.0"}
+    response = requests.get(search_url, headers=headers)
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    for link in soup.find_all("a"):
+        url = link.get("href")
+        if "linkedin.com/in/" in url:
+            return url
+    return "No LinkedIn profile found."
