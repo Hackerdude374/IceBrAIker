@@ -6,3 +6,8 @@ flask-cors==4.0.1
 python-dotenv==0.19.2
 langchain==0.2.6  # Make sure to specify the correct version of langchain you are using
 langchain_openai
+langchain_community
+langchain.output_parsers
+langchain_core.pydantic_v1
+langchain.prompts
+langchain_core
