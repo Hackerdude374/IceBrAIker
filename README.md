@@ -22,6 +22,7 @@ With a single click, IceBrAIker generates a profile picture and a detailed view 
 
 - **User Profiles**: Create user profiles to save favorite contacts.
 - **Advanced Filtering**: Filter favorited profiles by shared interests using PostgreSQL.
+- **More Information**: Currently, the agent is only trained with LinkedIn profiles. Might use additional Reddit and/or Twitter data for scraping.
 
 ## Tech Stack
 
