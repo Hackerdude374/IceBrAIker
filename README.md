@@ -49,6 +49,10 @@ With a single click, IceBrAIker generates a profile picture and a detailed view 
 
 4. **Set up the backend**:
     Follow the instructions in the backend directory to set up Flask and LangChain.
+   ```bash
+    cd flask-backend
+   python app.py
+   ```
 
 ## Contribution
 
