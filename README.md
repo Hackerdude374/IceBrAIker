@@ -33,8 +33,8 @@ With a single click, IceBrAIker generates a profile picture and a detailed view 
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-repo/IceBrAIker.git
-    cd IceBrAIker
+    git clone https://github.com/Hackerdude374/IceBrAIker.git
+    cd IceBrAIker/my-nextjs-app
     ```
 
 2. **Install dependencies**:
