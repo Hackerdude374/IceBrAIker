@@ -40,3 +40,9 @@ function processProxyCurlData(data: any) {
       degree: edu.degree_name,
       fieldOfStudy: edu.field_of_study,
       startDate: edu.starts_at,
+      endDate: edu.ends_at,
+    })) || [],
+    skills: data.skills || [],
+    // Add more fields as needed
+  };
+}

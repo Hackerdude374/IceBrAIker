@@ -1,10 +1,12 @@
-// src/services/matchingService.ts
-
 import { PrismaClient, Profile, Skill, Experience, Project, Trait } from '@prisma/client';
-import OpenAI from 'openai';
+import { Configuration, OpenAIApi } from 'openai';
 
 const prisma = new PrismaClient();
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+const openaiConfig = new Configuration({
+  apiKey: process.env.OPENAI_API_KEY,
+});
+const openai = new OpenAIApi(openaiConfig);
 
 type ProfileWithRelations = Profile & {
   skills: Skill[];
@@ -165,15 +167,4 @@ function calculateOverallCompatibility(
     experienceMatch.score * weights.experiences +
     projectMatch.score * weights.projects
   ) * 100; // Convert to percentage
-}
-
-async function getDetailedCompatibilityExplanation(profile1: ProfileWithRelations, profile2: ProfileWithRelations) {
-  const prompt = `Compare these two professional profiles and provide a detailed explanation of their compatibility. Consider their traits, experiences, and projects. Profile 1: ${JSON.stringify(profile1)}. Profile 2: ${JSON.stringify(profile2)}`;
-
-  const response = await openai.chat.completions.create({
-    model: "gpt-3.5-turbo",
-    messages: [{ role: "user", content: prompt }],
-  });
-
-  return response.choices[0].message.content;
 }
