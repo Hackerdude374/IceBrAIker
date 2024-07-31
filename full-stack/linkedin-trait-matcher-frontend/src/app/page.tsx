@@ -75,9 +75,9 @@ export default function ProfileSearch() {
             <Text>{profile.headline}</Text>
             <Text mt={2}>{profile.summary}</Text>
             
-            <Heading as="h3" size="md" mt={4}>Traits</Heading>
-            {profile.traits && profile.traits.map((trait: any, index: number) => (
-              <Text key={index}>{trait.name}: {trait.score}</Text>
+            <Heading as="h3" size="md" mt={4}>Key Professional Traits</Heading>
+            {profile.traits && profile.traits.map((trait, index) => (
+              <Text key={index}>{trait}</Text>
             ))}
             
             <Heading as="h3" size="md" mt={4}>Ice Breakers</Heading>

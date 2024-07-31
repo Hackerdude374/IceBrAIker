@@ -56,7 +56,7 @@ router.get('/search', async (req, res) => {
     
     const profileData = {
       ...linkedInData,
-      traits,
+      traits: traits,
       iceBreakers
     };
     

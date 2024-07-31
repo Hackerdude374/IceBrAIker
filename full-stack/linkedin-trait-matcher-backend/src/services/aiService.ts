@@ -8,13 +8,51 @@ const openaiConfig = new Configuration({
 });
 const openai = new OpenAIApi(openaiConfig);
 dotenv.config();
+
 export async function analyzeTraits(text: string) {
   try {
-    const result = await hf.textClassification({
-      model: 'SkolkovoInstitute/russian_toxicity_classifier',
-      inputs: text,
-    });
-    return result;
+    const allTraits = [
+      "Innovative", "Team Player", "Tech-savvy", "Problem Solver", 
+      "Ambitious", "Adaptable", "Continuous Learner", "Leadership",
+      "Analytical", "Creative", "Communication", "Detail-oriented",
+      "Strategic Thinker", "Results-Driven", "Collaborative"
+    ];
+
+    const chunkSize = 10;
+    let allResults = [];
+
+    for (let i = 0; i < allTraits.length; i += chunkSize) {
+      const traitChunk = allTraits.slice(i, i + chunkSize);
+      const result = await hf.zeroShotClassification({
+        model: 'facebook/bart-large-mnli',
+        inputs: text,
+        parameters: {
+          candidate_labels: traitChunk
+        }
+      });
+
+      // Debugging: Log the result to see its structure
+      console.log('Result:', result);
+
+      if (result && result.labels && result.scores) {
+        allResults = allResults.concat(
+          result.labels.map((label, index) => ({
+            name: label,
+            score: result.scores[index]
+          }))
+        );
+      } else {
+        console.error('Unexpected result structure:', result);
+      }
+    }
+
+    // Sort all results and take top 7
+    const topTraits = allResults
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 7);
+
+    // Return only the trait names
+    return topTraits.map(trait => trait.name);
   } catch (error) {
     console.error('Error analyzing traits:', error);
     throw new Error('Failed to analyze traits');

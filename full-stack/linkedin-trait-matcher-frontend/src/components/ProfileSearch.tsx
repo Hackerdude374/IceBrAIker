@@ -37,10 +37,16 @@ export default function ProfileSearch() {
           <Text>{profile.headline}</Text>
           <Text mt={2}>{profile.summary}</Text>
           
-          <Heading as="h3" size="md" mt={4}>Traits</Heading>
-          {profile.traits.map((trait: any, index: number) => (
-            <Text key={index}>{trait.name}: {trait.score}</Text>
-          ))}
+          <Heading as="h3" size="md" mt={4}>Key Traits</Heading>
+{profile.traits && profile.traits.length > 0 ? (
+  <VStack align="start">
+    {profile.traits.map((trait, index) => (
+      <Text key={index}>• {trait}</Text>
+    ))}
+  </VStack>
+) : (
+  <Text>No traits available</Text>
+)}
           
           <Heading as="h3" size="md" mt={4}>Ice Breakers</Heading>
           {profile.iceBreakers.map((iceBreaker: string, index: number) => (
