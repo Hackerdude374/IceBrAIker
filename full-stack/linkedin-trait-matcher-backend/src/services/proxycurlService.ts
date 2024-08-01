@@ -1,10 +1,10 @@
 import axios from 'axios';
+import * as dotenv from 'dotenv';
+dotenv.config();
 
-
-import { Chain, Step, ExecutionContext } from 'langchain';
 const PROXYCURL_API_URL = 'https://nubela.co/proxycurl/api/v2/linkedin';
 
-export async function getLinkedInProfile(linkedinUrl: string) {
+export async function getLinkedInProfileByUrl(linkedinUrl: string) {
   try {
     const response = await axios.get(PROXYCURL_API_URL, {
       params: {
@@ -49,27 +49,14 @@ function processProxyCurlData(data: any) {
   };
 }
 
-export async function getLinkedInProfileByUrl(linkedinUrl: string) {
-  try {
-    const response = await axios.get(PROXYCURL_API_URL, {
-      params: {
-        url: linkedinUrl,
-      },
-      headers: {
-        'Authorization': `Bearer ${process.env.PROXYCURL_API_KEY}`
-      }
-    });
-
-    return processProxyCurlData(response.data);
-  } catch (error) {
-    console.error('Error fetching LinkedIn data from ProxyCurl:', error);
-    throw new Error('Failed to fetch LinkedIn data');
-  }
+async function getLangchainCore() {
+  const langchainCore = await import('@langchain/core');
+  return langchainCore;
 }
 
 // Step 1: Search LinkedIn Profile by Name
-const searchLinkedInProfileByNameStep = new Step({
-  execute: async (context: ExecutionContext) => {
+const searchLinkedInProfileByNameStep = {
+  run: async (context: any) => {
     const { firstName, lastName } = context.input;
     try {
       const response = await axios.get(`${PROXYCURL_API_URL}/search`, {
@@ -93,11 +80,11 @@ const searchLinkedInProfileByNameStep = new Step({
       throw new Error('Failed to find LinkedIn profile');
     }
   },
-});
+};
 
 // Step 2: Fetch LinkedIn Profile Data
-const fetchLinkedInProfileDataStep = new Step({
-  execute: async (context: ExecutionContext) => {
+const fetchLinkedInProfileDataStep = {
+  run: async (context: any) => {
     const { profileUrl } = context.output;
     try {
       const response = await axios.get(PROXYCURL_API_URL, {
@@ -115,17 +102,21 @@ const fetchLinkedInProfileDataStep = new Step({
       throw new Error('Failed to fetch LinkedIn data');
     }
   },
-});
+};
 
 // Define the Chain
-const linkedinProfileChain = new Chain({
-  steps: [searchLinkedInProfileByNameStep, fetchLinkedInProfileDataStep],
-});
+async function linkedinProfileChain() {
+  const { Chain } = await getLangchainCore();
+  return new Chain({
+    steps: [searchLinkedInProfileByNameStep, fetchLinkedInProfileDataStep],
+  });
+}
 
 // Function to search LinkedIn profile by name
 export async function searchLinkedInProfileByName(firstName: string, lastName: string) {
   try {
-    const result = await linkedinProfileChain.run({
+    const chain = await linkedinProfileChain();
+    const result = await chain.run({
       input: { firstName, lastName },
     });
     return result.output;

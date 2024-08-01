@@ -1,5 +1,5 @@
 import axios from 'axios';
-
+//in depth search for linkedin. works with proxycurl
 export async function searchLinkedInProfile(name: string) {
   try {
     const response = await axios.get('https://api.tavily.com/search', {

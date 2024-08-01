@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import { Box, Button, Input, VStack, Text, Heading, Container, Radio, RadioGroup, Stack } from '@chakra-ui/react';
+import { Box, Button, Input, VStack, Text, Heading, Container, Radio, RadioGroup, Stack, List, ListItem } from '@chakra-ui/react';
 
 export default function ProfileSearch() {
   const [searchType, setSearchType] = useState('url');
@@ -35,7 +35,7 @@ export default function ProfileSearch() {
   return (
     <Container maxW="800px" centerContent>
       <VStack spacing={8} align="stretch" width="100%">
-        <Heading as="h1" size="xl" textAlign="center">LinkedIn Trait Matcher</Heading>
+        <Heading as="h1" size="xl" textAlign="center">IceBrAIkers</Heading>
         
         <RadioGroup onChange={setSearchType} value={searchType}>
           <Stack direction="row">
@@ -45,21 +45,21 @@ export default function ProfileSearch() {
         </RadioGroup>
         
         {searchType === 'url' ? (
-          <Input 
-            placeholder="Enter LinkedIn Profile URL" 
-            value={url} 
+          <Input
+            placeholder="Enter LinkedIn Profile URL"
+            value={url}
             onChange={(e) => setUrl(e.target.value)}
           />
         ) : (
           <VStack>
-            <Input 
-              placeholder="First Name" 
-              value={firstName} 
+            <Input
+              placeholder="First Name"
+              value={firstName}
               onChange={(e) => setFirstName(e.target.value)}
             />
-            <Input 
-              placeholder="Last Name" 
-              value={lastName} 
+            <Input
+              placeholder="Last Name"
+              value={lastName}
               onChange={(e) => setLastName(e.target.value)}
             />
           </VStack>
@@ -76,14 +76,37 @@ export default function ProfileSearch() {
             <Text mt={2}>{profile.summary}</Text>
             
             <Heading as="h3" size="md" mt={4}>Key Professional Traits</Heading>
-            {profile.traits && profile.traits.map((trait, index) => (
-              <Text key={index}>{trait}</Text>
-            ))}
+            {profile.traits && profile.traits.length > 0 ? (
+              <List>
+                {profile.traits.map((trait: string, index: number) => (
+                  <ListItem key={index}>{trait}</ListItem>
+                ))}
+              </List>
+            ) : (
+              <Text>No traits available</Text>
+            )}
+            
+            <Heading as="h3" size="md" mt={4}>Tech Skills</Heading>
+            {profile.techSkills && profile.techSkills.length > 0 ? (
+              <List>
+                {profile.techSkills.map((skill: string, index: number) => (
+                  <ListItem key={index}>{skill}</ListItem>
+                ))}
+              </List>
+            ) : (
+              <Text>No tech skills available</Text>
+            )}
             
             <Heading as="h3" size="md" mt={4}>Ice Breakers</Heading>
-            {profile.iceBreakers && profile.iceBreakers.map((iceBreaker: string, index: number) => (
-              <Text key={index}>{iceBreaker}</Text>
-            ))}
+            {profile.iceBreakers && profile.iceBreakers.length > 0 ? (
+              <List>
+                {profile.iceBreakers.map((iceBreaker: string, index: number) => (
+                  <ListItem key={index}>{iceBreaker}</ListItem>
+                ))}
+              </List>
+            ) : (
+              <Text>No ice breakers available</Text>
+            )}
           </Box>
         )}
       </VStack>
