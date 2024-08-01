@@ -58,7 +58,6 @@ export async function analyzeTraits(text: string) {
     throw new Error('Failed to analyze traits');
   }
 }
-
 export async function generateIceBreakers(profile: any) {
   const prompt = `Generate 3 unique and engaging ice breakers based on this LinkedIn profile. The ice breakers should be professional, related to their work experience or skills, and encourage meaningful conversation. Profile: ${JSON.stringify(profile)}`;
 
@@ -70,7 +69,7 @@ export async function generateIceBreakers(profile: any) {
 
     return response.data.choices[0].message.content.split('\n').filter(Boolean);
   } catch (error) {
-    console.error('Error generating ice breakers:', error);
+    console.error('Error generating ice breakers:', error.response ? error.response.data : error.message);
     throw new Error('Failed to generate ice breakers');
   }
 }
