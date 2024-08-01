@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import React, { useState } from 'react';
 import { Box, Button, Input, VStack, Text, Heading, Container, Radio, RadioGroup, Stack, List, ListItem } from '@chakra-ui/react';
 
@@ -24,6 +24,7 @@ export default function ProfileSearch() {
         throw new Error('Failed to fetch profile');
       }
       const data = await response.json();
+      console.log('Profile Data:', data);
       setProfile(data);
       setError('');
     } catch (err) {
@@ -95,6 +96,17 @@ export default function ProfileSearch() {
               </List>
             ) : (
               <Text>No tech skills available</Text>
+            )}
+            
+            <Heading as="h3" size="md" mt={4}>Job Contributions</Heading>
+            {profile.jobContributions && profile.jobContributions.length > 0 ? (
+              <List>
+                {profile.jobContributions.map((contribution: string, index: number) => (
+                  <ListItem key={index}>{contribution}</ListItem>
+                ))}
+              </List>
+            ) : (
+              <Text>No job contributions available</Text>
             )}
             
             <Heading as="h3" size="md" mt={4}>Ice Breakers</Heading>

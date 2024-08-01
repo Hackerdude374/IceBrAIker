@@ -1,7 +1,7 @@
 import express from 'express';
 import { authMiddleware } from '../middlewares/auth';
 import { getLinkedInProfile } from '../services/proxycurlService';
-import { analyzeTraits, generateIceBreakers } from '../services/aiService';
+import { analyzeTraits, generateIceBreakers, generateTechSkills,generateJobContributions } from '../services/aiService';
 import { getLinkedInProfileByUrl, searchLinkedInProfileByName } from '../services/proxycurlService';
 const router = express.Router();
 
@@ -28,6 +28,8 @@ const router = express.Router();
 //     res.status(500).json({ error: 'Failed to retrieve profile data' });
 //   }
 // });
+
+
 router.get('/search', async (req, res) => {
   const { url, firstName, lastName } = req.query;
 
@@ -46,7 +48,9 @@ router.get('/search', async (req, res) => {
     }
 
     const traits = await analyzeTraits(linkedInData.summary);
-    
+    const techSkills = await generateTechSkills(linkedInData.summary);
+    const jobContributions = await generateJobContributions(linkedInData);
+
     let iceBreakers = [];
     try {
       iceBreakers = await generateIceBreakers(linkedInData);
@@ -56,9 +60,13 @@ router.get('/search', async (req, res) => {
     
     const profileData = {
       ...linkedInData,
-      traits: traits,
+      traits,
+      techSkills,
+      jobContributions,
       iceBreakers
     };
+
+    console.log('Profile Data:', profileData);
     
     res.json(profileData);
   } catch (error) {
@@ -66,4 +74,7 @@ router.get('/search', async (req, res) => {
     res.status(500).json({ error: 'Failed to retrieve profile data' });
   }
 });
+
+
+
 export default router;
