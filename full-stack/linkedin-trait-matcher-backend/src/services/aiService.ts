@@ -1,6 +1,7 @@
-import { HfInference } from '@huggingface/inference';
 import { Configuration, OpenAIApi } from 'openai';
 import dotenv from 'dotenv';
+import { HfInference } from '@huggingface/inference';
+
 dotenv.config();
 
 const hf = new HfInference(process.env.HUGGINGFACE_API_KEY);
@@ -10,54 +11,70 @@ const openaiConfig = new Configuration({
 });
 const openai = new OpenAIApi(openaiConfig);
 
-export async function analyzeTraits(text: string) {
+async function retryAsyncFunction(asyncFn: Function, args: any[], retries: number): Promise<any> {
+  let attempts = 0;
+  while (attempts < retries) {
+    try {
+      return await asyncFn(...args);
+    } catch (error) {
+      attempts++;
+      console.error(`Attempt ${attempts} failed:`, error);
+      if (attempts >= retries) {
+        throw error;
+      }
+      await new Promise(res => setTimeout(res, 1000)); // Delay between retries
+    }
+  }
+}
+
+function extractTextFromSections(profile: any, sections: string[]): string {
+  let text = '';
+
+  if (sections.includes('bio') && profile.summary) {
+    text += profile.summary + ' ';
+  }
+
+  if (sections.includes('projects') && profile.projects) {
+    profile.projects.forEach((project: any) => {
+      if (project.description) {
+        text += project.description + ' ';
+      }
+    });
+  }
+
+  if (sections.includes('experience') && profile.experiences) {
+    profile.experiences.forEach((experience: any) => {
+      if (experience.description) {
+        text += experience.description + ' ';
+      }
+    });
+  }
+
+  if (sections.includes('skills') && profile.skills) {
+    text += profile.skills.join(' ') + ' ';
+  }
+
+  return text.trim();
+}
+
+export async function analyzeTraits(profile: any) {
   try {
-    const allTraits = [
-      "Innovative", "Team Player", "Tech-savvy", "Problem Solver", 
-      "Ambitious", "Adaptable", "Continuous Learner", "Leadership",
-      "Analytical", "Creative", "Communication", "Detail-oriented",
-      "Strategic Thinker", "Results-Driven", "Collaborative"
-    ];
-
-    const chunkSize = 10;
-    let allResults = [];
-
+    const text = extractTextFromSections(profile, ['bio', 'projects', 'experience']);
     console.log('Starting analyzeTraits with text:', text);
 
-    for (let i = 0; i < allTraits.length; i += chunkSize) {
-      const traitChunk = allTraits.slice(i, i + chunkSize);
-      const result = await hf.zeroShotClassification({
-        model: 'facebook/bart-large-mnli',
-        inputs: text,
-        parameters: {
-          candidate_labels: traitChunk
-        }
-      });
+    const prompt = `Analyze the following text and list the top 7 traits that describe the person professionally: ${text}`;
 
-      console.log('Zero-Shot Classification Result for traits:', result);
+    const response = await openai.createChatCompletion({
+      model: "gpt-3.5-turbo",
+      messages: [{ role: "user", content: prompt }],
+    });
 
-      if (result && result.labels && result.scores) {
-        allResults = allResults.concat(
-          result.labels.map((label, index) => ({
-            name: label,
-            score: result.scores[index]
-          }))
-        );
-      } else {
-        console.error('Unexpected result structure for traits:', result);
-      }
-    }
+    const traits = response.data.choices[0].message.content.split('\n').filter(Boolean);
+    console.log('Generated Traits:', traits);
 
-    const topTraits = allResults
-      .sort((a, b) => b.score - a.score)
-      .slice(0, 7)
-      .map(trait => trait.name);
-
-    console.log('Top Traits:', topTraits);
-
-    return topTraits;
+    return traits;
   } catch (error) {
-    console.error('Error analyzing traits:', error);
+    console.error('Error analyzing traits:', error.response ? error.response.data : error.message);
     throw new Error('Failed to analyze traits');
   }
 }
@@ -81,73 +98,63 @@ export async function generateIceBreakers(profile: any) {
   }
 }
 
-export async function generateTechSkills(text: string) {
+export async function generateTechSkills(profile: any) {
   try {
-    const commonTechSkills = [
-      "Java", "JavaScript", "Python", "C++", "C#", "Ruby", "PHP", "Swift",
-      "Kotlin", "Go", "Rust", "TypeScript", "SQL", "HTML", "CSS", "React",
-      "Angular", "Vue.js", "Node.js", "Django", "Flask", "Spring", "Docker",
-      "Kubernetes", "AWS", "Azure", "GCP", "Git", "Jenkins", "TensorFlow",
-      "PyTorch", "Scala", "R", "MATLAB", "Tableau", "Power BI", "MongoDB",
-      "PostgreSQL", "Redis", "Elasticsearch", "Hadoop", "Spark"
-    ];
-
-    const chunkSize = 10;
-    let allResults = [];
-
+    const text = extractTextFromSections(profile, ['skills', 'projects', 'experience']);
     console.log('Starting generateTechSkills with text:', text);
 
-    for (let i = 0; i < commonTechSkills.length; i += chunkSize) {
-      const skillChunk = commonTechSkills.slice(i, i + chunkSize);
-      const result = await hf.zeroShotClassification({
-        model: 'facebook/bart-large-mnli',
-        inputs: text,
-        parameters: {
-          candidate_labels: skillChunk
-        }
-      });
+    const prompt = `Analyze the following text and list the top 10 technical skills that the person possesses: ${text}`;
 
-      console.log('Zero-Shot Classification Result for tech skills:', result);
-
-      if (result && result.labels && result.scores) {
-        allResults = allResults.concat(
-          result.labels.map((label, index) => ({
-            name: label,
-            score: result.scores[index]
-          }))
-        );
-      } else {
-        console.error('Unexpected result structure for tech skills:', result);
-      }
-    }
-
-    const techSkills = allResults
-      .sort((a, b) => b.score - a.score)
-      .slice(0, 10)
-      .map(skill => skill.name);
-
-    console.log('Top Tech Skills:', techSkills);
-
-    return techSkills;
-  } catch (error) {
-    console.error('Error generating tech skills:', error);
-    throw new Error('Failed to generate tech skills');
-  }
-}
-
-export async function generateJobContributions(profile: any) {
-  const prompt = `Generate 3 job contributions and achievements based on this LinkedIn profile. The contributions should highlight key accomplishments, skills, and impacts. Profile: ${JSON.stringify(profile)}`;
-
-  try {
     const response = await openai.createChatCompletion({
       model: "gpt-3.5-turbo",
       messages: [{ role: "user", content: prompt }],
     });
 
-    const contributions = response.data.choices[0].message.content.split('\n').filter(Boolean);
-    console.log('Generated Job Contributions:', contributions);
+    const techSkills = response.data.choices[0].message.content.split('\n').filter(Boolean);
+    console.log('Generated Tech Skills:', techSkills);
 
-    return contributions;
+    // Optional: Enhance the tech skills with Hugging Face emotion analysis
+    const enhancedSkills = await enhanceSkillsWithEmotionAnalysis(techSkills);
+    console.log('Enhanced Tech Skills:', enhancedSkills);
+
+    return enhancedSkills;
+  } catch (error) {
+    console.error('Error generating tech skills:', error.response ? error.response.data : error.message);
+    throw new Error('Failed to generate tech skills');
+  }
+}
+
+async function enhanceSkillsWithEmotionAnalysis(skills: string[]): Promise<string[]> {
+  try {
+    const enhancedSkills = [];
+    for (const skill of skills) {
+      const result = await hf.sentiment({
+        model: 'distilbert-base-uncased-finetuned-sst-2-english',
+        inputs: skill,
+      });
+      console.log('Emotion Analysis Result for skill:', skill, result);
+      enhancedSkills.push(`${skill} (${result[0].label}: ${result[0].score.toFixed(2)})`);
+    }
+    return enhancedSkills;
+  } catch (error) {
+    console.error('Error enhancing skills with emotion analysis:', error);
+    return skills; // Return the original skills if enhancement fails
+  }
+}
+
+export async function generateJobContributions(profile: any) {
+  try {
+    const prompt = `Generate 3 significant job contributions based on this LinkedIn profile. The contributions should highlight the impact and achievements in their roles. Profile: ${JSON.stringify(profile)}`;
+
+    const response = await openai.createChatCompletion({
+      model: "gpt-3.5-turbo",
+      messages: [{ role: "user", content: prompt }],
+    });
+
+    const jobContributions = response.data.choices[0].message.content.split('\n').filter(Boolean);
+    console.log('Generated Job Contributions:', jobContributions);
+
+    return jobContributions;
   } catch (error) {
     console.error('Error generating job contributions:', error.response ? error.response.data : error.message);
     throw new Error('Failed to generate job contributions');
