@@ -74,3 +74,46 @@ export async function generateIceBreakers(profile: any) {
     throw new Error('Failed to generate ice breakers');
   }
 }
+
+export async function generateTechSkills(text: string) {
+  try {
+    const commonTechSkills = [
+      "Java", "JavaScript", "Python", "C++", "C#", "Ruby", "PHP", "Swift",
+      "Kotlin", "Go", "Rust", "TypeScript", "SQL", "HTML", "CSS", "React",
+      "Angular", "Vue.js", "Node.js", "Django", "Flask", "Spring", "Docker",
+      "Kubernetes", "AWS", "Azure", "GCP", "Git", "Jenkins", "TensorFlow",
+      "PyTorch", "Scala", "R", "MATLAB", "Tableau", "Power BI", "MongoDB",
+      "PostgreSQL", "Redis", "Elasticsearch", "Hadoop", "Spark"
+    ];
+
+    const result = await hf.zeroShotClassification({
+      model: 'facebook/bart-large-mnli',
+      inputs: text,
+      parameters: {
+        candidate_labels: commonTechSkills
+      }
+    });
+
+    // Debugging: Log the result to see its structure
+    console.log('Tech Skills Result:', result);
+
+    if (result && result.labels && result.scores) {
+      const techSkills = result.labels
+        .map((label, index) => ({
+          name: label,
+          score: result.scores[index]
+        }))
+        .sort((a, b) => b.score - a.score)
+        .filter(skill => skill.score > 0.5) // Adjust this threshold as needed
+        .map(skill => skill.name);
+
+      return techSkills;
+    } else {
+      console.error('Unexpected result structure:', result);
+      return [];
+    }
+  } catch (error) {
+    console.error('Error generating tech skills:', error);
+    throw new Error('Failed to generate tech skills');
+  }
+}
