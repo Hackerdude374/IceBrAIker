@@ -62,7 +62,7 @@ export async function analyzeTraits(profile: any) {
     const text = extractTextFromSections(profile, ['bio', 'projects', 'experience']);
     console.log('Starting analyzeTraits with text:', text);
 
-    const prompt = `Analyze the following text(the linkedin bio, projects, and experience) and list the top 7 traits that describe the person professionally: ${text}`;
+    const prompt = `Analyze the following text(the linkedin bio, projects, and experience) and make a concise list of the top 7 traits that describe the person professionally: ${text}`;
 
     const response = await openai.createChatCompletion({
       model: "gpt-3.5-turbo",
@@ -80,7 +80,7 @@ export async function analyzeTraits(profile: any) {
 }
 
 export async function generateIceBreakers(profile: any) {
-  const prompt = `Generate 3 unique and engaging ice breakers based on this LinkedIn profile. The ice breakers should be professional, related to their work experience or skills, and encourage meaningful conversation. Profile: ${JSON.stringify(profile)}`;
+  const prompt = `Generate 3 unique and engaging ice breakers based on this LinkedIn profile. The ice breakers should be concise/ professional, related to their work experience or skills, and encourage meaningful conversation. Profile: ${JSON.stringify(profile)}`;
 
   try {
     const response = await openai.createChatCompletion({
@@ -103,7 +103,7 @@ export async function generateTechSkills(profile: any) {
     const text = extractTextFromSections(profile, ['bio', 'projects', 'experience']);
     console.log('Starting generateTechSkills with text:', text);
 
-    const prompt = `Analyze the following text (the linkedin skills, projects, and experience) and list the top 10 technical skills that the person possesses: ${text}`;
+    const prompt = `Analyze the following text (the linkedin skills, projects, and experience) and make a concise list the top 10 technical skills that the person possesses: ${text}`;
 
     const response = await openai.createChatCompletion({
       model: "gpt-3.5-turbo",
@@ -144,7 +144,7 @@ async function enhanceSkillsWithEmotionAnalysis(skills: string[]): Promise<strin
 
 export async function generateJobContributions(profile: any) {
   try {
-    const prompt = `Generate 3 significant job contributions based on this LinkedIn profile. The contributions should highlight the impact and achievements in their roles. Profile: ${JSON.stringify(profile)}`;
+    const prompt = `Generate 5 concise significant job contributions based on this LinkedIn profile. The contributions should highlight the impact and achievements in their roles. Profile: ${JSON.stringify(profile)}`;
 
     const response = await openai.createChatCompletion({
       model: "gpt-3.5-turbo",
