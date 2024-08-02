@@ -62,7 +62,7 @@ export async function analyzeTraits(profile: any) {
     const text = extractTextFromSections(profile, ['bio', 'projects', 'experience']);
     console.log('Starting analyzeTraits with text:', text);
 
-    const prompt = `Analyze the following text and list the top 7 traits that describe the person professionally: ${text}`;
+    const prompt = `Analyze the following text(the linkedin bio, projects, and experience) and list the top 7 traits that describe the person professionally: ${text}`;
 
     const response = await openai.createChatCompletion({
       model: "gpt-3.5-turbo",
@@ -100,10 +100,10 @@ export async function generateIceBreakers(profile: any) {
 
 export async function generateTechSkills(profile: any) {
   try {
-    const text = extractTextFromSections(profile, ['skills', 'projects', 'experience']);
+    const text = extractTextFromSections(profile, ['bio', 'projects', 'experience']);
     console.log('Starting generateTechSkills with text:', text);
 
-    const prompt = `Analyze the following text and list the top 10 technical skills that the person possesses: ${text}`;
+    const prompt = `Analyze the following text (the linkedin skills, projects, and experience) and list the top 10 technical skills that the person possesses: ${text}`;
 
     const response = await openai.createChatCompletion({
       model: "gpt-3.5-turbo",
