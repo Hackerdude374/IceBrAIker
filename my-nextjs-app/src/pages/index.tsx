@@ -45,7 +45,11 @@ const Flashcard = ({ title, content, isVisible, onComplete, gifUrl }) => {
           <p>{content}</p>
         )}
       </div>
-      <img src={gifUrl} alt={title} className="w-full h-40 object-cover rounded-lg mb-4" />
+      <img
+        src={gifUrl}
+        alt={title}
+        className="w-full h-40 object-contain rounded-lg mb-4" // or use object-scale-down
+      />
       <div className="w-full bg-gray-200 rounded-full h-2.5">
         <div
           className="bg-blue-600 h-2.5 rounded-full transition-all duration-100 ease-linear"
@@ -183,7 +187,11 @@ const Home = () => {
                   <p>{renderContent(section.key)}</p>
                 )}
               </div>
-              <img src={section.gifUrl} alt={section.title} className="w-full h-40 object-cover rounded-lg" />
+              <img
+                src={section.gifUrl}
+                alt={section.title}
+                className="w-full h-40 object-contain rounded-lg"
+              />
             </div>
           ))}
         </div>
