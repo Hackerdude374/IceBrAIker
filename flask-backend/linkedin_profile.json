@@ -1,0 +1,97 @@
+{
+    "public_identifier": "cristian-statescu-33a773203",
+    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/cristian-statescu-33a773203/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230053Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5742f65c939f09696f0167869ad47900a7c1ed791928f7961e82af9e1d25c04b",
+    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/cristian-statescu-33a773203/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230053Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=86713227290d83172977502f281d5f7cd399528c2c8abd54cae206b0649a8dc8",
+    "first_name": "Cristian",
+    "last_name": "Statescu",
+    "full_name": "Cristian Statescu",
+    "follower_count": 434,
+    "occupation": "College Aide at New York City Department of Transportation",
+    "headline": "College Aide at New York City Department of Transportation",
+    "summary": "I am (currently) a Senior in Macaulay Honors College at The City College of New York studying Computer Science. I enjoy coding in C++ and Python primarily, and know Java as well. I have used Python, Java, and MySQL primarily to work on projects relating to my school work over the past year. Over the last year, I worked a lot with MySQL: I built databases, drew ER diagrams to explain the schema produced, and underwent a \"family database\" project where the focus was to get information about an individual's family through queries (which needed to have relational algebra involved to help prove their correctness). Currently, I am looking to further my software engineering skills both individually and collaboratively. At the moment, I am the Co-President of Macaulay Fitness at Macaulay Honors College (known more commonly as MacFIT), where we promote both mental and physical wellbeing through activities and events. Please reach out, I am more than happy to respond and connect with you!",
+    "country": "US",
+    "country_full_name": "United States of America",
+    "city": "New York",
+    "state": "New York",
+    "experiences": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 5,
+                "year": 2023
+            },
+            "ends_at": null,
+            "company": "New York City Department of Transportation",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/nycdot/",
+            "company_facebook_profile_url": null,
+            "title": "College Aide",
+            "description": null,
+            "location": "New York, New York, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/nycdot/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230054Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=6f5153f7e5298362e49bd295c166b668b5128f4dee8c7019e1ca8210907ee1b8"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 7,
+                "year": 2023
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 1,
+                "year": 2024
+            },
+            "company": "The Difference",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/thediffapp/",
+            "company_facebook_profile_url": null,
+            "title": "Software Developer",
+            "description": "Helped better the database/data management of the company, as well as general software development work, including but not limited to: app development, website development, database management, and more.",
+            "location": "New York, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/thediffapp/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230054Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=fbc5409fd35adffaa4f7e8ef12e7872ec24a71e6c8f5891862a4515edb185b29"
+        }
+    ],
+    "education": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 8,
+                "year": 2020
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 5,
+                "year": 2024
+            },
+            "field_of_study": "Computer Science",
+            "degree_name": "Bachelor of Science - BS",
+            "school": "Macaulay Honors College at The City University of New York",
+            "school_linkedin_profile_url": "https://www.linkedin.com/school/macaulay-honors-college-at-the-city-university-of-new-york/",
+            "school_facebook_profile_url": null,
+            "description": null,
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/macaulay-honors-college-at-the-city-university-of-new-york/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230055Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=b9a68b9f2b6928e3041d01ac5a9db33561237b51be3d010d9bdbe8d7db56565e",
+            "grade": "Graduated",
+            "activities_and_societies": "Leader of Macaulay Fitness (MacFIT)"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 9,
+                "year": 2016
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 6,
+                "year": 2020
+            },
+            "field_of_study": null,
+            "degree_name": "High School Diploma",
+            "school": "NYC Lab High School for Collaborative Studies",
+            "school_linkedin_profile_url": "https://www.linkedin.com/school/nyc-lab-high-school-for-collaborative-studies/",
+            "school_facebook_profile_url": null,
+            "description": null,
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/nyc-lab-high-school-for-collaborative-studies/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230055Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=3c57df412dac2b2435515f1b497402cf78009428b5757d75c631c87962d10d48",
+            "grade": null,
+            "activities_and_societies": null
+        }
+    ],
+    "connections": 434
+}
