@@ -7,11 +7,11 @@ const sections = [
   { key: 'ice_breakers', title: 'Ice Breakers', gifUrl: '/gifs/ice_breakers.gif' },
   { key: 'topics', title: 'Topics of Interest', gifUrl: '/gifs/topics.gif' },
   { key: 'traits', title: 'Personality Traits', gifUrl: '/gifs/traits.gif' },
-  { key: 'skills', title: 'Technical Skills', gifUrl: '/gifs/skills.gif' },
+  { key: 'skills', title: 'Technical Skills', gifUrl: '/gifs/skills.webp' },
 ];
 
 const Flashcard = ({ title, content, isVisible, onComplete, gifUrl }) => {
-  const [progress, setProgress] = useState(100);
+  const [progress, setProgress] = useState(70);
 
   useEffect(() => {
     if (isVisible) {
@@ -24,7 +24,7 @@ const Flashcard = ({ title, content, isVisible, onComplete, gifUrl }) => {
           }
           return prev - 1;
         });
-      }, 100);
+      }, 70);
       return () => clearInterval(timer);
     }
   }, [isVisible, onComplete]);
