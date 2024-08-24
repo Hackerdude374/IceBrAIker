@@ -1,29 +1,94 @@
 {
-    "public_identifier": "keon-brown-955ba9102",
-    "first_name": "Keon",
-    "last_name": "Brown",
-    "full_name": "Keon Brown",
-    "follower_count": 2,
-    "headline": "Student at Curtis Highschool",
+    "public_identifier": "ha-phan-b101907b",
+    "profile_pic_url": "https://media.licdn.com/dms/image/v2/C4D03AQGEKp_nN2EUSA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1565979454113?e=1729728000&v=beta&t=HrtdkdyzxaTIeZCmLLG-qtUUEM2vN6B7LWmq1JrkN6o",
+    "first_name": "Ha",
+    "last_name": "Phan",
+    "full_name": "Ha Phan",
+    "follower_count": 101,
+    "occupation": "Research Scientist at New York State Institute for Basic Research in Developmental Disabilities",
+    "headline": "Research Scientist, Infant Development, Neurophysiological and Neurobehavioral Assessments",
     "country": "US",
     "country_full_name": "United States of America",
-    "city": "Staten Island",
-    "state": "New York",
+    "city": "New York City Metropolitan Area",
+    "experiences": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 4,
+                "year": 2015
+            },
+            "ends_at": null,
+            "company": "New York State Institute for Basic Research in Developmental Disabilities",
+            "company_linkedin_profile_url": null,
+            "company_facebook_profile_url": null,
+            "title": "Research Scientist",
+            "description": "Examining the development of infants using neurophysiological and neurobehavioral assessments. Mentoring undergraduate and medical students on research skills.",
+            "location": "Staten Island, New York, USA",
+            "logo_url": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 1,
+                "year": 2010
+            },
+            "ends_at": null,
+            "company": "Biology Department College of Staten Island CUNY",
+            "company_linkedin_profile_url": null,
+            "company_facebook_profile_url": null,
+            "title": "Adjunct Professor",
+            "description": "Teaching courses in Human Anatomy and Physiology.",
+            "location": "Staten Island, New York, USA",
+            "logo_url": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 1,
+                "year": 2010
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 12,
+                "year": 2015
+            },
+            "company": "New York State Institute for Basic Research in Developmental Disabilities",
+            "company_linkedin_profile_url": null,
+            "company_facebook_profile_url": null,
+            "title": "Research Associate",
+            "description": null,
+            "location": null,
+            "logo_url": null
+        }
+    ],
     "education": [
         {
             "starts_at": {
                 "day": 1,
                 "month": 1,
-                "year": 2012
+                "year": 2010
             },
-            "ends_at": {
-                "day": 31,
-                "month": 12,
-                "year": 2016
+            "ends_at": null,
+            "field_of_study": "Neuroscience",
+            "degree_name": "Ph.D",
+            "school": "The Graduate Center, City University of New York",
+            "school_linkedin_profile_url": "https://www.linkedin.com/company/2677812/",
+            "school_facebook_profile_url": null,
+            "description": null,
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/thegraduatecenter/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T232955Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=e3cc2c381f570a32c968eecf2065961e4e06cd51dd7729b2219a77bf73515d81",
+            "grade": null,
+            "activities_and_societies": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 1,
+                "year": 1993
             },
+            "ends_at": null,
             "field_of_study": null,
-            "degree_name": null,
-            "school": "Curtis Highschool",
+            "degree_name": "Doctor of Medicine - MD",
+            "school": "Hanoi Medical University, Vietnam",
             "school_linkedin_profile_url": null,
             "school_facebook_profile_url": null,
             "description": null,
@@ -32,5 +97,58 @@
             "activities_and_societies": null
         }
     ],
-    "connections": 2
+    "connections": 98,
+    "activities": [
+        {
+            "title": "An important finding from the BabySeq project: it's clear that parents and doctors support genomic sequencing in newborn medicine. Sequencing is\u2026",
+            "link": "https://www.linkedin.com/signup/cold-join",
+            "activity_status": "Liked by Ha Phan"
+        },
+        {
+            "title": "A new study from the Rare Diseases Clinical Research Network (RDCRN)'s #Dystonia Coalition provides insight into outcomes and long\u2010term safety and\u2026",
+            "link": "https://www.linkedin.com/signup/cold-join",
+            "activity_status": "Liked by Ha Phan"
+        },
+        {
+            "title": "I really enjoyed my time with District of Columbia Public Schools (DCPS) School Psychologists to discuss the PDD Behavior Inventory (PDDBI) on\u2026",
+            "link": "https://www.linkedin.com/signup/cold-join",
+            "activity_status": "Liked by Ha Phan"
+        }
+    ],
+    "similarly_named_profiles": [
+        {
+            "name": "H\u00e0 Phan",
+            "link": "https://vn.linkedin.com/in/ha-phan-recruiter",
+            "summary": "Freelancer Recuiter - Newly graduated student looking for a job",
+            "location": "Ho Chi Minh City, Vietnam"
+        },
+        {
+            "name": "ha Phan",
+            "link": "https://vn.linkedin.com/in/ha-phan-75753b5a",
+            "summary": "pr",
+            "location": "Vietnam"
+        },
+        {
+            "name": "Ha Phan",
+            "link": "https://vn.linkedin.com/in/ha-phan-003bb024",
+            "summary": null,
+            "location": "Vietnam"
+        },
+        {
+            "name": "Ha Phan",
+            "link": "https://be.linkedin.com/in/haphan2",
+            "summary": "Part-Time CFO/ Regional Director East & West FlandersBusiness Strategy for SME | Transformation | Online CFO",
+            "location": "Antwerp"
+        }
+    ],
+    "groups": [
+        {
+            "name": "International Society for Autism Research | INSAR",
+            "url": "https://www.linkedin.com/groups/1213897"
+        },
+        {
+            "name": "Neonatal Intensive Innovations",
+            "url": "https://www.linkedin.com/groups/1840104"
+        }
+    ]
 }
