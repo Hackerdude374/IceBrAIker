@@ -1,14 +1,14 @@
 {
-    "public_identifier": "ashwinani1",
-    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/ashwinani1/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T234249Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b5beb4d4907cfa4a3a94dace16f78d2984f45dc8474bb96fb426327a0430269a",
-    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/ashwinani1/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T234249Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c8e501eacc2fb8f7271f1280f11f850b8b04a0dc3d50ac86d007680386b82532",
-    "first_name": "Ashwin",
-    "last_name": "Anil",
-    "full_name": "Ashwin Anil",
-    "follower_count": 889,
-    "occupation": "Frontend Developer at Navity",
-    "headline": "Computer Science Student and currently interning @ Navity",
-    "summary": "Experienced and highly motivated computer science student with a strong background in full stack development and a minor in business management. Currently pursuing a Bachelor of Science in Computer Science at the City University of New York, College of Staten Island, with an expected graduation in May 2025. Demonstrated excellence with a GPA of 3.94 and recognized on the Dean's List.\n\nSkilled in various programming languages including C++, Java, C, Python, PHP, and JavaScript. Proficient in database systems such as MySQL, and experienced in utilizing Git/GitHub for version control. Additionally, familiar with Docker, Postman, Xcode, Jupyter Notebook, and other relevant tools and technologies.\n\nAs a Full Stack Developer Intern at The Difference App LLC, I developed and implemented tutorial bubbles that significantly increased user engagement in a weight management/fitness app. I also contributed to the successful beta testing and deployment of the app, resulting in positive user feedback. Through participation in cross-functional business meetings, I gained exposure to various departments, including marketing, finance, and product development, enhancing my understanding of the business aspects of app development.\n\nIn my role as a Tech Analyst at CUNY College of Staten Island, I effectively troubleshooted and resolved software and technical issues for professors and students, utilizing Quest KACE ticketing software and technical documentation. I also played a key role in the successful migration of CSI-hosted mailboxes to Microsoft 365, supporting over 600 faculty members.\n\nI have a passion for data visualization and API integration, as demonstrated by my project BRIDGESuncc, where I utilized APIs to visualize data from multiple repositories and employed visual data structures to display information such as USGS earthquake data.\n\nIn terms of associations and interests, I am an active member of Collegiate Science and Technology Entry Program and participated in the College of Staten Island - Hack A Project. I have also participated in the Great Cycle Challenge.\n\nOverall, I am a dedicated and driven individual seeking opportunities to contribute my technical expertise, business acumen, and problem-solving skills to a dynamic and innovative organization. I am eager to leverage my skills and experiences to make a meaningful impact in the field of computer science and contribute to the success of a forward-thinking team.",
+    "public_identifier": "adrian-rosales-1a0724217",
+    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/adrian-rosales-1a0724217/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235038Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d8c7765b1ac492efeb46cd0880411274d5ed19d0a1ed7275e8f1f88a7e5ec72f",
+    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/adrian-rosales-1a0724217/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235038Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4a5b5bcd99f050a2a64a177ecebdfdea2158020d6476dc80dd14028c3f0f19e0",
+    "first_name": "Adrian",
+    "last_name": "Rosales",
+    "full_name": "Adrian Rosales",
+    "follower_count": 1027,
+    "occupation": "Asset Finance & Securitization Summer Analyst at BNP Paribas",
+    "headline": "Finance & Information Systems Dual-Major at Macaulay Honors College",
+    "summary": "My name is Adrian Rosales, a junior student double-majoring in Finance and Information Systems. I am a driven, hard-working, and passionate person who takes great pride in my studies. I enjoy leading people and sharing my knowledge with others whenever I can. Throughout my life, I've taken part in many experiences that have built up my character not just as a student, but as a person in general.\n\nIn the future, my goal is to utilize my leadership in ways where I can positively affect people's lives and make great impacts.",
     "country": "US",
     "country_full_name": "United States of America",
     "city": "Staten Island",
@@ -20,48 +20,113 @@
                 "month": 6,
                 "year": 2024
             },
-            "ends_at": null,
-            "company": "Navity",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/navity-maritime/",
-            "company_facebook_profile_url": null,
-            "title": "Frontend Developer",
-            "description": null,
-            "location": "Sydney, New South Wales, Australia",
-            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQFcTjhdsTfxwg/company-logo_400_400/company-logo_400_400/0/1701732842461/navity_maritime_logo?e=1732752000&v=beta&t=lNgmOvBpQ3I4TpyQz819LfenCqFZBjyMEAEsonYiB7U"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 6,
-                "year": 2023
+            "ends_at": {
+                "day": 31,
+                "month": 8,
+                "year": 2024
             },
-            "ends_at": null,
-            "company": "NYS Office of Information Technology Services",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/nys-office-of-information-technology-services/",
+            "company": "BNP Paribas",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/bnp-paribas/",
             "company_facebook_profile_url": null,
-            "title": "Intern for Project Operations in Web Platform Services",
-            "description": null,
-            "location": "Albany, New York Metropolitan Area",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/nys-office-of-information-technology-services/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T234249Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=113beaac33b951c2058638ac2082539e70b88b60adf8919c92438ca11ceca673"
+            "title": "Asset Finance & Securitization Summer Analyst",
+            "description": "Rotation #1: Energy, Resources, & Infrastructure - Latin America\n\nRotation #2: Senior Portfolio Financing",
+            "location": "New York, New York, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bnp-paribas/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=03f18f8efcda9f931373940ce5a957d943ed2810c228c934f087e59eb495166c"
         },
         {
             "starts_at": {
                 "day": 1,
-                "month": 2,
+                "month": 3,
                 "year": 2023
             },
             "ends_at": {
-                "day": 30,
+                "day": 31,
+                "month": 12,
+                "year": 2023
+            },
+            "company": "BNP Paribas",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/bnp-paribas/",
+            "company_facebook_profile_url": null,
+            "title": "Global Finance Fellow",
+            "description": null,
+            "location": "New York, New York, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bnp-paribas/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=03f18f8efcda9f931373940ce5a957d943ed2810c228c934f087e59eb495166c"
+        },
+        {
+            "starts_at": {
+                "day": 1,
                 "month": 6,
                 "year": 2023
             },
-            "company": "The Difference",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/thediffapp/",
+            "ends_at": {
+                "day": 31,
+                "month": 8,
+                "year": 2023
+            },
+            "company": "The Port Authority of New York & New Jersey",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/port-authority-of-ny-&-nj/",
             "company_facebook_profile_url": null,
-            "title": "Full Stack Developer Intern",
+            "title": "Capital Programs Intern",
             "description": null,
-            "location": "New York City Metropolitan Area",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/thediffapp/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T234249Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=17ad598066e0eb28fdd8d3774d948ee395c5bca46675b09ebc93c0a94740c96c"
+            "location": "New York, New York, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/port-authority-of-ny-%26-nj/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=9326867d0fb558d9e63da682495b6e7e7a4434fe9ebaf864db5a574e4935a1cf"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 9,
+                "year": 2022
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 12,
+                "year": 2022
+            },
+            "company": "UBS",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/ubs/",
+            "company_facebook_profile_url": null,
+            "title": "Private Wealth Management Intern",
+            "description": null,
+            "location": "New York, New York, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/ubs/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=c498eafdd728831c457df9266babafe1e94520343fc4303e37fe973580724ac8"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 8,
+                "year": 2022
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 11,
+                "year": 2022
+            },
+            "company": "Project Destined",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/project-destined/",
+            "company_facebook_profile_url": null,
+            "title": "Commercial Real Estate Intern",
+            "description": null,
+            "location": null,
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/project-destined/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=dce024ebcec73a35db0509568848581e7e98c9a74c34f9982cc15fa11e61df64"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 8,
+                "year": 2022
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 8,
+                "year": 2022
+            },
+            "company": "Project Hospitality",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/project-hospitality/",
+            "company_facebook_profile_url": null,
+            "title": "Summer Intern - Donation Coordinator",
+            "description": null,
+            "location": "Staten Island, New York, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/project-hospitality/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=1f2f70a4f808416f9c8fc0dfe819d9c3a3d75bc5c444c1cc32358248d2bf3cd4"
         },
         {
             "starts_at": {
@@ -70,17 +135,17 @@
                 "year": 2022
             },
             "ends_at": {
-                "day": 30,
-                "month": 6,
-                "year": 2023
+                "day": 31,
+                "month": 8,
+                "year": 2022
             },
-            "company": "City University of New York-College of Staten Island",
-            "company_linkedin_profile_url": "https://www.linkedin.com/school/college-of-staten-island-city-university-of-new-york/",
+            "company": "Skillful.ly",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/skillful-ly/",
             "company_facebook_profile_url": null,
-            "title": "Tech Analyst",
+            "title": "Summer Program - Tech Consultant",
             "description": null,
-            "location": "Staten Island, New York",
-            "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQGWsEebXWV2DQ/company-logo_400_400/company-logo_400_400/0/1631329630657?e=1732752000&v=beta&t=mHoGSyHm2t2dTG1S0RqcCFbUNCDylzIIkQOzU2nMMyk"
+            "location": null,
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/skillful-ly/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=18bfad1faf4b4763e91fc51cf5fec00dcb5e6103b8e7eaee027bf986b7272f45"
         }
     ],
     "education": [
@@ -95,15 +160,36 @@
                 "month": 5,
                 "year": 2025
             },
-            "field_of_study": "Computer Science",
-            "degree_name": "Bachelor's degree",
+            "field_of_study": "Finance and Information Systems (Dual Major)",
+            "degree_name": "Bachelor of Science - BS",
+            "school": "Macaulay Honors College at The City University of New York",
+            "school_linkedin_profile_url": "https://www.linkedin.com/school/macaulay-honors-college-at-the-city-university-of-new-york/",
+            "school_facebook_profile_url": null,
+            "description": null,
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/macaulay-honors-college-at-the-city-university-of-new-york/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=d6925efb5da7281b4e7957e82ce66d9bdd5ff02e272fe08ecb8b4d9f6b7babec",
+            "grade": "Senior",
+            "activities_and_societies": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 8,
+                "year": 2021
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 5,
+                "year": 2025
+            },
+            "field_of_study": "Finance and Information Systems (Dual Major)",
+            "degree_name": "Bachelor of Science - BS",
             "school": "City University of New York-College of Staten Island",
             "school_linkedin_profile_url": "https://www.linkedin.com/school/college-of-staten-island-city-university-of-new-york/",
             "school_facebook_profile_url": null,
             "description": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/college-of-staten-island-city-university-of-new-york/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T234252Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=050dfde1a5748b00833a7fd5a6305855860c2b8e8a8b78fa2c0b419b34ab5a24",
-            "grade": "3.94",
-            "activities_and_societies": "CSI Hack-a-project\nCollegiate Science & Technology Entry Program"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/college-of-staten-island-city-university-of-new-york/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=e9da52a15538814e4fae899e01b29f5bc0b53b7f65c80f7f8b1cca956deab8de",
+            "grade": null,
+            "activities_and_societies": null
         },
         {
             "starts_at": {
@@ -116,31 +202,240 @@
                 "month": 6,
                 "year": 2021
             },
-            "field_of_study": "General Education",
-            "degree_name": "High School Diploma",
-            "school": "Staten Island Tech High School",
-            "school_linkedin_profile_url": "https://www.linkedin.com/school/staten-island-tech-high-school/",
+            "field_of_study": null,
+            "degree_name": "Advanced Regents Diploma",
+            "school": "Susan E Wagner High School",
+            "school_linkedin_profile_url": "https://www.linkedin.com/school/susan-e-wagner-high-school-47/",
             "school_facebook_profile_url": null,
             "description": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/staten-island-tech-high-school/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T234252Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=fc867ec108e8961aee2bf6b5b33ed63d51288a29f3b33580babed22247ebbeab",
-            "grade": null,
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/susan-e-wagner-high-school-47/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=5d1a6332861f3ac21d5028f71e4592f85976519e661381ed4dddeb8d522c53a5",
+            "grade": "Class Rank: 1st Decile",
             "activities_and_societies": null
+        }
+    ],
+    "accomplishment_organisations": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 5,
+                "year": 2023
+            },
+            "ends_at": null,
+            "org_name": "CSI Finance & Economics Club",
+            "title": "President",
+            "description": null
+        }
+    ],
+    "accomplishment_honors_awards": [
+        {
+            "title": "Dean's List 2023-24",
+            "issuer": "College of Staten Island",
+            "issued_on": {
+                "day": 1,
+                "month": 6,
+                "year": 2024
+            },
+            "description": null
+        },
+        {
+            "title": "CUNY Honors Business Hub Case Competition Winner",
+            "issuer": "Macaulay Honors College",
+            "issued_on": {
+                "day": 1,
+                "month": 11,
+                "year": 2023
+            },
+            "description": null
+        },
+        {
+            "title": "Dean's List 2022-23",
+            "issuer": "College of Staten Island",
+            "issued_on": {
+                "day": 1,
+                "month": 7,
+                "year": 2023
+            },
+            "description": null
+        },
+        {
+            "title": "Dean's List 2021-22",
+            "issuer": "College of Staten Island",
+            "issued_on": {
+                "day": 1,
+                "month": 6,
+                "year": 2022
+            },
+            "description": null
+        },
+        {
+            "title": "Blackstone Launchpad Fall 2022 Ideas Competition Winner",
+            "issuer": "Blackstone Launchpad - College of Staten Island",
+            "issued_on": {
+                "day": 1,
+                "month": 3,
+                "year": 2022
+            },
+            "description": null
+        },
+        {
+            "title": "Macaulay Honors College Merit Scholarship",
+            "issuer": "Macaulay Honors College",
+            "issued_on": {
+                "day": 1,
+                "month": 8,
+                "year": 2021
+            },
+            "description": null
+        },
+        {
+            "title": "2021 Teddy Gleason Scholarship Recipient",
+            "issuer": "International Longshoreman Association",
+            "issued_on": {
+                "day": 1,
+                "month": 6,
+                "year": 2021
+            },
+            "description": null
+        },
+        {
+            "title": "Corporal Thomas E. Saba Award Recipient",
+            "issuer": null,
+            "issued_on": {
+                "day": 1,
+                "month": 6,
+                "year": 2021
+            },
+            "description": null
+        },
+        {
+            "title": "Gary David Lipner Award Recipient",
+            "issuer": "Susan E. Wagner High School",
+            "issued_on": {
+                "day": 1,
+                "month": 6,
+                "year": 2021
+            },
+            "description": null
+        }
+    ],
+    "accomplishment_courses": [
+        {
+            "name": "Analysis of Financial Statements",
+            "number": "ACC315"
+        },
+        {
+            "name": "Econometrics",
+            "number": "ECO323"
+        },
+        {
+            "name": "Information Structures for Business",
+            "number": "ISI300"
+        },
+        {
+            "name": "Managerial Finance I",
+            "number": "FNC240"
+        },
+        {
+            "name": "Managerial Finance II",
+            "number": "FNC345"
+        },
+        {
+            "name": "Money & Capital Markets",
+            "number": "FNC213"
         }
     ],
     "volunteer_work": [
         {
             "starts_at": {
                 "day": 1,
-                "month": 9,
+                "month": 7,
+                "year": 2019
+            },
+            "ends_at": null,
+            "title": "Soup Kitchen/Food Pantry Volunteer",
+            "cause": "POVERTY_ALLEVIATION",
+            "company": "Project Hospitality",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/project-hospitality/",
+            "description": "Served at multiple food pantry locations packing and distributing necessary items like food and hygiene products to the less fortunate; assisted in organizing community events such as food and clothing drives.",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQF5RmV3hl0m4A/company-logo_400_400/company-logo_400_400/0/1631339539916?e=1732752000&v=beta&t=uSYUylNlD6-F8zEywOHkMUyZlzSUjy0dpnzV7RR5wTo"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 10,
                 "year": 2021
             },
             "ends_at": null,
-            "title": "Participant/Group Leader",
-            "cause": "CHILDREN",
-            "company": "Great Cycling Challenge",
-            "company_linkedin_profile_url": null,
-            "description": "The Great Cycling Challenge is a September event that raises funds for childhood cancer research.",
+            "title": "Park Cleanup Volunteer",
+            "cause": "ENVIRONMENT",
+            "company": "WESTERLEIGH PARKS COALITION CORP",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/westerleigh-parks-coalition-corp/",
+            "description": "Assisted in the beautification and maintenance of Westerleigh and Northerleigh Park by mowing grass, picking up garbage, cleaning leaves, and planting trees on a weekly basis.",
             "logo_url": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 9,
+                "year": 2020
+            },
+            "ends_at": null,
+            "title": "Youth Head Football Coach",
+            "cause": "CHILDREN",
+            "company": "Next Level Sports Flag Football League",
+            "company_linkedin_profile_url": null,
+            "description": "Coach team of 6th and 7th grade kids and teach higher level concepts of how to play flag football; organize practices and competed in 8+ week seasons; won the Fall 4th Grade Division Championship.",
+            "logo_url": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 9,
+                "year": 2017
+            },
+            "ends_at": null,
+            "title": "Youth Classroom Assistant",
+            "cause": null,
+            "company": "International Christian Center",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/international-christian-center/",
+            "description": "In charge of keeping youth behaved during church services and aiding the teacher in the classroom while the lesson is ongoing.",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQFMl9q26r9vSg/company-logo_400_400/company-logo_400_400/0/1630628398653?e=1732752000&v=beta&t=vMdpiaBMeITN1ia4AtMDAXwq6WkGdfKxTFdUfuocAVY"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 9,
+                "year": 2019
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 6,
+                "year": 2020
+            },
+            "title": "President and Student Teacher",
+            "cause": null,
+            "company": "Susan Wagner Student Teaching Program",
+            "company_linkedin_profile_url": null,
+            "description": "Contacted school principals across Staten Island, assigned school locations to fellow students for teaching foreign languages; taught basic Spanish at P.S. 54 to 5th graders.",
+            "logo_url": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 9,
+                "year": 2018
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 6,
+                "year": 2019
+            },
+            "title": "Elderly Service Food Server",
+            "cause": null,
+            "company": "Joan & Alan Bernikow JCC of Staten Island",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/jcc-of-staten-island/",
+            "description": "Waited tables, took food orders, and helped serve meals to the elderly during dinner services.",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQGH353kFOk_hA/company-logo_400_400/company-logo_400_400/0/1649104673593/jcc_of_staten_island_logo?e=1732752000&v=beta&t=EY7O5N13zYSjdqkw69gbFJcLviH2-ZA06LnAeN38Sew"
         }
     ],
     "connections": 500

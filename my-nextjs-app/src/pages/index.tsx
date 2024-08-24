@@ -11,7 +11,7 @@ const sections = [
 ];
 
 const Flashcard = ({ title, content, isVisible, onComplete, gifUrl }) => {
-  const [progress, setProgress] = useState(70);
+  const [progress, setProgress] = useState(90);
 
   useEffect(() => {
     if (isVisible) {
@@ -24,7 +24,7 @@ const Flashcard = ({ title, content, isVisible, onComplete, gifUrl }) => {
           }
           return prev - 1;
         });
-      }, 70);
+      }, 90);
       return () => clearInterval(timer);
     }
   }, [isVisible, onComplete]);
