@@ -1,169 +1,36 @@
 {
-    "public_identifier": "joe-he-839660a7",
-    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/joe-he-839660a7/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T231458Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=68158997ec7fd74a23675f718cdfb49003d35e871dfe469865228ba7ff7ae6ea",
-    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/joe-he-839660a7/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T231458Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=98c134f048b1877989de7aaf1b5f04f96b9e30b3998d6e84e2173b73c29f3230",
-    "first_name": "Joe",
-    "last_name": "He",
-    "full_name": "Joe He",
-    "follower_count": 114,
-    "occupation": "Full Stack Developer Fellow at CUNY Tech Prep",
-    "headline": "Software/Data Engineer | CUNY Tech Prep Full Stack Developer Fellow | Computer Science Student @City University of New York - College of Staten Island",
-    "summary": "\"Technology is best when it brings people together.\" - Matt Mullenweg\n\nI am a passionate and driven Full Stack Developer with a strong foundation in both front-end and back-end technologies. Currently, I am honing my skills in the CUNY Tech Prep Full Stack Development Fellowship program, where I am learning the MERN stack (MongoDB, Express.js, React, Node.js) to build robust, scalable web applications.\n\nRecently, I had the privilege of collaborating with Bloomberg engineers through their Tech Lab Fellow program. During this experience, I designed and implemented a powerful message queue system using RabbitMQ and Docker, significantly enhancing real-time data processing and communication between producer and consumer components. This project not only solidified my technical abilities but also provided me with valuable insights into financial domain concepts like tickers and industry sectors.\n\nMy core competencies include:\n- Proficiency in Python, JavaScript, and related frameworks\n- Expertise in designing and developing RESTful APIs\n- Strong understanding of object-oriented programming (OOP) principles\n- Experience with Docker, RabbitMQ, and other modern development tools\n\nI am enthusiastic about leveraging my skills to create innovative solutions that solve real-world problems. I am particularly interested in opportunities that allow me to work on cutting-edge technologies and collaborate with like-minded professionals who are equally passionate about technology.\n\nLet's connect and explore how we can drive technological advancements together!",
+    "public_identifier": "keon-brown-955ba9102",
+    "first_name": "Keon",
+    "last_name": "Brown",
+    "full_name": "Keon Brown",
+    "follower_count": 2,
+    "headline": "Student at Curtis Highschool",
     "country": "US",
-    "country_full_name": "United States",
+    "country_full_name": "United States of America",
     "city": "Staten Island",
     "state": "New York",
-    "experiences": [
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 5,
-                "year": 2024
-            },
-            "ends_at": null,
-            "company": "CUNY Tech Prep",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/cuny-tech-prep",
-            "company_facebook_profile_url": null,
-            "title": "Full Stack Developer Fellow",
-            "description": null,
-            "location": "New York City Metropolitan Area",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/cuny-tech-prep/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T231458Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=a365acd3f16631c2890c123f602ab65bb9d3b4c0f43e08c5df6b48890994b61f"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 10,
-                "year": 2021
-            },
-            "ends_at": null,
-            "company": "Forage",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/theforage",
-            "company_facebook_profile_url": null,
-            "title": "Virtual Software Engineer Intern",
-            "description": "\u2022 Engaged in virtual software engineering internships to enhance skills, acquire knowledge, and gain valuable experience",
-            "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/theforage/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T231458Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=96db2d50ccda28cc9aed29af83d27cc93dc0804fb975cc3adfb70554b8a92db8"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 7,
-                "year": 2024
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 7,
-                "year": 2024
-            },
-            "company": "Forage",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/theforage",
-            "company_facebook_profile_url": null,
-            "title": "J.P. Morgan Software Engineering Virtual Experience",
-            "description": "\u2022 Set up a local development environment by downloading the necessary files, tools, and dependencies\n\n\u2022 Fixed broken files in the repository to ensure the web application output correctly\n\n\u2022 Used JPMorgan Chase\u2019s open source library called Perspective to generate a live graph that displays a data feed in a clear and visually appealing way for traders to monitor\n\n\u2022 Developed data visualizations with Python to present complex data insights in an understandable and impactful manner",
-            "location": "New York City Metropolitan Area",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/theforage/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T231458Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=96db2d50ccda28cc9aed29af83d27cc93dc0804fb975cc3adfb70554b8a92db8"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 4,
-                "year": 2024
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 4,
-                "year": 2024
-            },
-            "company": "Bloomberg",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/bloomberg",
-            "company_facebook_profile_url": null,
-            "title": "Bloomberg Tech Lab Fellow",
-            "description": "\u2022 Collaborated with Bloomberg engineers in a small group setting to build an application using RabbitMQ and Docker\n\n\u2022 \u2060Utilized Python to design and implement a robust message queue system using RabbitMQ, enhancing real-time data processing and communication between producer and consumer components\n\n\u2022 \u2060Developed a deeper understand of core Python/CS concepts (Classes, Inheritance, OOP), as well as financial domain knowledge (Tickers, Industry Sectors)",
-            "location": "New York City Metropolitan Area",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bloomberg/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T231458Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=b6a854b65abb0bf765f8f8e7d09f547e23db8ef10b9ac7ca77ec86d34b503692"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 5,
-                "year": 2022
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 9,
-                "year": 2022
-            },
-            "company": "Ralph's Famous Italian Ices",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/ralph-s-famous-italian-ices",
-            "company_facebook_profile_url": null,
-            "title": "Ice Cream Shop Associate",
-            "description": "\u2022 Provided prompt and friendly service to 200+ customers, ensuring a positive dining experience and repeat business\n\n\u2022 Efficiently managed cash register operations, contributing to accurate daily sales reports and minimizing cash discrepancies\n\n\u2022 Organized and maintained the cleanliness of the shop, ensuring compliance with health and safety regulations",
-            "location": "Staten Island, New York, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/ralph-s-famous-italian-ices/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T231458Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=300743aebac75584ed4cef43fe2603b73e20745639cbfc18524a240519e095cb"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 5,
-                "year": 2019
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 8,
-                "year": 2021
-            },
-            "company": "NOME AVENUE DELI CORP",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/53625819/",
-            "company_facebook_profile_url": null,
-            "title": "Store Cashier",
-            "description": "\u2022 Processed customer transactions quickly and accurately, ensuring a smooth checkout experience\n\n\u2022 Assisted in deli operations by preparing and packaging food items, maintaining high standards of quality and hygiene\n\n\u2022 Provided excellent customer service by addressing inquiries and resolving issues promptly, contributing to overall customer satisfaction",
-            "location": "Staten Island, New York, United States",
-            "logo_url": null
-        }
-    ],
     "education": [
         {
             "starts_at": {
                 "day": 1,
-                "month": 8,
-                "year": 2021
+                "month": 1,
+                "year": 2012
             },
             "ends_at": {
-                "day": 30,
-                "month": 6,
-                "year": 2025
+                "day": 31,
+                "month": 12,
+                "year": 2016
             },
-            "field_of_study": "Computer Science",
-            "degree_name": "Bachelor's degree",
-            "school": "City University of New York-College of Staten Island",
-            "school_linkedin_profile_url": "https://www.linkedin.com/company/1053616/",
+            "field_of_study": null,
+            "degree_name": null,
+            "school": "Curtis Highschool",
+            "school_linkedin_profile_url": null,
             "school_facebook_profile_url": null,
-            "description": "Skills: Web Development \u00b7 React.js \u00b7 Project Management \u00b7 Agile Methodologies \u00b7 Git \u00b7 GitHub",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/college-of-staten-island-city-university-of-new-york/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T231458Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=8aa30a72750942ba1aa4bd96cae9362b9a1be3c20bdb9af25515f89f6bcd4cf8",
-            "grade": "3.4",
-            "activities_and_societies": "CUNY Tech Prep Full Stack Developer Fellow, CSI Computer Science Club Member, Colorstack Member, WeCracked Member, NYC Tech Talent Pipeline Hackathon"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 9,
-                "year": 2017
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 6,
-                "year": 2021
-            },
-            "field_of_study": "Computer Science",
-            "degree_name": "High School Diploma",
-            "school": "Staten Island Tech High School",
-            "school_linkedin_profile_url": "https://www.linkedin.com/company/8209922/",
-            "school_facebook_profile_url": null,
-            "description": "Skills: AutoCAD \u00b7 Web Development",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/staten-island-tech-high-school/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T231458Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=cc606de332c7bd4ce3285c38afe4d8b78a7fa390cad16a48b59782714312a3f4",
-            "grade": "3.8",
-            "activities_and_societies": "National Honor Society (NHS), Gaming Club"
+            "description": null,
+            "logo_url": null,
+            "grade": null,
+            "activities_and_societies": null
         }
     ],
-    "connections": 114
+    "connections": 2
 }
