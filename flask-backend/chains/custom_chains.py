@@ -16,6 +16,8 @@ def get_summary_chain() -> RunnableSequence:
         given the information about a person from linkedin {information} I want you to create:
          1. a short summary
          2. two interesting facts about them
+         
+        If you cant find it, find it deeply. Look at every sectionf rom tehri profile and assume a short summary and two interesting facts about them!
          \n{format_instructions}
      """
 
