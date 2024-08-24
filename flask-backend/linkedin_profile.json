@@ -1,52 +1,151 @@
 {
-    "public_identifier": "cristian-statescu-33a773203",
-    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/cristian-statescu-33a773203/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230053Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5742f65c939f09696f0167869ad47900a7c1ed791928f7961e82af9e1d25c04b",
-    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/cristian-statescu-33a773203/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230053Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=86713227290d83172977502f281d5f7cd399528c2c8abd54cae206b0649a8dc8",
-    "first_name": "Cristian",
-    "last_name": "Statescu",
-    "full_name": "Cristian Statescu",
-    "follower_count": 434,
-    "occupation": "College Aide at New York City Department of Transportation",
-    "headline": "College Aide at New York City Department of Transportation",
-    "summary": "I am (currently) a Senior in Macaulay Honors College at The City College of New York studying Computer Science. I enjoy coding in C++ and Python primarily, and know Java as well. I have used Python, Java, and MySQL primarily to work on projects relating to my school work over the past year. Over the last year, I worked a lot with MySQL: I built databases, drew ER diagrams to explain the schema produced, and underwent a \"family database\" project where the focus was to get information about an individual's family through queries (which needed to have relational algebra involved to help prove their correctness). Currently, I am looking to further my software engineering skills both individually and collaboratively. At the moment, I am the Co-President of Macaulay Fitness at Macaulay Honors College (known more commonly as MacFIT), where we promote both mental and physical wellbeing through activities and events. Please reach out, I am more than happy to respond and connect with you!",
+    "public_identifier": "adrian-rosales-1a0724217",
+    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/adrian-rosales-1a0724217/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230422Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5914a3e3beb5df94373c29688ec6fe58f6aea53aa841e735cfc535c55de8ff52",
+    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/adrian-rosales-1a0724217/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230422Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e406af74b41a36c321fa6d5ef758f155c19f52d319e418704c2b5ca5766017e8",
+    "first_name": "Adrian",
+    "last_name": "Rosales",
+    "full_name": "Adrian Rosales",
+    "follower_count": 1027,
+    "occupation": "Asset Finance & Securitization Summer Analyst at BNP Paribas",
+    "headline": "Finance & Information Systems Dual-Major at Macaulay Honors College",
+    "summary": "My name is Adrian Rosales, a junior student double-majoring in Finance and Information Systems. I am a driven, hard-working, and passionate person who takes great pride in my studies. I enjoy leading people and sharing my knowledge with others whenever I can. Throughout my life, I've taken part in many experiences that have built up my character not just as a student, but as a person in general.\n\nIn the future, my goal is to utilize my leadership in ways where I can positively affect people's lives and make great impacts.",
     "country": "US",
     "country_full_name": "United States of America",
-    "city": "New York",
+    "city": "Staten Island",
     "state": "New York",
     "experiences": [
         {
             "starts_at": {
                 "day": 1,
-                "month": 5,
-                "year": 2023
+                "month": 6,
+                "year": 2024
             },
-            "ends_at": null,
-            "company": "New York City Department of Transportation",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/nycdot/",
+            "ends_at": {
+                "day": 31,
+                "month": 8,
+                "year": 2024
+            },
+            "company": "BNP Paribas",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/bnp-paribas/",
             "company_facebook_profile_url": null,
-            "title": "College Aide",
-            "description": null,
+            "title": "Asset Finance & Securitization Summer Analyst",
+            "description": "Rotation #1: Energy, Resources, & Infrastructure - Latin America\n\nRotation #2: Senior Portfolio Financing",
             "location": "New York, New York, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/nycdot/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230054Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=6f5153f7e5298362e49bd295c166b668b5128f4dee8c7019e1ca8210907ee1b8"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bnp-paribas/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230422Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=dba1d70ec7e490632a1950f3c9ea51196685799ba2cb49b7ad2de7540c76a73a"
         },
         {
             "starts_at": {
                 "day": 1,
-                "month": 7,
+                "month": 3,
                 "year": 2023
             },
             "ends_at": {
                 "day": 31,
-                "month": 1,
-                "year": 2024
+                "month": 12,
+                "year": 2023
             },
-            "company": "The Difference",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/thediffapp/",
+            "company": "BNP Paribas",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/bnp-paribas/",
             "company_facebook_profile_url": null,
-            "title": "Software Developer",
-            "description": "Helped better the database/data management of the company, as well as general software development work, including but not limited to: app development, website development, database management, and more.",
-            "location": "New York, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/thediffapp/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230054Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=fbc5409fd35adffaa4f7e8ef12e7872ec24a71e6c8f5891862a4515edb185b29"
+            "title": "Global Finance Fellow",
+            "description": null,
+            "location": "New York, New York, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bnp-paribas/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230422Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=dba1d70ec7e490632a1950f3c9ea51196685799ba2cb49b7ad2de7540c76a73a"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 6,
+                "year": 2023
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 8,
+                "year": 2023
+            },
+            "company": "The Port Authority of New York & New Jersey",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/port-authority-of-ny-&-nj/",
+            "company_facebook_profile_url": null,
+            "title": "Capital Programs Intern",
+            "description": null,
+            "location": "New York, New York, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/port-authority-of-ny-%26-nj/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230422Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=812816141f2edaaba33b422570bdeaed6ce4f6e4187566a74ee57d16f66bb4db"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 9,
+                "year": 2022
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 12,
+                "year": 2022
+            },
+            "company": "UBS",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/ubs/",
+            "company_facebook_profile_url": null,
+            "title": "Private Wealth Management Intern",
+            "description": null,
+            "location": "New York, New York, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/ubs/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230422Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=243c4cba2bf5b6bafeb34b39eec822595d45a6e3ceb83e74186fc6367ee97f75"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 8,
+                "year": 2022
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 11,
+                "year": 2022
+            },
+            "company": "Project Destined",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/project-destined/",
+            "company_facebook_profile_url": null,
+            "title": "Commercial Real Estate Intern",
+            "description": null,
+            "location": null,
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/project-destined/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230422Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=53fec45bd4ee03ddd9f4acc6d3e1bf7322961c6ef4fdaaaf057a5cea27a4eed9"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 8,
+                "year": 2022
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 8,
+                "year": 2022
+            },
+            "company": "Project Hospitality",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/project-hospitality/",
+            "company_facebook_profile_url": null,
+            "title": "Summer Intern - Donation Coordinator",
+            "description": null,
+            "location": "Staten Island, New York, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/project-hospitality/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230422Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=b2915dc758cd4d737b18b2a7f520b24e4d8466ba87cfd78d5f982134819f4068"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 5,
+                "year": 2022
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 8,
+                "year": 2022
+            },
+            "company": "Skillful.ly",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/skillful-ly/",
+            "company_facebook_profile_url": null,
+            "title": "Summer Program - Tech Consultant",
+            "description": null,
+            "location": null,
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/skillful-ly/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230422Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=b6560e088c8b19c39b598e493eb7cc6792a182a3b199cec5cb1537d623cbd539"
         }
     ],
     "education": [
@@ -54,44 +153,290 @@
             "starts_at": {
                 "day": 1,
                 "month": 8,
-                "year": 2020
+                "year": 2021
             },
             "ends_at": {
                 "day": 31,
                 "month": 5,
-                "year": 2024
+                "year": 2025
             },
-            "field_of_study": "Computer Science",
+            "field_of_study": "Finance and Information Systems (Dual Major)",
             "degree_name": "Bachelor of Science - BS",
             "school": "Macaulay Honors College at The City University of New York",
             "school_linkedin_profile_url": "https://www.linkedin.com/school/macaulay-honors-college-at-the-city-university-of-new-york/",
             "school_facebook_profile_url": null,
             "description": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/macaulay-honors-college-at-the-city-university-of-new-york/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230055Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=b9a68b9f2b6928e3041d01ac5a9db33561237b51be3d010d9bdbe8d7db56565e",
-            "grade": "Graduated",
-            "activities_and_societies": "Leader of Macaulay Fitness (MacFIT)"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/macaulay-honors-college-at-the-city-university-of-new-york/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230424Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=d5cfdc61f47b29859bb060cffab0fd06d5cf00a563c22b2925a2f37e74819e66",
+            "grade": "Senior",
+            "activities_and_societies": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 8,
+                "year": 2021
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 5,
+                "year": 2025
+            },
+            "field_of_study": "Finance and Information Systems (Dual Major)",
+            "degree_name": "Bachelor of Science - BS",
+            "school": "City University of New York-College of Staten Island",
+            "school_linkedin_profile_url": "https://www.linkedin.com/school/college-of-staten-island-city-university-of-new-york/",
+            "school_facebook_profile_url": null,
+            "description": null,
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/college-of-staten-island-city-university-of-new-york/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230424Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=6c0faececcad51a22b0b3a4030fffb0cf7ff776812b4aeadd52ddafae41fb6b2",
+            "grade": null,
+            "activities_and_societies": null
         },
         {
             "starts_at": {
                 "day": 1,
                 "month": 9,
-                "year": 2016
+                "year": 2017
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 6,
+                "year": 2021
+            },
+            "field_of_study": null,
+            "degree_name": "Advanced Regents Diploma",
+            "school": "Susan E Wagner High School",
+            "school_linkedin_profile_url": "https://www.linkedin.com/school/susan-e-wagner-high-school-47/",
+            "school_facebook_profile_url": null,
+            "description": null,
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/susan-e-wagner-high-school-47/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230424Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=84be89948e68b994023b14ca4f566a7807a13d606668379e248875cc0c7caf3d",
+            "grade": "Class Rank: 1st Decile",
+            "activities_and_societies": null
+        }
+    ],
+    "accomplishment_organisations": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 5,
+                "year": 2023
+            },
+            "ends_at": null,
+            "org_name": "CSI Finance & Economics Club",
+            "title": "President",
+            "description": null
+        }
+    ],
+    "accomplishment_honors_awards": [
+        {
+            "title": "Dean's List 2023-24",
+            "issuer": "College of Staten Island",
+            "issued_on": {
+                "day": 1,
+                "month": 6,
+                "year": 2024
+            },
+            "description": null
+        },
+        {
+            "title": "CUNY Honors Business Hub Case Competition Winner",
+            "issuer": "Macaulay Honors College",
+            "issued_on": {
+                "day": 1,
+                "month": 11,
+                "year": 2023
+            },
+            "description": null
+        },
+        {
+            "title": "Dean's List 2022-23",
+            "issuer": "College of Staten Island",
+            "issued_on": {
+                "day": 1,
+                "month": 7,
+                "year": 2023
+            },
+            "description": null
+        },
+        {
+            "title": "Dean's List 2021-22",
+            "issuer": "College of Staten Island",
+            "issued_on": {
+                "day": 1,
+                "month": 6,
+                "year": 2022
+            },
+            "description": null
+        },
+        {
+            "title": "Blackstone Launchpad Fall 2022 Ideas Competition Winner",
+            "issuer": "Blackstone Launchpad - College of Staten Island",
+            "issued_on": {
+                "day": 1,
+                "month": 3,
+                "year": 2022
+            },
+            "description": null
+        },
+        {
+            "title": "Macaulay Honors College Merit Scholarship",
+            "issuer": "Macaulay Honors College",
+            "issued_on": {
+                "day": 1,
+                "month": 8,
+                "year": 2021
+            },
+            "description": null
+        },
+        {
+            "title": "2021 Teddy Gleason Scholarship Recipient",
+            "issuer": "International Longshoreman Association",
+            "issued_on": {
+                "day": 1,
+                "month": 6,
+                "year": 2021
+            },
+            "description": null
+        },
+        {
+            "title": "Corporal Thomas E. Saba Award Recipient",
+            "issuer": null,
+            "issued_on": {
+                "day": 1,
+                "month": 6,
+                "year": 2021
+            },
+            "description": null
+        },
+        {
+            "title": "Gary David Lipner Award Recipient",
+            "issuer": "Susan E. Wagner High School",
+            "issued_on": {
+                "day": 1,
+                "month": 6,
+                "year": 2021
+            },
+            "description": null
+        }
+    ],
+    "accomplishment_courses": [
+        {
+            "name": "Analysis of Financial Statements",
+            "number": "ACC315"
+        },
+        {
+            "name": "Econometrics",
+            "number": "ECO323"
+        },
+        {
+            "name": "Information Structures for Business",
+            "number": "ISI300"
+        },
+        {
+            "name": "Managerial Finance I",
+            "number": "FNC240"
+        },
+        {
+            "name": "Managerial Finance II",
+            "number": "FNC345"
+        },
+        {
+            "name": "Money & Capital Markets",
+            "number": "FNC213"
+        }
+    ],
+    "volunteer_work": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 7,
+                "year": 2019
+            },
+            "ends_at": null,
+            "title": "Soup Kitchen/Food Pantry Volunteer",
+            "cause": "POVERTY_ALLEVIATION",
+            "company": "Project Hospitality",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/project-hospitality/",
+            "description": "Served at multiple food pantry locations packing and distributing necessary items like food and hygiene products to the less fortunate; assisted in organizing community events such as food and clothing drives.",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQF5RmV3hl0m4A/company-logo_400_400/company-logo_400_400/0/1631339539916?e=1732752000&v=beta&t=uSYUylNlD6-F8zEywOHkMUyZlzSUjy0dpnzV7RR5wTo"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 10,
+                "year": 2021
+            },
+            "ends_at": null,
+            "title": "Park Cleanup Volunteer",
+            "cause": "ENVIRONMENT",
+            "company": "WESTERLEIGH PARKS COALITION CORP",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/westerleigh-parks-coalition-corp/",
+            "description": "Assisted in the beautification and maintenance of Westerleigh and Northerleigh Park by mowing grass, picking up garbage, cleaning leaves, and planting trees on a weekly basis.",
+            "logo_url": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 9,
+                "year": 2020
+            },
+            "ends_at": null,
+            "title": "Youth Head Football Coach",
+            "cause": "CHILDREN",
+            "company": "Next Level Sports Flag Football League",
+            "company_linkedin_profile_url": null,
+            "description": "Coach team of 6th and 7th grade kids and teach higher level concepts of how to play flag football; organize practices and competed in 8+ week seasons; won the Fall 4th Grade Division Championship.",
+            "logo_url": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 9,
+                "year": 2017
+            },
+            "ends_at": null,
+            "title": "Youth Classroom Assistant",
+            "cause": null,
+            "company": "International Christian Center",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/international-christian-center/",
+            "description": "In charge of keeping youth behaved during church services and aiding the teacher in the classroom while the lesson is ongoing.",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQFMl9q26r9vSg/company-logo_400_400/company-logo_400_400/0/1630628398653?e=1732752000&v=beta&t=vMdpiaBMeITN1ia4AtMDAXwq6WkGdfKxTFdUfuocAVY"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 9,
+                "year": 2019
             },
             "ends_at": {
                 "day": 30,
                 "month": 6,
                 "year": 2020
             },
-            "field_of_study": null,
-            "degree_name": "High School Diploma",
-            "school": "NYC Lab High School for Collaborative Studies",
-            "school_linkedin_profile_url": "https://www.linkedin.com/school/nyc-lab-high-school-for-collaborative-studies/",
-            "school_facebook_profile_url": null,
-            "description": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/nyc-lab-high-school-for-collaborative-studies/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T230055Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=3c57df412dac2b2435515f1b497402cf78009428b5757d75c631c87962d10d48",
-            "grade": null,
-            "activities_and_societies": null
+            "title": "President and Student Teacher",
+            "cause": null,
+            "company": "Susan Wagner Student Teaching Program",
+            "company_linkedin_profile_url": null,
+            "description": "Contacted school principals across Staten Island, assigned school locations to fellow students for teaching foreign languages; taught basic Spanish at P.S. 54 to 5th graders.",
+            "logo_url": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 9,
+                "year": 2018
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 6,
+                "year": 2019
+            },
+            "title": "Elderly Service Food Server",
+            "cause": null,
+            "company": "Joan & Alan Bernikow JCC of Staten Island",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/jcc-of-staten-island/",
+            "description": "Waited tables, took food orders, and helped serve meals to the elderly during dinner services.",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQGH353kFOk_hA/company-logo_400_400/company-logo_400_400/0/1649104673593/jcc_of_staten_island_logo?e=1732752000&v=beta&t=EY7O5N13zYSjdqkw69gbFJcLviH2-ZA06LnAeN38Sew"
         }
     ],
-    "connections": 434
+    "connections": 500
 }

@@ -100,20 +100,35 @@ const Home = () => {
           {data.traits_and_skills && (
             <>
               <div className="mt-4 fade-in mb-4">
-                <h2 className="text-2xl font-bold mb-2">Personality Traits</h2>
+                {/* <h2 className="text-2xl font-bold mb-2">Personality Traits</h2>
                 <ul className="list-disc list-inside">
                   {data.traits_and_skills.personality_traits.map((trait: string, index: number) => (
                     <li key={index}>{trait}</li>
                   ))}
-                </ul>
+                </ul> */}
+                <h2 className="text-2xl font-bold mb-2">Personality Traits</h2>
+<ul className="list-disc list-inside">
+  {data.traits_and_skills?.personality_traits?.length > 0 ? (
+    data.traits_and_skills.personality_traits.map((trait: string, index: number) => (
+      <li key={index}>{trait}</li>
+    ))
+  ) : (
+    <li>No personality traits available</li> // Fallback message
+  )}
+</ul>
               </div>
               <div className="mt-4 fade-in">
-                <h2 className="text-2xl font-bold mb-2">Technical Skills</h2>
-                <ul className="list-disc list-inside">
-                  {data.traits_and_skills.technical_skills.map((skill: string, index: number) => (
-                    <li key={index}>{skill}</li>
-                  ))}
-                </ul>
+              <h2 className="text-2xl font-bold mb-2">Technical Skills</h2>
+<ul className="list-disc list-inside">
+  {data.traits_and_skills?.technical_skills?.length > 0 ? (
+    data.traits_and_skills.technical_skills.map((skill: string, index: number) => (
+      <li key={index}>{skill}</li>
+    ))
+  ) : (
+    <li>No technical skills available</li> // Fallback message
+  )}
+</ul>
+
               </div>
             </>
           )}
