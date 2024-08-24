@@ -5,17 +5,20 @@ const Home = () => {
   const [name, setName] = useState('');
   const [data, setData] = useState<any | null>(null);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
     setData(null);
+    setError(null);
 
     try {
       const result = await getIceBreakerData(name);
       setData(result);
     } catch (error) {
       console.error('Error fetching data:', error);
+      setError('An error occurred while fetching data. Please try again.');
     } finally {
       setLoading(false);
     }
@@ -50,6 +53,13 @@ const Home = () => {
         </div>
       )}
 
+      {error && (
+        <div className="mt-8 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+          <strong className="font-bold">Error:</strong>
+          <span className="block sm:inline"> {error}</span>
+        </div>
+      )}
+
       {data && (
         <div className="mt-8 bg-white p-8 rounded shadow-md w-full max-w-4xl fade-in">
           <div className="text-center fade-in mb-4">
@@ -79,7 +89,7 @@ const Home = () => {
               ))}
             </ul>
           </div>
-          <div className="mt-4 fade-in">
+          <div className="mt-4 fade-in mb-4">
             <h2 className="text-2xl font-bold mb-2">Topics of Interest</h2>
             <ul className="list-disc list-inside">
               {data.interests.topics_of_interest.map((topic: string, index: number) => (
@@ -87,6 +97,26 @@ const Home = () => {
               ))}
             </ul>
           </div>
+          {data.traits_and_skills && (
+            <>
+              <div className="mt-4 fade-in mb-4">
+                <h2 className="text-2xl font-bold mb-2">Personality Traits</h2>
+                <ul className="list-disc list-inside">
+                  {data.traits_and_skills.personality_traits.map((trait: string, index: number) => (
+                    <li key={index}>{trait}</li>
+                  ))}
+                </ul>
+              </div>
+              <div className="mt-4 fade-in">
+                <h2 className="text-2xl font-bold mb-2">Technical Skills</h2>
+                <ul className="list-disc list-inside">
+                  {data.traits_and_skills.technical_skills.map((skill: string, index: number) => (
+                    <li key={index}>{skill}</li>
+                  ))}
+                </ul>
+              </div>
+            </>
+          )}
         </div>
       )}
     </div>
