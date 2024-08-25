@@ -192,6 +192,7 @@ const Home = () => {
               <div className="max-h-48 overflow-y-auto mb-4">
                 {Array.isArray(renderContent(section.key)) ? (
                   <ul className="list-disc list-inside">
+                       {/* @ts-ignore */}
                     {renderContent(section.key).map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}

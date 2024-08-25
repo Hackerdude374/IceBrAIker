@@ -1,7 +1,7 @@
 {
     "public_identifier": "adrian-rosales-1a0724217",
-    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/adrian-rosales-1a0724217/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235038Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d8c7765b1ac492efeb46cd0880411274d5ed19d0a1ed7275e8f1f88a7e5ec72f",
-    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/adrian-rosales-1a0724217/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235038Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4a5b5bcd99f050a2a64a177ecebdfdea2158020d6476dc80dd14028c3f0f19e0",
+    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/adrian-rosales-1a0724217/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240825%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240825T002234Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=183227c51dd44061a81dd7d00ca2d459618b3438ae62bf010b8a1b6860ec2a78",
+    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/adrian-rosales-1a0724217/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240825%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240825T002234Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3ac4891bfa33503ca6cee5f350a193f6bbb2af7235830312633a8db2ba37a460",
     "first_name": "Adrian",
     "last_name": "Rosales",
     "full_name": "Adrian Rosales",
@@ -31,7 +31,7 @@
             "title": "Asset Finance & Securitization Summer Analyst",
             "description": "Rotation #1: Energy, Resources, & Infrastructure - Latin America\n\nRotation #2: Senior Portfolio Financing",
             "location": "New York, New York, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bnp-paribas/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=03f18f8efcda9f931373940ce5a957d943ed2810c228c934f087e59eb495166c"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bnp-paribas/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240825%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240825T002234Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=a98fc63cbab58cf0c08b712b2bc188bd08c1655f5c8ecd27b54be6f90c6395ae"
         },
         {
             "starts_at": {
@@ -50,7 +50,7 @@
             "title": "Global Finance Fellow",
             "description": null,
             "location": "New York, New York, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bnp-paribas/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=03f18f8efcda9f931373940ce5a957d943ed2810c228c934f087e59eb495166c"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bnp-paribas/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240825%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240825T002234Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=a98fc63cbab58cf0c08b712b2bc188bd08c1655f5c8ecd27b54be6f90c6395ae"
         },
         {
             "starts_at": {
@@ -69,7 +69,7 @@
             "title": "Capital Programs Intern",
             "description": null,
             "location": "New York, New York, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/port-authority-of-ny-%26-nj/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=9326867d0fb558d9e63da682495b6e7e7a4434fe9ebaf864db5a574e4935a1cf"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/port-authority-of-ny-%26-nj/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240825%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240825T002234Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=178552cf23188ba3b8cf23576466cd06ace9c1f5fd892257ec3458d8096239e7"
         },
         {
             "starts_at": {
@@ -88,7 +88,7 @@
             "title": "Private Wealth Management Intern",
             "description": null,
             "location": "New York, New York, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/ubs/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=c498eafdd728831c457df9266babafe1e94520343fc4303e37fe973580724ac8"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/ubs/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240825%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240825T002234Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=6ac3bdcc08981705b28d7d12253e1adf86a9bdaf77ff81702e6b90f3cfc54dcb"
         },
         {
             "starts_at": {
@@ -107,7 +107,7 @@
             "title": "Commercial Real Estate Intern",
             "description": null,
             "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/project-destined/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=dce024ebcec73a35db0509568848581e7e98c9a74c34f9982cc15fa11e61df64"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/project-destined/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240825%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240825T002234Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=fe687c90aa4d72b6a7da6f6e663a3dec18c0304ddd787738082cfd97fd6e2477"
         },
         {
             "starts_at": {
@@ -126,7 +126,7 @@
             "title": "Summer Intern - Donation Coordinator",
             "description": null,
             "location": "Staten Island, New York, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/project-hospitality/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=1f2f70a4f808416f9c8fc0dfe819d9c3a3d75bc5c444c1cc32358248d2bf3cd4"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/project-hospitality/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240825%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240825T002234Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=697f4a7b2511f9da67eaf43d0eb7cfe2685bb8080cc7918509cc1f230a1fd428"
         },
         {
             "starts_at": {
@@ -145,7 +145,7 @@
             "title": "Summer Program - Tech Consultant",
             "description": null,
             "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/skillful-ly/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=18bfad1faf4b4763e91fc51cf5fec00dcb5e6103b8e7eaee027bf986b7272f45"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/skillful-ly/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240825%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240825T002234Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=4187a9dd2035b4e798b7f970ba1350d813105b2a830a73e4df8b49e87772e8e5"
         }
     ],
     "education": [
@@ -166,7 +166,7 @@
             "school_linkedin_profile_url": "https://www.linkedin.com/school/macaulay-honors-college-at-the-city-university-of-new-york/",
             "school_facebook_profile_url": null,
             "description": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/macaulay-honors-college-at-the-city-university-of-new-york/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=d6925efb5da7281b4e7957e82ce66d9bdd5ff02e272fe08ecb8b4d9f6b7babec",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/macaulay-honors-college-at-the-city-university-of-new-york/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240825%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240825T002234Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=706600f1c83cf949d32ddc16606c686013cc48027eb0785b7c414503ae597087",
             "grade": "Senior",
             "activities_and_societies": null
         },
@@ -187,7 +187,7 @@
             "school_linkedin_profile_url": "https://www.linkedin.com/school/college-of-staten-island-city-university-of-new-york/",
             "school_facebook_profile_url": null,
             "description": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/college-of-staten-island-city-university-of-new-york/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=e9da52a15538814e4fae899e01b29f5bc0b53b7f65c80f7f8b1cca956deab8de",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/college-of-staten-island-city-university-of-new-york/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240825%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240825T002234Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=e5ddce657704244264dced3538d28db5700561f2b547c27f4b228be416fa380f",
             "grade": null,
             "activities_and_societies": null
         },
@@ -208,7 +208,7 @@
             "school_linkedin_profile_url": "https://www.linkedin.com/school/susan-e-wagner-high-school-47/",
             "school_facebook_profile_url": null,
             "description": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/susan-e-wagner-high-school-47/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240824%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240824T235039Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=5d1a6332861f3ac21d5028f71e4592f85976519e661381ed4dddeb8d522c53a5",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/susan-e-wagner-high-school-47/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240825%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240825T002234Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=1fffee06d48d354f0f83f94e1623371bcfa27eb9059b7c93e3ce10134e6b073f",
             "grade": "Class Rank: 1st Decile",
             "activities_and_societies": null
         }
