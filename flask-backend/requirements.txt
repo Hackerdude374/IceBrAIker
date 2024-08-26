@@ -12,3 +12,4 @@ pydantic
 langchainhub
 bs4
 transformers
+tensorflow
