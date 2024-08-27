@@ -22,15 +22,29 @@ app.use(errorHandler);
 
 const PORT = process.env.PORT || 3000;
 
-async function startServer() {
+async function testDatabaseConnection() {
   try {
     await prisma.$connect();
-    console.log('Connected to the database');
+    console.log('Successfully connected to the database');
+    
+    // Test query
+    const userCount = await prisma.user.count();
+    console.log(`Number of users in the database: ${userCount}`);
+
+    await prisma.$disconnect();
+  } catch (error) {
+    console.error('Error connecting to the database:', error);
+  }
+}
+
+async function startServer() {
+  try {
+    await testDatabaseConnection();
     app.listen(PORT, () => {
       console.log(`Server is running on port ${PORT}`);
     });
   } catch (error) {
-    console.error('Failed to connect to the database', error);
+    console.error('Failed to start the server:', error);
     process.exit(1);
   }
 }
