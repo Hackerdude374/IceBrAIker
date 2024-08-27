@@ -1,715 +1,154 @@
 {
-    "public_identifier": "robert-le982",
-    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/robert-le982/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005021Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=508fc03740740862f74a4791a17dbb9d0ac11da9b7262dd065574b3f5288b379",
-    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/robert-le982/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005021Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=bb92f5424c4fe91e525cb46f373ab5d3cc99127dbd1bc3a8dd70d842abe2fb56",
-    "first_name": "Robert",
-    "last_name": "Le",
-    "full_name": "Robert Le",
-    "follower_count": 1492,
-    "occupation": "Machine Learning Research Assistant at City University of New York-College of Staten Island",
-    "headline": "Data Engineer Intern @NYC DOT | Full Stack/Data/Software Engineer | Full Stack Engineer Apprentice @NYC TTP",
-    "summary": "As an undergraduate at CUNY, College of Staten Island, my tech journey began with a passion for iOS jailbreak methods and source code modification, evolving into a dedication to full stack software engineering and data engineering.\n\nMy skillset includes:\n\u2022 Languages: JavaScript, Python, HTML, CSS, SQL, TypeScript, PHP, C++, C, Java\n\u2022 Full Stack Web Development: Express.js, React, Node.js, Flask, Next.js, Vite, Laravel, Symfony, Vue.js\n\u2022 Databases: PostgreSQL, MongoDB, MySQL, Firebase\n\u2022 Deployment: AWS, Vercel, Render\n\u2022 Data Engineering/Science: Python, TensorFlow, Pandas, GeoPandas, BeautifulSoup, GIS software\n\nI've completed projects addressing real-world needs and gained valuable insights from internships and jobs. Participation in hackathons and elite development programs has honed my skills and demonstrated my ability to innovate and collaborate effectively.\n\nOutside of tech, I prioritize fitness through walking, weightlifting, swimming, and biking. I also enjoy cooking, believing that good food contributes to a fulfilling life.\n\nI am actively seeking opportunities to leverage my skills and passion for technology. Connect with me at robertle982@gmail.com to discuss how I can contribute to your team.",
+    "public_identifier": "ha-phan-b101907b",
+    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/ha-phan-b101907b/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005218Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0ccfb0995b7fad466244ce88978d9e905675917c459533f79c2d5812a7d6942c",
+    "first_name": "Ha",
+    "last_name": "Phan",
+    "full_name": "Ha Phan",
+    "follower_count": 101,
+    "occupation": "Research Scientist at New York State Institute for Basic Research in Developmental Disabilities",
+    "headline": "Research Scientist, Infant Development, Neurophysiological and Neurobehavioral Assessments",
     "country": "US",
-    "country_full_name": "United States",
-    "city": "Staten Island",
-    "state": "New York",
+    "country_full_name": "United States of America",
+    "city": "New York City Metropolitan Area",
     "experiences": [
         {
             "starts_at": {
                 "day": 1,
-                "month": 7,
-                "year": 2024
+                "month": 4,
+                "year": 2015
             },
             "ends_at": null,
-            "company": "City University of New York-College of Staten Island",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/college-of-staten-island-city-university-of-new-york",
+            "company": "New York State Institute for Basic Research in Developmental Disabilities",
+            "company_linkedin_profile_url": null,
             "company_facebook_profile_url": null,
-            "title": "Machine Learning Research Assistant",
-            "description": "Working on Professor Zhanyang Zhang's flood prediction machine learning project",
-            "location": "Staten Island, New York, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/college-of-staten-island-city-university-of-new-york/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005022Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=6ff6a9da15a484988c81102c00286495b1ee4b6f0eae11509ea81446a027c69e"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 7,
-                "year": 2024
-            },
-            "ends_at": null,
-            "company": "Headstarter AI",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/headstarterai",
-            "company_facebook_profile_url": null,
-            "title": "Software Engineer Fellow",
-            "description": "upskilling and building my foundation",
-            "location": "New York City Metropolitan Area",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/headstarterai/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005022Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=ff8a344832e25275181feaae145b9cde5ad7a8a69a8792735d1b4fcb5d22348c"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 5,
-                "year": 2024
-            },
-            "ends_at": null,
-            "company": "New York City Department of Transportation",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/nycdot",
-            "company_facebook_profile_url": null,
-            "title": "Data Engineer Intern",
-            "description": "\u27a4 Reduced manual processing time and improved data accuracy by 40% by developing automated data cleaning scripts for large geospatial datasets using Python\u2019s ArcPy library, GeoPandas, BeautifulSoup, ArcGIS Pro, and ArcMap\n\u27a4 Improved data visualization for over 10,000 civilians and 10+ internal teams by creating interactive map applications using HTML5, JavaScript, and CSS3, and integrating with the ArcGIS API for JavaScript (Esri) and OpenLayers\n\u27a4 Enhanced geospatial data usability and accessibility by routing and cleaning datasets (GEOJSONs, CSVs, SHPs) and creating feature classes with GeoPandas to visualize data layers in ArcGIS Pro/ArcMap\n\u27a4 Significantly boosted production efficiency by creating efficient scripts following Azure DevOps guidelines and ensuring consistency with team practices",
-            "location": "New York City Metropolitan Area",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/nycdot/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005023Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=dcb141f7433666b895256be84cd38d2f989d1a5ee040888c0f6350879c28c3dd"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 2,
-                "year": 2024
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 5,
-                "year": 2024
-            },
-            "company": "Unadat",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/unadat",
-            "company_facebook_profile_url": null,
-            "title": "Software Development Engineer Intern",
-            "description": "\u27a4 Managed financial goals for over 200 users by developing a milestone tracking system using HTML5, CSS3, Bootstrap, PHP, and JavaScript\n\u27a4 Enhanced user progress tracking and goal achievement by leveraging AJAX data retrievals with jQuery to create a dynamic pipeline from the PHP backend, routing 10+ milestone options to a central hub\n\u27a4 Reduced deployment times by 30% and improved CI/CD workflows by spearheading the integration, merging, and QA of frontend and backend systems using Google Cloud Shell, Jest, and Git, and creating a deployment guide\n\u27a4 Optimized software development life cycles by managing tasks, user stories, and backlogs within a Scrum environment using the Linear dashboard",
-            "location": "New York City Metropolitan Area",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/unadat/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005022Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=bfc7574e0a8d0f87c04a9adc5794543b116c91598f04c6f8fa82466d10ebc743"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 5,
-                "year": 2023
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 5,
-                "year": 2024
-            },
-            "company": "NYC Tech Talent Pipeline",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/nyc-tech-talent-pipeline",
-            "company_facebook_profile_url": null,
-            "title": "Full Stack Engineer Apprentice",
-            "description": "\ud83d\udcf1 Check out our app, Nature\u2019s Call: https://naturescalls.me\n\u27a4 Streamlined system design and frontend development by structuring UI/UX design based on user stories with Figma/Canva, and developing components with React Router + Vite\n\u27a4 Improved backend functionality by planning/organizing relational databases with PostgreSQL and LucidChart, developing Express.js CRUD operations using JavaScript, and testing them with Postman\n\u27a4 Enhanced routing, security, and user experiences by mastering React state management, backend REST APIs, and middleware authentication with React AuthContext and Express Router\n\u27a4 Spearheaded the implementation of Agile methodology and CI/CD pipelines, leveraging AWS services for hosting (EC2), database management (RDS), and DNS routing (Route 53), resulting in a 20% reduction in deployment times, as quantified through GitHub Kanban task tracking and sprint planning",
-            "location": "New York, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/nyc-tech-talent-pipeline/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005023Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=7966e129a117bef97da5e9c1fff03425216bee1d92930205bc6bbbae5778e6b5"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 5,
-                "year": 2023
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 5,
-                "year": 2024
-            },
-            "company": "Break Through Tech",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/break-through-tech",
-            "company_facebook_profile_url": null,
-            "title": "AI/Machine Learning Engineer Fellow",
-            "description": "\u27a4 Enhanced machine learning fundamentals and tackled business problems at Cornell Tech, selected for a highly competitive year-long fellowship among 700+ applicants, demonstrated by excelling in coding challenges\n\u27a4 Created feature engineering and deep learning models by receiving, cleaning, and prepping data using libraries such as TensorFlow, Pandas, NumPy, Matplotlib, and Seaborn, contributing to a community of 200+ members\n\u27a4 Delivered effective machine-learning solutions by collaborating with a team of 5 fellows leveraging the CRISP-DM methodology, addressing complex business problems, and achieving project goals and client satisfaction\n\u27a4 Optimized model predictions through neural networks and gradient boosting by conducting in-depth evaluation and experimentation with frameworks like TensorFlow and PyTorch, as evidenced by improved prediction accuracy",
-            "location": "New York City Metropolitan Area",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/break-through-tech/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005022Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=cb77cb07cc584eb6cb051e728bc4b5192a49baa71be3c3bfa898214074e7f7c8"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 4,
-                "year": 2024
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 4,
-                "year": 2024
-            },
-            "company": "Bloomberg",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/bloomberg",
-            "company_facebook_profile_url": null,
-            "title": "Bloomberg Tech Lab Fellow",
-            "description": "\u27a4 Enhanced collaboration and technical expertise by developing an application leveraging RabbitMQ and Docker in a small group with Bloomberg engineers\n\u27a4 Improved real-time data processing and communication between components by designing and implementing a message queue system using Python and RabbitMQ\n\u27a4 Deepened understanding of core Python and computer science concepts (e.g., classes, inheritance, OOP) and acquired financial domain knowledge (e.g., tickers, industry sectors)",
-            "location": "New York City Metropolitan Area",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bloomberg/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005022Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=19a54fd5e57a10668865f3185c5d7c4576a300bb72776f66505a226c22beeab0"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 11,
-                "year": 2023
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 11,
-                "year": 2023
-            },
-            "company": "Accenture",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/accenture",
-            "company_facebook_profile_url": null,
-            "title": "Data Analytics and Visualization Job Simulation",
-            "description": "\u27a4 Advised a hypothetical social media client by completing a simulation as a Data Analyst at Accenture\n\u27a4 Informed strategic decisions by cleaning, modeling, and analyzing 7 datasets to uncover insights into content trends\n\u27a4 Effectively communicated key insights to the client and internal stakeholders by preparing a PowerPoint deck and video presentation",
-            "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/accenture/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005022Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=c11154a8e17cbbba2ab00f957808234d27763021bffb2dcd45290873beef9739"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 11,
-                "year": 2023
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 11,
-                "year": 2023
-            },
-            "company": "S&P Global",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/spglobal",
-            "company_facebook_profile_url": null,
-            "title": "S&P + AWS Jam Event",
-            "description": "\u27a4 Developed cloud computing and data analytics skills by participating in an event co-organized by S&P Global and AWS, focusing on solving real-world challenges\n\u27a4 Enhanced expertise in Amazon EC2 and AWS Lambda through hands-on workshops\n\u27a4 Explored new possibilities in industry analytics and cloud computing solutions by collaborating with experts from Amazon and S&P Global",
-            "location": "New York City Metropolitan Area",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/spglobal/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005022Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=496095b638c51fccf193700ed39432309b46cf38b64069e7d12553f6a78df08e"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 9,
-                "year": 2023
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 9,
-                "year": 2023
-            },
-            "company": "JPMorganChase",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/jpmorganchase",
-            "company_facebook_profile_url": null,
-            "title": "Code for Good Hackathon 2023 ",
-            "description": null,
-            "location": "New York City Metropolitan Area",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/jpmorganchase/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005022Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=8b9c00a8efd27896049d8c70e653e076f7554f8bf5ffb85c1f46a6fb6830482b"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 9,
-                "year": 2023
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 9,
-                "year": 2023
-            },
-            "company": "New York Jobs CEO Council",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/new-york-jobs-ceo-council",
-            "company_facebook_profile_url": null,
-            "title": "Software Engineering Job Simulation",
-            "description": "\u27a4 Demonstrated problem-solving skills by completing a challenging simulation focused on debugging and feature development for the software engineering team\n\u27a4 Improved system reliability by resolving a critical bug in an automated billing system through root cause identification and effective solution development\n\u27a4 Enhanced user experience and communication by implementing a note-taking feature on invoices, improving transparency between senders and recipients",
-            "location": "New York City Metropolitan Area",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/new-york-jobs-ceo-council/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005022Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=c1f206eef1e6e13461503ff8c8bbf19e2a8fe1bbd6482390772dac763ad6a46a"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 3,
-                "year": 2023
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 5,
-                "year": 2023
-            },
-            "company": "Google",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/google",
-            "company_facebook_profile_url": null,
-            "title": "G-SWEP Fellow",
-            "description": "\u27a4 Enhanced tech interview readiness by participating in weekly 1-hour sessions focused on solving LeetCode problems, including data structures and time complexity, leading to increased confidence and performance\n\u27a4 Optimized coding skills and job acquisition rates through personalized mentorship from Google engineers, emphasizing advanced algorithms and data structures, resulting in better career opportunities\n\u27a4 Improved job placement opportunities by attending an in-person workshop at Google NYC, focusing on algorithm design and problem-solving strategies, facilitating access to high-demand tech jobs",
-            "location": "New York City Metropolitan Area",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/google/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005022Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=457a6ef731c80d1658d10eff2141b40a76d528c6ef6b8ec8793c8b520d367da1"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 3,
-                "year": 2023
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 4,
-                "year": 2023
-            },
-            "company": "Work ED",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/workededu",
-            "company_facebook_profile_url": null,
-            "title": "Cybersecurity Insight Extern",
-            "description": "\u27a4 Refined collaborative and strategic thinking skills by participating in rigorous team-building activities, including \u201cCapture The Flag\u201d (CTF) challenges\n\u27a4 Enhanced problem-solving abilities and fostered cohesive team dynamics by demonstrating a strong commitment to mastering the Linux operating system\n\u27a4 Gained hands-on experience in network security by configuring firewalls, monitoring network traffic, and conducting vulnerability assessments using RangeForce",
-            "location": "New York City Metropolitan Area",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/workededu/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005022Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=2b95d3caf4052c8a81c0590f0e33577a3ea211bd61e9be1236477923d5454645"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 9,
-                "year": 2022
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 9,
-                "year": 2022
-            },
-            "company": "JPMorganChase",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/jpmorganchase",
-            "company_facebook_profile_url": null,
-            "title": "Code for Good Hackathon 2022 ",
-            "description": "\u27a4 Addressed rising diabetes rates in the USA by developing a diabetes predictor app in a team of 4 using React, Node.js, Python, Flask, Vercel, and Render\n\u27a4 Gained community recognition by presenting the app to peers and JP Morgan Chase & Co. software engineers\n\u27a4 Prepared for the industry by developing leadership, team-building, soft skills, and technical experience",
-            "location": "New York City Metropolitan Area",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/jpmorganchase/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005022Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=8b9c00a8efd27896049d8c70e653e076f7554f8bf5ffb85c1f46a6fb6830482b"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 6,
-                "year": 2022
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 9,
-                "year": 2022
-            },
-            "company": "Bloomberg",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/bloomberg",
-            "company_facebook_profile_url": null,
-            "title": "Bloomberg Engineering Accelerator Mentee",
-            "description": "\u27a4 Improved coding and problem-solving skills through weekly 1:1 coaching sessions, mock technical interviews with actionable feedback, and workshops covering resumes, communication skills, and technical preparation\n\u27a4 Accelerated engineering interview readiness by accessing the AlgoExpert curriculum, networking opportunities, and fast-track pathways to interviews\n\u27a4 Prepared comprehensively for interviews with coding challenges, problem-solving techniques, and strategies for senior manager final interviews",
-            "location": "New York City Metropolitan Area",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bloomberg/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005022Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=19a54fd5e57a10668865f3185c5d7c4576a300bb72776f66505a226c22beeab0"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 6,
-                "year": 2022
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 8,
-                "year": 2022
-            },
-            "company": "Radical AI",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/radicalai-li",
-            "company_facebook_profile_url": null,
-            "title": "AI Engineer Intern",
-            "description": "\u27a4 Enhanced user interaction by developing ReX, an AI-powered chatbot using OpenAI's GPT-3.5, React Redux and Vite for the frontend, and Node.js for the backend, resulting in a responsive and intuitive conversational interface\n\u27a4 Improved response accuracy by implementing a custom context management system using Redis for efficient storage and retrieval of conversation history, allowing ReX to provide more relevant answers to follow-up questions\n\u27a4 Optimized query processing speed by designing an efficient caching mechanism with Redis and employing asynchronous API calls in Node.js, reducing average response time by 30%\n\u27a4 Expanded ReX's capabilities by integrating a basic intent classification model using TensorFlow.js, enabling the chatbot to better understand and categorize user queries into intents such as greetings, questions, and feedback",
-            "location": "New York City Metropolitan Area",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/radicalai-li/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005023Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=f3f06a9c047c037a46aa690b87a2960069e021930292e51f3260e0220cd380c5"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 10,
-                "year": 2021
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 5,
-                "year": 2022
-            },
-            "company": "City University of New York-College of Staten Island",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/college-of-staten-island-city-university-of-new-york",
-            "company_facebook_profile_url": null,
-            "title": "Help Desk Analyst",
-            "description": "\u27a4 Ensured smooth operation of student devices by providing technical support and troubleshooting hardware and software issues\n\u27a4 Maintained optimal functionality of IT equipment by assisting in setting up and configuring computer systems, printers, and other devices\n\u27a4 Delivered excellent customer service by effectively communicating solutions to technical problems and guiding users through necessary steps",
-            "location": "Staten Island, New York, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/college-of-staten-island-city-university-of-new-york/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005022Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=6ff6a9da15a484988c81102c00286495b1ee4b6f0eae11509ea81446a027c69e"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 6,
-                "year": 2021
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 8,
-                "year": 2021
-            },
-            "company": "Joan & Alan Bernikow JCC of Staten Island",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/jcc-of-staten-island",
-            "company_facebook_profile_url": null,
-            "title": "LEGO Robotics Instructor for Youth",
-            "description": "\u27a4 Sparked early interest and understanding in robotics and engineering by instructing 8-10 year-olds in LEGO Robotics, focusing on fundamentals\n\u27a4 Prepared young minds for future tech-oriented challenges by teaching foundational programming concepts using LEGO MINDSTORMS and EV3 software\n\u27a4 Reinforced learning through hands-on application and real-world problem solving by organizing practical challenges, such as navigating robots through mazes\n\u27a4 Fostered essential life skills in young learners by emphasizing teamwork and problem-solving skills, crucial for success in both robotics and collaborative environments",
-            "location": "New York, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/jcc-of-staten-island/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005022Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=1bcec8f8a5a414b1b555a1191cf40a81536a44fd34b59ea81e68c727cec73e40"
+            "title": "Research Scientist",
+            "description": "Examining the development of infants using neurophysiological and neurobehavioral assessments. Mentoring undergraduate and medical students on research skills.",
+            "location": "Staten Island, New York, USA",
+            "logo_url": null
         },
         {
             "starts_at": {
                 "day": 1,
                 "month": 1,
-                "year": 2018
+                "year": 2010
+            },
+            "ends_at": null,
+            "company": "Biology Department College of Staten Island CUNY",
+            "company_linkedin_profile_url": null,
+            "company_facebook_profile_url": null,
+            "title": "Adjunct Professor",
+            "description": "Teaching courses in Human Anatomy and Physiology.",
+            "location": "Staten Island, New York, USA",
+            "logo_url": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 1,
+                "year": 2010
             },
             "ends_at": {
-                "day": 30,
-                "month": 6,
-                "year": 2019
+                "day": 31,
+                "month": 12,
+                "year": 2015
             },
-            "company": "CVS Pharmacy",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/cvs-pharmacy",
+            "company": "New York State Institute for Basic Research in Developmental Disabilities",
+            "company_linkedin_profile_url": null,
             "company_facebook_profile_url": null,
-            "title": "Retail Sales Associate",
-            "description": "\u27a4 Increased sales for promoted items and contributed to overall monthly sales growth by reorganizing the store layout to improve product visibility\n\u27a4 Improved customer satisfaction scores by reducing out-of-stock incidents by 20% through conducting bi-weekly inventory audits\n\u27a4 Cut average transaction times during peak hours by introducing efficient cashier workflows",
-            "location": "Staten Island, New York, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/cvs-pharmacy/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005022Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=91fbf58905652711685067305b3142905198e25a6511bb2727c0c6c307bde861"
+            "title": "Research Associate",
+            "description": null,
+            "location": null,
+            "logo_url": null
         }
     ],
     "education": [
         {
             "starts_at": {
                 "day": 1,
-                "month": 9,
-                "year": 2021
+                "month": 1,
+                "year": 2010
             },
-            "ends_at": {
-                "day": 30,
-                "month": 6,
-                "year": 2025
-            },
-            "field_of_study": "Computer Science, Minor in Data Science",
-            "degree_name": "Bachelor's degree",
-            "school": "City University of New York-College of Staten Island",
-            "school_linkedin_profile_url": "https://www.linkedin.com/company/college-of-staten-island-city-university-of-new-york",
+            "ends_at": null,
+            "field_of_study": "Neuroscience",
+            "degree_name": "Ph.D",
+            "school": "The Graduate Center, City University of New York",
+            "school_linkedin_profile_url": "https://www.linkedin.com/company/2677812/",
             "school_facebook_profile_url": null,
-            "description": "Relevant Coursework:\n\u2022 CSC 226: Web Database Applications\n\u2022 CSC 446: Computer Architecture\n\u2022 CSC 480: Artificial Intelligence\n\u2022 CSC 490: Seminar in Computer Science\n\u2022 CSC 245: Introduction to Data Science\n\u2022 CSC 346: Digital Systems Design\n\u2022 CSC 347: Digital Systems Laboratory\n\u2022 CSC 430: Software Engineering\n\u2022 CSC 305: Operating Sys Prog Lab\n\u2022 CSC 315: Intro to Database Systems\n\u2022 CSC 332: Operating Systems I\n\u2022 CSC 382: Analysis of Algorithms\n\u2022 CSC 220: Computers, Networking & Sec.\n\u2022 CSC 228: Discrete Mth Comp Sci\n\u2022 CSC 330: Software Design\n\u2022 CSC 326: Data Structures\n\u2022 CSC 211: Intermediate Programming\n\u2022 CSC 126: Intro Computer Sci\n\u2022 MTH 311: Probab Theor & intro Math Stat\n\u2022 MTH 233: Calculus III\n\u2022 MTH 229: Calculus Computer Laboratory\n\u2022 MTH 232: Calculus II\n\u2022 MTH 231: Calculus I",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/college-of-staten-island-city-university-of-new-york/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005023Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=6ac391e4ae7c53950bc4a4ac41f8404d5e450e26d9c70e015f449b0e31d326ea",
-            "grade": "3.72/4.00",
-            "activities_and_societies": "Verrazano Honors School, CSI Computer Science Club, NYC Tech Talent Pipeline Resident, JPMorgan Chase & Co. Code for Good Hackathon 2022/2023, Break Through Tech AI/ML Fellow, ColorStack, WeCracked"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 2,
-                "year": 2023
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 5,
-                "year": 2023
-            },
-            "field_of_study": null,
-            "degree_name": "Extracurricular",
-            "school": "CodePath",
-            "school_linkedin_profile_url": "https://www.linkedin.com/company/18305024/",
-            "school_facebook_profile_url": null,
-            "description": "Relevant Coursework: \n\u2022 WEB101: Introduction to Web Development",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/codepath-org/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005023Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=71b11941af2493d145ac4158caed41f4c213ea73d6895cae5b4f9e9827d21a89",
-            "grade": "Completed",
+            "description": null,
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/thegraduatecenter/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005218Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=59ca0a676cc1efe65fb800de788d6c1268a3ad83fa44e44386d72b798e22de6e",
+            "grade": null,
             "activities_and_societies": null
         },
         {
             "starts_at": {
                 "day": 1,
                 "month": 1,
-                "year": 2017
+                "year": 1993
             },
-            "ends_at": {
-                "day": 31,
-                "month": 12,
-                "year": 2021
-            },
+            "ends_at": null,
             "field_of_study": null,
-            "degree_name": "High School Diploma",
-            "school": "Staten Island Tech High School",
-            "school_linkedin_profile_url": "https://www.linkedin.com/company/8209922/",
+            "degree_name": "Doctor of Medicine - MD",
+            "school": "Hanoi Medical University, Vietnam",
+            "school_linkedin_profile_url": null,
             "school_facebook_profile_url": null,
-            "description": "Relevant Coursework: \n\u2022 Introduction to Computer Science with Python\n\u2022 AutoCAD \n\u2022 AV Engineering\n\u2022 Robotics and Revit\n\u2022 AP Russian\n\u2022 AP World History\n\u2022 AP English",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/staten-island-tech-high-school/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005023Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=6a4c5b06bf6c7acbb5c9fe52f88aa61f9e2498d93e02078af683df77fc7ef3e8",
-            "grade": "3.85/4.00",
-            "activities_and_societies": "National Honor Society (NHS) | Computer Science Club | Gaming Club | Russian Dymkova Village Builder"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 9,
-                "year": 2019
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 12,
-                "year": 2019
-            },
-            "field_of_study": null,
-            "degree_name": "College Now",
-            "school": "Kingsborough Community College",
-            "school_linkedin_profile_url": "https://www.linkedin.com/company/822106/",
-            "school_facebook_profile_url": null,
-            "description": "Relevant Coursework:\n\u2022 BSS 100: The Individual & His/Her World",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/kingsborough-community-college/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005023Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=f027dd860694a4bcb460bb27cebb6d4d00acb63843fdc6ae6f139473ce933a6a",
-            "grade": "A",
-            "activities_and_societies": null
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 6,
-                "year": 2019
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 8,
-                "year": 2019
-            },
-            "field_of_study": null,
-            "degree_name": "College Now",
-            "school": "City University of New York-College of Staten Island",
-            "school_linkedin_profile_url": "https://www.linkedin.com/company/college-of-staten-island-city-university-of-new-york",
-            "school_facebook_profile_url": null,
-            "description": "Relevant Coursework:\n\u2022 MTH 113: Introduction to Probability and Statistics",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/college-of-staten-island-city-university-of-new-york/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005023Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=6ac391e4ae7c53950bc4a4ac41f8404d5e450e26d9c70e015f449b0e31d326ea",
-            "grade": "A",
+            "description": null,
+            "logo_url": null,
+            "grade": null,
             "activities_and_societies": null
         }
     ],
-    "accomplishment_honors_awards": [
+    "connections": 98,
+    "activities": [
         {
-            "title": "Dean\u2019s List at the CSI Division of Science and Technology",
-            "issuer": "Ralph Peetz",
-            "issued_on": {
-                "day": 1,
-                "month": 9,
-                "year": 2022
-            },
-            "description": null
+            "title": "An important finding from the BabySeq project: it's clear that parents and doctors support genomic sequencing in newborn medicine. Sequencing is\u2026",
+            "link": "https://www.linkedin.com/signup/cold-join",
+            "activity_status": "Liked by Ha Phan"
         },
         {
-            "title": "Verrazano Honors School",
-            "issuer": "Verrazano Honors School",
-            "issued_on": {
-                "day": 1,
-                "month": 9,
-                "year": 2021
-            },
-            "description": null
+            "title": "A new study from the Rare Diseases Clinical Research Network (RDCRN)'s #Dystonia Coalition provides insight into outcomes and long\u2010term safety and\u2026",
+            "link": "https://www.linkedin.com/signup/cold-join",
+            "activity_status": "Liked by Ha Phan"
+        },
+        {
+            "title": "I really enjoyed my time with District of Columbia Public Schools (DCPS) School Psychologists to discuss the PDD Behavior Inventory (PDDBI) on\u2026",
+            "link": "https://www.linkedin.com/signup/cold-join",
+            "activity_status": "Liked by Ha Phan"
         }
     ],
-    "accomplishment_projects": [
+    "similarly_named_profiles": [
         {
-            "starts_at": {
-                "day": 1,
-                "month": 7,
-                "year": 2024
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 7,
-                "year": 2024
-            },
-            "title": "NYC OpenData Coordinate Reprojector",
-            "description": "\ud83d\udcda React, TypeScript, Vite, Node.js, Express.js, Python, AWS S3, Vercel, Render\n\u27a4 Enabled accurate reprojection of latitude/longitude coordinates from OpenData datasets by engineering a public geospatial data correction tool for NYC DOT using React, Vite, Node.js, TypeScript, Express.js, and Python\n\u27a4 Implemented seamless upload and processing of geospatial files (.csv, .xlsx, .geojson) using Multer and an AWS S3 bucket for efficient file handling and cloud storage, reducing manual data correction time by approximately 50%\n\u27a4 Accomplished accurate coordinate reprojection from WGS84 to NY State Plane by developing a robust Python script utilizing pandas, geopandas, and pyproj libraries to process and correct geospatial data, implementing AI-based intelligent geometry column detection with StandardScaler-based feature normalization\n\u27a4 Architected integrated server-side process with a RESTful API using Express.js and Python, enhancing data integrity of NYC OpenData datasets and streamlining geospatial analysis for city planning initiatives",
-            "url": null
+            "name": "H\u00e0 Phan",
+            "link": "https://vn.linkedin.com/in/ha-phan-recruiter",
+            "summary": "Freelancer Recuiter - Newly graduated student looking for a job",
+            "location": "Ho Chi Minh City, Vietnam"
         },
         {
-            "starts_at": {
-                "day": 1,
-                "month": 7,
-                "year": 2024
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 7,
-                "year": 2024
-            },
-            "title": "VacAItion",
-            "description": "\ud83d\udcda React, Vite, JavaScript, Firebase, Gemini AI, NoSQL, Google Maps, Google Generative AI",
-            "url": null
+            "name": "ha Phan",
+            "link": "https://vn.linkedin.com/in/ha-phan-75753b5a",
+            "summary": "pr",
+            "location": "Vietnam"
         },
         {
-            "starts_at": {
-                "day": 1,
-                "month": 5,
-                "year": 2024
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 5,
-                "year": 2024
-            },
-            "title": "IceBrAIker | Introductions Made Easy",
-            "description": "\ud83d\udcda LangChain, React, TypeScript, Next.js, Tailwind CSS, Python, PostgreSQL, Prisma, Hugging Face, Express.js, AWS RDS, OpenAI, Vercel, Node.js\n\u27a4 Enhanced networking sociability by creating a full stack RAG application utilizing Natural Language Processing (NLP) to retrieve and summarize personal details and interests\n\u27a4 Retrieved tailored personalized data by developing a LinkedIn Lookup Agent using LangChain and OpenAI's GPT-3.5-turbo, leveraging Tavily for efficient web searches, BeautifulSoup for search query processing, and Proxycurl to scrape accurate LinkedIn profile data\n\u27a4 Improved data handling and integration by utilizing Pydantic for structured data parsing, transforming raw retrieved agent data into consumable formats for the frontend",
-            "url": "https://ice-br-a-iker.vercel.app/"
+            "name": "Ha Phan",
+            "link": "https://vn.linkedin.com/in/ha-phan-003bb024",
+            "summary": null,
+            "location": "Vietnam"
         },
         {
-            "starts_at": {
-                "day": 1,
-                "month": 4,
-                "year": 2024
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 4,
-                "year": 2024
-            },
-            "title": "LazyBlogger",
-            "description": "\ud83d\udcda React, Next.js, MongoDB, Stripe, TypeScript",
-            "url": "https://github.com/Hackerdude374/StripeWrite"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 7,
-                "year": 2023
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 9,
-                "year": 2023
-            },
-            "title": "Natures Call | NYC Bathroom Locator App",
-            "description": "\ud83d\udcda JavaScript, React, Express.js, Vite, Node.js, PostgreSQL, Tailwind CSS, AWS (EC2/RDS/Route 53), Google Maps\n\u27a4 Provided expedited directions to nearby facilities for citizens on the go by collaborating in a team of 4 to create Nature\u2019s Call, a PERN stack NYC bathroom locator app\n\u27a4 Enhanced user experience by developing and deploying a scalable RESTful API with features for locating bathrooms based on real-time location, adding new listings, filtering by amenities, rating and reviewing experiences, and maintaining personalized profiles\n\u27a4 Improved data reliability by 50% by employing Express.js\u2019s CronJob functionality to periodically update a database of over 1000 bathroom listings from NYC OpenData and RapidAPI\n\u27a4 Accomplished seamless navigation by implementing bathroom markers, routes, ETA calculations, and waypoints using the Google Places API and React\u2019s Google Maps library",
-            "url": "https://naturescalls.me/"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 9,
-                "year": 2023
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 9,
-                "year": 2023
-            },
-            "title": "TourGPT",
-            "description": null,
-            "url": null
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 7,
-                "year": 2023
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 7,
-                "year": 2023
-            },
-            "title": "DragonStack",
-            "description": "\ud83d\udcda",
-            "url": null
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 6,
-                "year": 2023
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 6,
-                "year": 2023
-            },
-            "title": "Cardfia | Mafia III Card Collection App",
-            "description": "\ud83d\udcda JavaScript, PostgreSQL, Prisma, Express.js, React, Node.js, Vite, TypeScript, Vercel, Render\n\u27a4 Enhanced user engagement by creating a full stack social card collection app in tribute to the Mafia series, allowing users to add, view, favorite, like, dislike, and update cards\n\u27a4 Boosted SQL query processing time by 30% by developing a backend REST API with CRUD (Create, Read, Update, Delete) functionality using Express.js, implementing efficient ORM (Object-Relational Mapping) integration with Prisma\n\u27a4 Improved performance and ensured data integrity by designing a PostgreSQL schema with primary keys, foreign keys, unique constraints, and one-to-one, one-to-many, and many-to-many relationships for users, cards, favorites, and likes/dislikes",
-            "url": null
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 5,
-                "year": 2023
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 5,
-                "year": 2023
-            },
-            "title": "SnapMap | Capture & Explore",
-            "description": "\ud83d\udcda HTML5, CSS3, JavaScript, Firebase, Bootstrap, Mapbox, Ngrok\n\u27a4 Enabled 50+ users to seamlessly upload photos with automatic location markers on a map by engineering a dynamic photo-sharing application, preserving memories of the world\n\u27a4 Enhanced user experience by developing a JavaScript function that accurately places markers on the map using precise coordinates calculated with Mapbox GL JS, and testing mobile functionality with Ngrok\n\u27a4 Improved storage management efficiency by utilizing the Firebase Storage API to seamlessly upload images to the map, incorporating NoSQL database features for robust data handling, and implementing user account management for personalized experiences",
-            "url": "https://snapmap-gis.web.app/"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 9,
-                "year": 2022
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 12,
-                "year": 2022
-            },
-            "title": "CS305: ProcessPilot | Analysis of CPU Scheduling Algorithms through FCFS and RR Simulation",
-            "description": "\ud83d\udcda C++\n\u27a4 Improved process management by designing and implementing a C++ application that showcases Round Robin (RR) and First Come First Serve (FCFS) scheduling algorithms, utilizing arrays and OOP principles, and integrating data structures like queues\n\u27a4 Demonstrated a 10% performance advantage of Round Robin over FCFS scheduling by analyzing various metrics within the application, with the smallest Time Quantum (TQ=10) showing a 15% faster Turnaround Time but 5% lower CPU efficiency\n\u27a4 Enhanced CPU efficiency by 12% and reduced context switching by 10% by investigating the impact of larger Time Quantums (e.g., TQ=20) within the application, resulting in a 20% increase in total time but improved process arrival prioritization",
-            "url": "https://github.com/Hackerdude374/Process-Pilot"
+            "name": "Ha Phan",
+            "link": "https://be.linkedin.com/in/haphan2",
+            "summary": "Part-Time CFO/ Regional Director East & West FlandersBusiness Strategy for SME | Transformation | Online CFO",
+            "location": "Antwerp"
         }
-    ],
-    "volunteer_work": [
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 9,
-                "year": 2021
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 9,
-                "year": 2021
-            },
-            "title": "Soup Kitchen/Food Pantry Distributor",
-            "cause": "Poverty Alleviation",
-            "company": "Project Hospitality",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/1611625/",
-            "description": null,
-            "logo_url": "https://media.licdn.com/dms/image/C560BAQF5RmV3hl0m4A/company-logo_400_400/0/1631339539916?e=1730937600&v=beta&t=Asr1G1FpBu59Ziv6J4ImlzYYxQjrVEz6m8TM4nIgI_A"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 9,
-                "year": 2021
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 9,
-                "year": 2021
-            },
-            "title": "Biker",
-            "cause": null,
-            "company": "Great Cycle Challenge",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/3121057/",
-            "description": null,
-            "logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQHo2ue2j2li4Q/company-logo_400_400/company-logo_400_400/0/1631349958853?e=1730937600&v=beta&t=wRqjFCCemVn_Au4BM8sMix6_s4OvzPP5gsop1enr37Q"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 1,
-                "year": 2019
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 1,
-                "year": 2019
-            },
-            "title": "Event Helper",
-            "cause": null,
-            "company": "Richmond University Medical Center",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/787381/",
-            "description": null,
-            "logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQGiF7pJca4hrQ/company-logo_400_400/company-logo_400_400/0/1630545657415/richmond_university_medical_center_logo?e=1730937600&v=beta&t=jASHkEfefwxD86GAaePsVDOX7an5tAUL4PsaishsIFQ"
-        }
-    ],
-    "connections": 1470,
-    "recommendations": [
-        "Tahsin Hossain\n\n\n\nIt has been a genuine pleasure collaborating with Robert. We worked on an innovative feature at Unadat that allows users to add milestones for their long-term goals. Robert\u2019s skills in front-end development, along with his proficiency with Git, were crucial in bringing our project together. He greatly contributed to the success of our \"Add Milestone\" feature. Impressively, Robert quickly learned backend technologies, integrating them effectively to enhance our system using jQuery and AJAX, which significantly enhanced our system.\nBeyond his technical skills, Robert\u2019s willingness to assist teammates and his positive attitude make him an invaluable team member. He is always the first to help, making every project smoother and more enjoyable. If you're seeking a skilled developer who excels not only in technical expertise but also in team collaboration, Robert is the ideal candidate.",
-        "Ishmam Fardin\n\n\n\nRobert consistently demonstrates exceptional skills in crafting intuitive user interfaces and delivering high-quality features. Utilizing a solid foundation in front-end technologies such as HTML, CSS, JavaScript, and jQuery, he adeptly tackles complex challenges and develops solutions with precision, even under ambiguous guidelines. Robert's proactive approach extends to identifying and resolving user interaction bugs, ensuring they are effectively addressed and mitigated against future occurrences. Beyond his technical expertise, Robert possesses outstanding interpersonal skills. He is remarkably collaborative and approachable, making it a pleasure to work with him. His initiative, combined with his commitment to quality, usability, and the project, makes Robert a standout developer and team player."
     ],
     "groups": [
         {
-            "name": "Break Through Tech AI Mentors @ Cornell Tech (2023 - 2024)",
-            "url": "https://www.linkedin.com/groups/12832625"
+            "name": "International Society for Autism Research | INSAR",
+            "url": "https://www.linkedin.com/groups/1213897"
+        },
+        {
+            "name": "Neonatal Intensive Innovations",
+            "url": "https://www.linkedin.com/groups/1840104"
         }
     ]
 }
