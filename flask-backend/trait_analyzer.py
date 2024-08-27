@@ -1,7 +1,6 @@
 import tensorflow as tf
 from transformers import pipeline, AutoTokenizer
 import random
-import re
 
 # Ensure TensorFlow is using the CPU
 tf.config.set_visible_devices([], 'GPU')
@@ -60,44 +59,65 @@ class TraitAnalyzer:
 
     def extract_skills(self, text):
         try:
-            # Convert text to lowercase for case-insensitive matching
-            text_lower = text.lower()
+            # Split the text to separate skills section
+            parts = text.lower().split("skills:")
+            skills_section = parts[1] if len(parts) > 1 else ""
             
-            # Find all skills mentioned in the text
-            found_skills = [skill for skill in self.tech_skills if skill.lower() in text_lower]
+            # Find explicitly mentioned skills
+            explicit_skills = [skill for skill in self.tech_skills if skill.lower() in skills_section]
+            
+            # Find all skills mentioned in the entire text
+            all_skills = [skill for skill in self.tech_skills if skill.lower() in text.lower()]
+            
+            # Prioritize explicit skills, then fill in with other mentioned skills
+            final_skills = explicit_skills + [skill for skill in all_skills if skill not in explicit_skills]
             
             # If we don't have at least 4 skills, add some relevant ones based on the profile
-            if len(found_skills) < 4:
-                if "crypto" in text_lower or "blockchain" in text_lower:
-                    found_skills.extend(["Blockchain", "Cryptocurrency", "Smart Contracts"])
-                if "finance" in text_lower or "financial" in text_lower:
-                    found_skills.extend(["Financial Modeling", "Valuation", "Risk Management"])
-                if "data" in text_lower or "analysis" in text_lower:
-                    found_skills.extend(["Data Analysis", "Python", "SQL"])
+            if len(final_skills) < 4:
+                if "crypto" in text or "blockchain" in text:
+                    final_skills.extend(["Blockchain", "Cryptocurrency", "Smart Contracts"])
+                if "finance" in text or "financial" in text:
+                    final_skills.extend(["Financial Modeling", "Valuation", "Risk Management"])
+                if "data" in text or "analysis" in text:
+                    final_skills.extend(["Data Analysis", "Python", "SQL"])
             
             # Remove duplicates and get the top 4 skills
-            unique_skills = list(dict.fromkeys(found_skills))
-            
-            # If we still don't have 4 skills, add some generic ones
-            while len(unique_skills) < 4:
-                random_skill = random.choice(self.tech_skills)
-                if random_skill not in unique_skills:
-                    unique_skills.append(random_skill)
+            unique_skills = list(dict.fromkeys(final_skills))
             
             return unique_skills[:4]  # Return only the top 4 skills
         except Exception as e:
             print(f"Error in extract_skills: {str(e)}")
             return ["Data Analysis", "Financial Modeling", "Blockchain", "Python"]
 
-    def analyze_profile(self, profile_data):
-        combined_text = f"{profile_data.get('summary', '')} {profile_data.get('experience', '')} {profile_data.get('education', '')}"
-        
-        personality_traits = self.analyze_personality(combined_text)
-        technical_skills = self.extract_skills(combined_text)
+    def extract_experience_text(self, experiences):
+        experience_text = ""
+        for exp in experiences:
+            experience_text += f"{exp.get('title', '')} {exp.get('description', '')} "
+        return experience_text
 
-        return {
-            "personality_traits": personality_traits,
-            "technical_skills": technical_skills
-        }
+    def analyze_profile(self, profile_data):
+        try:
+            # For personality traits
+            personality_text = f"{profile_data.get('summary', '')} {profile_data.get('experience', '')} {profile_data.get('education', '')}"
+            personality_traits = self.analyze_personality(personality_text)
+
+            # For technical skills
+            skills_text = profile_data.get('skills', '')
+            projects_text = profile_data.get('projects', '')
+            experience_text = self.extract_experience_text(profile_data.get('experiences', []))
+            
+            technical_skills_text = f"{skills_text} {projects_text} {experience_text}"
+            technical_skills = self.extract_skills(technical_skills_text)
+
+            return {
+                "personality_traits": personality_traits,
+                "technical_skills": technical_skills
+            }
+        except Exception as e:
+            print(f"Error in analyze_profile: {str(e)}")
+            return {
+                "personality_traits": ["adaptable", "analytical", "detail-oriented", "innovative"],
+                "technical_skills": ["Data Analysis", "Python", "SQL", "Problem Solving"]
+            }
 
 trait_analyzer = TraitAnalyzer()
