@@ -94,11 +94,17 @@ class TraitAnalyzer:
         for exp in experiences:
             experience_text += f"{exp.get('title', '')} {exp.get('description', '')} "
         return experience_text
+    
+    def extract_recommendations_text(self, recommendations):
+        recommendations_text = ""
+        for rec in recommendations:
+            recommendations_text += f"{rec.get('recommendation', '')} "
+        return recommendations_text
 
     def analyze_profile(self, profile_data):
         try:
             # For personality traits
-            personality_text = f"{profile_data.get('summary', '')} {profile_data.get('experience', '')} {profile_data.get('education', '')}"
+            personality_text = f"{profile_data.get('summary', '')} {profile_data.get('experience', '')} {profile_data.get('education', '')} {self.extract_recommendations_text(profile_data.get('recommendations', []))}"
             personality_traits = self.analyze_personality(personality_text)
 
             # For technical skills
