@@ -1,14 +1,16 @@
 {
-    "public_identifier": "robert-le",
-    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/robert-le/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240828%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240828T020927Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3acc2308de04c5307914b00977a5e8502989ced00e90651fafb34591a012c764",
-    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/robert-le/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240828%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240828T020927Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cf5059ec247fbc58967387b8b35e3dae0638af735187d2fa1bee4413b946fe6d",
-    "first_name": "Robert",
-    "last_name": "Le",
-    "full_name": "Robert Le",
-    "occupation": "Senior Analyst at PitchBook Data",
-    "headline": "Crypto Analyst at PitchBook",
+    "public_identifier": "cristian-statescu-33a773203",
+    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/cristian-statescu-33a773203/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240828%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240828T024127Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=566f17c6eeadbaadc32f85082e04087d0e7120924cb9197629deff1a8368d671",
+    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/cristian-statescu-33a773203/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240828%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240828T024127Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2b60cf1695a4fdfd0e6259a6f4647a71a2ee9892eb09486cb9c164238d4a1573",
+    "first_name": "Cristian",
+    "last_name": "Statescu",
+    "full_name": "Cristian Statescu",
+    "follower_count": 434,
+    "occupation": "College Aide at New York City Department of Transportation",
+    "headline": "College Aide at New York City Department of Transportation",
+    "summary": "I am (currently) a Senior in Macaulay Honors College at The City College of New York studying Computer Science. I enjoy coding in C++ and Python primarily, and know Java as well. I have used Python, Java, and MySQL primarily to work on projects relating to my school work over the past year. Over the last year, I worked a lot with MySQL: I built databases, drew ER diagrams to explain the schema produced, and underwent a \"family database\" project where the focus was to get information about an individual's family through queries (which needed to have relational algebra involved to help prove their correctness). Currently, I am looking to further my software engineering skills both individually and collaboratively. At the moment, I am the Co-President of Macaulay Fitness at Macaulay Honors College (known more commonly as MacFIT), where we promote both mental and physical wellbeing through activities and events. Please reach out, I am more than happy to respond and connect with you!",
     "country": "US",
-    "country_full_name": "United States",
+    "country_full_name": "United States of America",
     "city": "New York",
     "state": "New York",
     "experiences": [
@@ -16,365 +18,80 @@
             "starts_at": {
                 "day": 1,
                 "month": 5,
-                "year": 2018
+                "year": 2023
             },
             "ends_at": null,
-            "company": "PitchBook Data",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/pitchbook",
+            "company": "New York City Department of Transportation",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/nycdot/",
             "company_facebook_profile_url": null,
-            "title": "Senior Analyst",
-            "description": "Core coverage: Crypto, DeFi, web3\n\n(with continuing coverage in fintech and insurtech)",
-            "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/pitchbook/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240828%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240828T020927Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=40b8bc561037a9a291eecfdb309b0827b7327e88ccd2e8c37d0c2ad57313ff09"
+            "title": "College Aide",
+            "description": null,
+            "location": "New York, New York, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/nycdot/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240828%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240828T024127Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=84236010be771e3b69f402084034b1fc5a908283ea2d1322ee848b6a1c3ed0b8"
         },
         {
             "starts_at": {
                 "day": 1,
                 "month": 7,
-                "year": 2018
+                "year": 2023
             },
             "ends_at": {
                 "day": 31,
-                "month": 10,
+                "month": 1,
+                "year": 2024
+            },
+            "company": "The Difference",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/thediffapp/",
+            "company_facebook_profile_url": null,
+            "title": "Software Developer",
+            "description": "Helped better the database/data management of the company, as well as general software development work, including but not limited to: app development, website development, database management, and more.",
+            "location": "New York, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/thediffapp/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240828%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240828T024127Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=34e4728406c1b9ee4c4913d0b86193e9aa6e4a4d2bb37af1bcc83cfb739dc343"
+        }
+    ],
+    "education": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 8,
                 "year": 2020
             },
-            "company": "Founder Institute",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/the-founder-institute",
-            "company_facebook_profile_url": null,
-            "title": "Director",
+            "ends_at": {
+                "day": 31,
+                "month": 5,
+                "year": 2024
+            },
+            "field_of_study": "Computer Science",
+            "degree_name": "Bachelor of Science - BS",
+            "school": "Macaulay Honors College at The City University of New York",
+            "school_linkedin_profile_url": "https://www.linkedin.com/school/macaulay-honors-college-at-the-city-university-of-new-york/",
+            "school_facebook_profile_url": null,
             "description": null,
-            "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/the-founder-institute/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240828%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240828T020927Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=ae673750d969ac1c7ebe68908ae88b701fc517ef08602c34d54cec1036747b64"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/macaulay-honors-college-at-the-city-university-of-new-york/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240828%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240828T024127Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=edb989686c83af4fb18f5f1455513530ebbefdd37cb56069be18c611a3de92fb",
+            "grade": "Graduated",
+            "activities_and_societies": "Leader of Macaulay Fitness (MacFIT)"
         },
         {
             "starts_at": {
                 "day": 1,
                 "month": 9,
-                "year": 2017
+                "year": 2016
             },
             "ends_at": {
-                "day": 31,
-                "month": 12,
-                "year": 2017
-            },
-            "company": "PwC",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/pwc",
-            "company_facebook_profile_url": null,
-            "title": "MBA Associate, Regtech",
-            "description": null,
-            "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/pwc/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240828%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240828T020927Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=1bebbda6109141b6deb28bf10dd24fdedff0cd0cd582357400a5c788977eb870"
-        },
-        {
-            "starts_at": {
-                "day": 1,
+                "day": 30,
                 "month": 6,
-                "year": 2017
+                "year": 2020
             },
-            "ends_at": {
-                "day": 31,
-                "month": 8,
-                "year": 2017
-            },
-            "company": "Silicon Valley Bank",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/silicon-valley-bank",
-            "company_facebook_profile_url": null,
-            "title": "Summer Associate, Fintech",
-            "description": null,
-            "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/silicon-valley-bank/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240828%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240828T020927Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=189f78b4c05ed0816794d2de22e4fbab52afeb9ae033e91a9639f1836b19922a"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 1,
-                "year": 2015
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 12,
-                "year": 2017
-            },
-            "company": "Pace Analytical",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/paceanalyticalservices",
-            "company_facebook_profile_url": null,
-            "title": "Data Scientist",
-            "description": null,
-            "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/paceanalyticalservices/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240828%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240828T020927Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=3d8a6d5877eac61cdd5d3476eb8240c0df82dc604455f7fb9006d52c0ba198c3"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 1,
-                "year": 2013
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 12,
-                "year": 2015
-            },
-            "company": "Pace Analytical",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/paceanalyticalservices",
-            "company_facebook_profile_url": null,
-            "title": "Data Analyst",
-            "description": null,
-            "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/paceanalyticalservices/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240828%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240828T020927Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=3d8a6d5877eac61cdd5d3476eb8240c0df82dc604455f7fb9006d52c0ba198c3"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 1,
-                "year": 2013
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 12,
-                "year": 2013
-            },
-            "company": "Five Marketing & Management, Inc. - Five Group",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/five-group",
-            "company_facebook_profile_url": null,
-            "title": "Director",
-            "description": null,
-            "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/five-group/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240828%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240828T020927Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=a194339407622ff7d9bcac36ce0508246de32263fb728ced1b0f976eadcd04a0"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 1,
-                "year": 2008
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 12,
-                "year": 2012
-            },
-            "company": "Dtown Productions",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/dtown-productions",
-            "company_facebook_profile_url": null,
-            "title": "Co-Founder",
-            "description": "(acquired by Five Group)",
-            "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/dtown-productions/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240828%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240828T020927Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=af580d9c21ee83c6918d5ec7d5c914f05bdbecc88fd6237baff552460955ae71"
-        }
-    ],
-    "education": [
-        {
-            "starts_at": null,
-            "ends_at": null,
-            "field_of_study": "Finance and Entrepreneurship",
-            "degree_name": "MBA",
-            "school": "Carnegie Mellon University",
-            "school_linkedin_profile_url": "https://www.linkedin.com/company/3147/",
+            "field_of_study": null,
+            "degree_name": "High School Diploma",
+            "school": "NYC Lab High School for Collaborative Studies",
+            "school_linkedin_profile_url": "https://www.linkedin.com/school/nyc-lab-high-school-for-collaborative-studies/",
             "school_facebook_profile_url": null,
             "description": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/carnegie-mellon-university/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240828%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240828T020927Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=b4a86cf97e999b144405c19c2a66339931b0c69e462473be228d39b5d5c52ac4",
-            "grade": null,
-            "activities_and_societies": null
-        },
-        {
-            "starts_at": null,
-            "ends_at": null,
-            "field_of_study": "Biological Sciences",
-            "degree_name": "BS",
-            "school": "UC Irvine",
-            "school_linkedin_profile_url": "https://www.linkedin.com/company/4418/",
-            "school_facebook_profile_url": null,
-            "description": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/university-of-california-irvine/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240828%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240828T020927Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=9519a037fdef89c52975628aa30b232b2ce5657242870b0abd0e3fd51c0c49be",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/nyc-lab-high-school-for-collaborative-studies/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240828%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240828T024127Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=a727a6e8a1bcd3c31fd205df13dad848af6a45d794244491ab2c8c8af1454005",
             "grade": null,
             "activities_and_societies": null
         }
     ],
-    "languages": [
-        "English",
-        "Vietnamese"
-    ],
-    "accomplishment_publications": [
-        {
-            "name": "Q4 2023 Crypto update",
-            "publisher": "PitchBook",
-            "published_on": {
-                "day": 14,
-                "month": 2,
-                "year": 2024
-            },
-            "description": null,
-            "url": "https://pitchbook.com/news/reports/q4-2023-crypto-report"
-        },
-        {
-            "name": "Integrating Digital Assets and Crypto Into Traditional Finance",
-            "publisher": "PitchBook",
-            "published_on": {
-                "day": 20,
-                "month": 10,
-                "year": 2023
-            },
-            "description": null,
-            "url": "https://pitchbook.com/news/reports/q4-2023-pitchbook-analyst-note-integrating-digital-assets-and-crypto-into-traditional-finance"
-        },
-        {
-            "name": "Decentralized Physical Infrastructure Networks (client-only)",
-            "publisher": "PitchBook",
-            "published_on": {
-                "day": 7,
-                "month": 7,
-                "year": 2023
-            },
-            "description": "Physical multibillion-dollar infrastructure industries such as wireless telecoms, sensor networks, and cloud servers have long held the status quo, but decentralized physical infrastructure networks, or DePINs, could upend them with a new business model. These networks use token incentives to help offset the huge capital expenditures required to build physical infrastructure.",
-            "url": "https://pitchbook.com/news/reports/q3-2023-pitchbook-analyst-note-decentralized-physical-infrastructure-networks"
-        },
-        {
-            "name": "Insurtech quarterly update",
-            "publisher": "PitchBook",
-            "published_on": {
-                "day": 14,
-                "month": 6,
-                "year": 2023
-            },
-            "description": null,
-            "url": "https://pitchbook.com/news/reports/q4-2023-insurtech-report"
-        },
-        {
-            "name": "Crypto industry report",
-            "publisher": "PitchBook",
-            "published_on": {
-                "day": 7,
-                "month": 12,
-                "year": 2022
-            },
-            "description": null,
-            "url": "https://pitchbook.com/news/reports/q3-2022-crypto-launch-report"
-        },
-        {
-            "name": "Emerging Tech Research: Fintech",
-            "publisher": "PitchBook",
-            "published_on": {
-                "day": 3,
-                "month": 8,
-                "year": 2022
-            },
-            "description": null,
-            "url": "https://pitchbook.com/news/reports/q2-2022-fintech-report"
-        },
-        {
-            "name": "DeFi Primer",
-            "publisher": "PitchBook",
-            "published_on": {
-                "day": 27,
-                "month": 8,
-                "year": 2021
-            },
-            "description": null,
-            "url": "https://pitchbook.com/news/reports/q3-2021-pitchbook-analyst-note-defi-primer"
-        },
-        {
-            "name": "Optimizing Personal Finance via Automation",
-            "publisher": "PitchBook",
-            "published_on": {
-                "day": 22,
-                "month": 4,
-                "year": 2021
-            },
-            "description": null,
-            "url": "https://pitchbook.com/news/reports/q2-2021-pitchbook-analyst-note-optimizing-personal-finance-via-automation"
-        },
-        {
-            "name": "A New Era of Wealth Management (client-only)",
-            "publisher": "PitchBook",
-            "published_on": {
-                "day": 1,
-                "month": 10,
-                "year": 2020
-            },
-            "description": "Fintech startups are giving financial advisors new tools to compete in a digital economy",
-            "url": null
-        },
-        {
-            "name": "Robinhood Shifts Trading to the Masses",
-            "publisher": "PitchBook",
-            "published_on": {
-                "day": 1,
-                "month": 8,
-                "year": 2020
-            },
-            "description": null,
-            "url": "https://pitchbook.com/news/reports/q3-2020-pitchbook-analyst-note-robinhood-shifts-trading-to-the-masses"
-        }
-    ],
-    "volunteer_work": [
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 1,
-                "year": 2019
-            },
-            "ends_at": null,
-            "title": "Board Member",
-            "cause": "Social Services",
-            "company": "Teen Feed",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/1245674/",
-            "description": null,
-            "logo_url": "https://media.licdn.com/dms/image/v2/C510BAQHdGnv1_MF_1w/company-logo_400_400/company-logo_400_400/0/1631332572167?e=1731542400&v=beta&t=0tKU71rwBFezbF7cIkckEa6lOAsa7LVoCKU4LMB0OjE"
-        },
-        {
-            "starts_at": null,
-            "ends_at": null,
-            "title": "Community Volunteer",
-            "cause": "Poverty Alleviation",
-            "company": "Urban Angels",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/3843599/",
-            "description": null,
-            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQEmTWm8ADxKcg/company-logo_400_400/company-logo_400_400/0/1631313118182?e=1731542400&v=beta&t=Xu_jDO2PPVdGeyVYhOHQW_kM5x2Q8drE8FrAyhss12I"
-        },
-        {
-            "starts_at": null,
-            "ends_at": null,
-            "title": "International Volunteer",
-            "cause": "Children",
-            "company": "CASA GUATEMALA- Friends of Guatemalan Children",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/1143745/",
-            "description": " ",
-            "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnhZ6iv5ZoBg/company-logo_400_400/company-logo_400_400/0/1630576100799/casa_guatemala_ngo_logo?e=1731542400&v=beta&t=qOYhhDf6LLtUP6vKa27YcJ1leAYDHl-T20ZXZzQBNbs"
-        }
-    ],
-    "similarly_named_profiles": [
-        {
-            "name": "Robert Le",
-            "link": "https://www.linkedin.com/in/robert-le-b3b2b34a",
-            "summary": "Electrical Hardware Engineer at General Dynamics Land Systems",
-            "location": "Sterling Heights, MI"
-        },
-        {
-            "name": "Robert Le",
-            "link": "https://www.linkedin.com/in/robert-le-b7485a51",
-            "summary": "Co-Owner HK Cafe",
-            "location": "Portland, OR"
-        },
-        {
-            "name": "Robert Le",
-            "link": "https://ca.linkedin.com/in/1993robertle",
-            "summary": "Start-up Specialist / Research Administrator at Clinical Research Unit, Montreal Neurological Institute & Hospital",
-            "location": "Greater Montreal Metropolitan Area"
-        },
-        {
-            "name": "Robert Le",
-            "link": "https://www.linkedin.com/in/robert-le-42310330",
-            "summary": "USARE CENTCOM JIC, S1/S3 at US Army",
-            "location": "Olympia, WA"
-        }
-    ],
-    "groups": [
-        {
-            "name": "Family Offices and Institutional Investors",
-            "url": "https://www.linkedin.com/groups/2279167"
-        },
-        {
-            "name": "Carnegie Mellon University - Tepper Part-Time & Online Hybrid MBA",
-            "url": "https://www.linkedin.com/groups/8733371"
-        }
-    ]
+    "connections": 434
 }
