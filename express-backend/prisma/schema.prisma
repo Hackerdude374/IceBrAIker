@@ -1,3 +1,5 @@
+// prisma/schema.prisma
+
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
@@ -8,13 +10,30 @@ generator client {
 }
 
 model User {
-  id        Int      @id @default(autoincrement())
-  email     String   @unique
-  password  String
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  favorites Favorite[]
-  profile   UserProfile?
+  id               Int      @id @default(autoincrement())
+  email            String   @unique
+  linkedinId       String?  @unique
+  linkedinUrl      String?
+  name             String?
+  profilePictureUrl String?
+  accessToken      String?
+  refreshToken     String?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+  profile          UserProfile?
+  favorites        Favorite[]
+}
+
+model UserProfile {
+  id          Int      @id @default(autoincrement())
+  userId      Int      @unique
+  user        User     @relation(fields: [userId], references: [id])
+  summary     String?
+  skills      String[]
+  interests   String[]
+  iceBreakers String[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
 }
 
 model Favorite {
@@ -23,16 +42,4 @@ model Favorite {
   user        User     @relation(fields: [userId], references: [id])
   linkedinUrl String
   createdAt   DateTime @default(now())
-}
-
-model UserProfile {
-  id          Int      @id @default(autoincrement())
-  userId      Int      @unique
-  user        User     @relation(fields: [userId], references: [id])
-  linkedinUrl String
-  summary     String?
-  skills      String[]
-  interests   String[]
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
 }

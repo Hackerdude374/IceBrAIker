@@ -1,14 +1,16 @@
+// src/pages/_app.tsx
 import '../styles/globals.css';
-import '../styles/spinner.css';
-import '../styles/animations.css';
 import type { AppProps } from 'next/app';
+import { AuthProvider } from '../components/AuthProvider';
 import Layout from '../components/Layout';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <AuthProvider>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </AuthProvider>
   );
 }
 

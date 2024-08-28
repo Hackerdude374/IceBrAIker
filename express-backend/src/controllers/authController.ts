@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import { prisma } from '../server';
-
+import { generateUserProfile, scrapeLinkedInProfile } from '../services/profileGenerationService';
 export async function register(req: Request, res: Response) {
   try {
     const { email, password } = req.body;
@@ -34,5 +34,27 @@ export async function login(req: Request, res: Response) {
     res.json({ token });
   } catch (error) {
     res.status(500).json({ error: 'Error logging in' });
+  }
+}
+
+export async function linkedinCallback(req: Request, res: Response) {
+  const { user } = req;
+  if (!user) {
+    return res.status(401).json({ error: 'Authentication failed' });
+  }
+
+  try {
+    const token = jwt.sign({ userId: user.id }, process.env.JWT_SECRET as string);
+    
+    // If it's a new user, generate their profile
+    if (user.createdAt === user.updatedAt) {
+      const linkedinData = await scrapeLinkedInProfile(user.linkedinUrl);
+      await generateUserProfile(user.id, linkedinData);
+    }
+
+    res.json({ token, user: { id: user.id, email: user.email, name: user.name } });
+  } catch (error) {
+    console.error('Error in LinkedIn callback:', error);
+    res.status(500).json({ error: 'Error processing LinkedIn login' });
   }
 }

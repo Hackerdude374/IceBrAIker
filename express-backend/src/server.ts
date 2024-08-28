@@ -6,7 +6,8 @@ import profileRoutes from './routes/profiles';
 import matchRoutes from './routes/matches';
 import { errorHandler } from './middleware/errorHandler';
 import prisma from './config/database';
-
+import passport from './config/passport';
+import session from 'express-session';
 dotenv.config();
 
 const app = express();
@@ -19,7 +20,14 @@ app.use('/profiles', profileRoutes);
 app.use('/matches', matchRoutes);
 
 app.use(errorHandler);
+app.use(session({
+  secret: process.env.SESSION_SECRET,
+  resave: false,
+  saveUninitialized: false
+}));
 
+app.use(passport.initialize());
+app.use(passport.session());
 const PORT = process.env.PORT || 3000;
 
 async function testDatabaseConnection() {
@@ -48,7 +56,8 @@ async function startServer() {
     process.exit(1);
   }
 }
-
+app.use(passport.initialize());
+app.use(passport.session());
 startServer();
 
 export { app, prisma };
