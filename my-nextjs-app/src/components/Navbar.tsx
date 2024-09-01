@@ -1,4 +1,3 @@
-// src/components/Navbar.tsx
 import React from 'react';
 import Link from 'next/link';
 import { useAuth } from '../hooks/useAuth';
@@ -15,6 +14,9 @@ const Navbar: React.FC = () => {
         <div>
           <Link href="/" className="text-white mr-4">
             Home
+          </Link>
+          <Link href="/about" className="text-white mr-4">
+            About
           </Link>
           {user ? (
             <>
