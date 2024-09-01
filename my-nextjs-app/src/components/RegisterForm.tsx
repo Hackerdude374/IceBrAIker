@@ -1,25 +1,31 @@
 // src/components/RegisterForm.tsx
 import React, { useState } from 'react';
 import { registerUser } from '../services/api';
+import { useRouter } from 'next/router';
 
 const RegisterForm: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const router = useRouter();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
       const result = await registerUser(email, password);
       console.log('User registered:', result);
-      // Handle successful registration (e.g., redirect to login page)
+      localStorage.setItem('token', result.token);
+      router.push('/dashboard');
     } catch (error) {
       console.error('Registration error:', error);
-      // Handle registration error
     }
   };
 
+  const handleLinkedInLogin = () => {
+    window.location.href = 'YOUR_LINKEDIN_OAUTH_URL';
+  };
+
   return (
-    <form onSubmit={handleSubmit} className="space-y-4">
+    <form onSubmit={handleSubmit} className="space-y-4 max-w-md mx-auto">
       <input
         type="email"
         value={email}
@@ -38,6 +44,13 @@ const RegisterForm: React.FC = () => {
       />
       <button type="submit" className="w-full p-2 bg-blue-500 text-white rounded">
         Register
+      </button>
+      <button
+        type="button"
+        onClick={handleLinkedInLogin}
+        className="w-full p-2 bg-blue-700 text-white rounded mt-2"
+      >
+        Sign up with LinkedIn
       </button>
     </form>
   );
