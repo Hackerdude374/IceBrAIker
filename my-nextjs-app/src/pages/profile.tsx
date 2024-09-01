@@ -1,24 +1,32 @@
-// src/pages/profile.tsx
 import React, { useEffect, useState } from 'react';
 import { useAuth } from '../hooks/useAuth';
 import { getUserProfile } from '../services/api';
+import { UserProfile } from '../types/user';
 
 const Profile: React.FC = () => {
   const { user } = useAuth();
-  const [profile, setProfile] = useState(null);
+  const [profile, setProfile] = useState<UserProfile | null>(null);
 
   useEffect(() => {
-    if (user) {
-      getUserProfile(user.id).then(setProfile).catch(console.error);
+    async function fetchProfile() {
+      if (user) {
+        try {
+          const profileData = await getUserProfile(user.id);
+          setProfile(profileData);
+        } catch (error) {
+          console.error('Error fetching user profile:', error);
+        }
+      }
     }
+    fetchProfile();
   }, [user]);
 
   if (!user) {
-    return <div>Please log in to view your profile.</div>;
+    return <div className="container mx-auto px-4 py-8">Please log in to view your profile.</div>;
   }
 
   if (!profile) {
-    return <div>Loading profile...</div>;
+    return <div className="container mx-auto px-4 py-8">Loading profile...</div>;
   }
 
   return (

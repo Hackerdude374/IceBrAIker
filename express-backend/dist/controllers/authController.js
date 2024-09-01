@@ -12,25 +12,39 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.handleOptions = void 0;
 exports.register = register;
 exports.login = login;
+exports.linkedinCallback = linkedinCallback;
+exports.logout = logout;
 const bcrypt_1 = __importDefault(require("bcrypt"));
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
-const server_1 = require("../server");
+const client_1 = require("@prisma/client");
+const profileGenerationService_1 = require("../services/profileGenerationService");
+const prisma = new client_1.PrismaClient();
+const handleOptions = (req, res) => {
+    res.sendStatus(200);
+};
+exports.handleOptions = handleOptions;
 function register(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
+        console.log('Register request body:', req.body); // Debug log
         try {
-            const { email, password } = req.body;
+            const { email, password, name } = req.body;
             const hashedPassword = yield bcrypt_1.default.hash(password, 10);
-            const user = yield server_1.prisma.user.create({
+            const user = yield prisma.user.create({
                 data: {
                     email,
                     password: hashedPassword,
+                    name,
                 },
             });
-            res.json({ message: 'User created successfully', userId: user.id });
+            const token = jsonwebtoken_1.default.sign({ userId: user.id }, process.env.JWT_SECRET);
+            console.log('User registered successfully:', user.id); // Debug log
+            res.json({ token, user: { id: user.id, email: user.email, name: user.name } });
         }
         catch (error) {
+            console.error('Registration error:', error);
             res.status(500).json({ error: 'Error creating user' });
         }
     });
@@ -39,7 +53,7 @@ function login(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             const { email, password } = req.body;
-            const user = yield server_1.prisma.user.findUnique({ where: { email } });
+            const user = yield prisma.user.findUnique({ where: { email } });
             if (!user) {
                 return res.status(400).json({ error: 'Invalid credentials' });
             }
@@ -48,10 +62,39 @@ function login(req, res) {
                 return res.status(400).json({ error: 'Invalid credentials' });
             }
             const token = jsonwebtoken_1.default.sign({ userId: user.id }, process.env.JWT_SECRET);
-            res.json({ token });
+            res.json({ token, user: { id: user.id, email: user.email, name: user.name } });
         }
         catch (error) {
+            console.error('Login error:', error);
             res.status(500).json({ error: 'Error logging in' });
         }
+    });
+}
+function linkedinCallback(req, res) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const { user } = req;
+        if (!user) {
+            return res.status(401).json({ error: 'Authentication failed' });
+        }
+        try {
+            const token = jsonwebtoken_1.default.sign({ userId: user.id }, process.env.JWT_SECRET);
+            // If it's a new user, generate their profile
+            if (user.createdAt === user.updatedAt) {
+                const linkedinData = yield (0, profileGenerationService_1.scrapeLinkedInProfile)(user.linkedinUrl);
+                yield (0, profileGenerationService_1.generateUserProfile)(user.id, linkedinData);
+            }
+            res.json({ token, user: { id: user.id, email: user.email, name: user.name } });
+        }
+        catch (error) {
+            console.error('Error in LinkedIn callback:', error);
+            res.status(500).json({ error: 'Error processing LinkedIn login' });
+        }
+    });
+}
+function logout(req, res) {
+    return __awaiter(this, void 0, void 0, function* () {
+        // For JWT, we don't need to do anything on the server side
+        // The client should remove the token from storage
+        res.json({ message: 'Logged out successfully' });
     });
 }

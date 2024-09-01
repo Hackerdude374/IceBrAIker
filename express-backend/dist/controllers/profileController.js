@@ -12,6 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.analyzeProfile = analyzeProfile;
 exports.favoriteProfile = favoriteProfile;
 exports.getFavorites = getFavorites;
+exports.getProfile = getProfile;
 const server_1 = require("../server");
 const pythonInterface_1 = require("../utils/pythonInterface");
 function analyzeProfile(req, res) {
@@ -53,6 +54,23 @@ function getFavorites(req, res) {
         }
         catch (error) {
             res.status(500).json({ error: 'Error fetching favorites' });
+        }
+    });
+}
+function getProfile(req, res) {
+    return __awaiter(this, void 0, void 0, function* () {
+        try {
+            const profile = yield server_1.prisma.userProfile.findUnique({
+                where: { userId: req.userId },
+            });
+            if (!profile) {
+                return res.status(404).json({ error: 'Profile not found' });
+            }
+            res.json(profile);
+        }
+        catch (error) {
+            console.error('Error fetching profile:', error);
+            res.status(500).json({ error: 'Error fetching profile' });
         }
     });
 }

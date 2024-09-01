@@ -12,7 +12,15 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors());
+const corsOptions = {
+  origin: process.env.FRONTEND_URL || 'http://localhost:3001',
+  credentials: true,
+  optionsSuccessStatus: 200
+};
+
+console.log('CORS options:', corsOptions); // Debug log
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
 app.use('/auth', authRoutes);
@@ -33,11 +41,11 @@ const PORT = process.env.PORT || 3000;
 async function testDatabaseConnection() {
   try {
     await prisma.$connect();
-    console.log('Successfully connected to the database');
+    console.log('Successfully connected to the database!');
     
     // Test query
     const userCount = await prisma.user.count();
-    console.log(`Number of users in the database: ${userCount}`);
+    console.log(`Numbers of users in the database: ${userCount}`);
 
     await prisma.$disconnect();
   } catch (error) {

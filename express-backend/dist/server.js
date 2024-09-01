@@ -22,24 +22,39 @@ const matches_1 = __importDefault(require("./routes/matches"));
 const errorHandler_1 = require("./middleware/errorHandler");
 const database_1 = __importDefault(require("./config/database"));
 exports.prisma = database_1.default;
+const passport_1 = __importDefault(require("./config/passport"));
+const express_session_1 = __importDefault(require("express-session"));
 dotenv_1.default.config();
 const app = (0, express_1.default)();
 exports.app = app;
-app.use((0, cors_1.default)());
+const corsOptions = {
+    origin: process.env.FRONTEND_URL || 'http://localhost:3001',
+    credentials: true,
+    optionsSuccessStatus: 200
+};
+console.log('CORS options:', corsOptions); // Debug log
+app.use((0, cors_1.default)(corsOptions));
 app.use(express_1.default.json());
 app.use('/auth', auth_1.default);
 app.use('/profiles', profiles_1.default);
 app.use('/matches', matches_1.default);
 app.use(errorHandler_1.errorHandler);
+app.use((0, express_session_1.default)({
+    secret: process.env.SESSION_SECRET,
+    resave: false,
+    saveUninitialized: false
+}));
+app.use(passport_1.default.initialize());
+app.use(passport_1.default.session());
 const PORT = process.env.PORT || 3000;
 function testDatabaseConnection() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             yield database_1.default.$connect();
-            console.log('Successfully connected to the database');
+            console.log('Successfully connected to the database!');
             // Test query
             const userCount = yield database_1.default.user.count();
-            console.log(`Number of users in the database: ${userCount}`);
+            console.log(`Numbers of users in the database: ${userCount}`);
             yield database_1.default.$disconnect();
         }
         catch (error) {
@@ -61,4 +76,6 @@ function startServer() {
         }
     });
 }
+app.use(passport_1.default.initialize());
+app.use(passport_1.default.session());
 startServer();

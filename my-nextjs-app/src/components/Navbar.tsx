@@ -5,6 +5,16 @@ import { useAuth } from '../hooks/useAuth';
 const Navbar: React.FC = () => {
   const { user, logout } = useAuth();
 
+  const handleLogout = async () => {
+    try {
+      await logout();
+      // Redirect to home page or login page after logout
+      window.location.href = '/';
+    } catch (error) {
+      console.error('Logout error:', error);
+    }
+  };
+
   return (
     <nav className="bg-blue-500 p-4">
       <div className="container mx-auto flex justify-between items-center">
@@ -21,9 +31,9 @@ const Navbar: React.FC = () => {
           {user ? (
             <>
               <Link href="/profile" className="text-white mr-4">
-                My Profile
+                Profile
               </Link>
-              <button onClick={logout} className="text-white">
+              <button onClick={handleLogout} className="text-white">
                 Logout
               </button>
             </>
