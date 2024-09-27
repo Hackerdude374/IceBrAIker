@@ -1,154 +1,151 @@
 {
-    "public_identifier": "ha-phan-b101907b",
-    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/ha-phan-b101907b/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005218Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0ccfb0995b7fad466244ce88978d9e905675917c459533f79c2d5812a7d6942c",
-    "first_name": "Ha",
-    "last_name": "Phan",
-    "full_name": "Ha Phan",
-    "follower_count": 101,
-    "occupation": "Research Scientist at New York State Institute for Basic Research in Developmental Disabilities",
-    "headline": "Research Scientist, Infant Development, Neurophysiological and Neurobehavioral Assessments",
+    "public_identifier": "ashwinani1",
+    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/ashwinani1/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240927%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240927T010535Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=bc4e238e479dbc9f6888a317f38181bc8810c75cf315fea5d3de345005cabcce",
+    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/ashwinani1/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240927%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240927T010535Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7d6dd4a936e4407a8031e9277c9e552442b6f26195845ad3aa12a0d126ac0224",
+    "first_name": "Ashwin",
+    "last_name": "Anil",
+    "full_name": "Ashwin Anil",
+    "follower_count": 934,
+    "occupation": "Intern for Project Operations in Web Platform Services at NYS Office of Information Technology Services",
+    "headline": "Computer Science Student and currently interning @ NYS ITS",
+    "summary": "Experienced and highly motivated computer science student with a strong background in full stack development and a minor in business management. Currently pursuing a Bachelor of Science in Computer Science at the City University of New York, College of Staten Island, with an expected graduation in May 2025. Demonstrated excellence with a GPA of 3.94 and recognized on the Dean's List.\n\nSkilled in various programming languages including C++, Java, C, Python, PHP, and JavaScript. Proficient in database systems such as MySQL, and experienced in utilizing Git/GitHub for version control. Additionally, familiar with Docker, Postman, Xcode, Jupyter Notebook, and other relevant tools and technologies.\n\nAs a Full Stack Developer Intern at The Difference App LLC, I developed and implemented tutorial bubbles that significantly increased user engagement in a weight management/fitness app. I also contributed to the successful beta testing and deployment of the app, resulting in positive user feedback. Through participation in cross-functional business meetings, I gained exposure to various departments, including marketing, finance, and product development, enhancing my understanding of the business aspects of app development.\n\nIn my role as a Tech Analyst at CUNY College of Staten Island, I effectively troubleshooted and resolved software and technical issues for professors and students, utilizing Quest KACE ticketing software and technical documentation. I also played a key role in the successful migration of CSI-hosted mailboxes to Microsoft 365, supporting over 600 faculty members.\n\nI have a passion for data visualization and API integration, as demonstrated by my project BRIDGESuncc, where I utilized APIs to visualize data from multiple repositories and employed visual data structures to display information such as USGS earthquake data.\n\nIn terms of associations and interests, I am an active member of Collegiate Science and Technology Entry Program and participated in the College of Staten Island - Hack A Project. I have also participated in the Great Cycle Challenge.\n\nOverall, I am a dedicated and driven individual seeking opportunities to contribute my technical expertise, business acumen, and problem-solving skills to a dynamic and innovative organization. I am eager to leverage my skills and experiences to make a meaningful impact in the field of computer science and contribute to the success of a forward-thinking team.",
     "country": "US",
     "country_full_name": "United States of America",
-    "city": "New York City Metropolitan Area",
+    "city": "Staten Island",
+    "state": "New York",
     "experiences": [
         {
             "starts_at": {
                 "day": 1,
-                "month": 4,
-                "year": 2015
+                "month": 6,
+                "year": 2023
             },
             "ends_at": null,
-            "company": "New York State Institute for Basic Research in Developmental Disabilities",
-            "company_linkedin_profile_url": null,
+            "company": "NYS Office of Information Technology Services",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/nys-office-of-information-technology-services/",
             "company_facebook_profile_url": null,
-            "title": "Research Scientist",
-            "description": "Examining the development of infants using neurophysiological and neurobehavioral assessments. Mentoring undergraduate and medical students on research skills.",
-            "location": "Staten Island, New York, USA",
-            "logo_url": null
+            "title": "Intern for Project Operations in Web Platform Services",
+            "description": null,
+            "location": "Albany, New York Metropolitan Area",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/nys-office-of-information-technology-services/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240927%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240927T010536Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=eb3a65838488f2a24d51c0ae6a196c743c4432c6c2b854ca3fb18eb1c055af47"
         },
         {
             "starts_at": {
                 "day": 1,
-                "month": 1,
-                "year": 2010
-            },
-            "ends_at": null,
-            "company": "Biology Department College of Staten Island CUNY",
-            "company_linkedin_profile_url": null,
-            "company_facebook_profile_url": null,
-            "title": "Adjunct Professor",
-            "description": "Teaching courses in Human Anatomy and Physiology.",
-            "location": "Staten Island, New York, USA",
-            "logo_url": null
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 1,
-                "year": 2010
+                "month": 6,
+                "year": 2024
             },
             "ends_at": {
                 "day": 31,
-                "month": 12,
-                "year": 2015
+                "month": 8,
+                "year": 2024
             },
-            "company": "New York State Institute for Basic Research in Developmental Disabilities",
-            "company_linkedin_profile_url": null,
+            "company": "Navity",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/navity-maritime/",
             "company_facebook_profile_url": null,
-            "title": "Research Associate",
+            "title": "Frontend Developer",
             "description": null,
-            "location": null,
-            "logo_url": null
+            "location": "Sydney, New South Wales, Australia",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQFcTjhdsTfxwg/company-logo_400_400/company-logo_400_400/0/1701732842461/navity_maritime_logo?e=1735171200&v=beta&t=tEGkYUFJckMxE3uQQS9Ll42jDNSFH0X-03IcCu3VteI"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 2,
+                "year": 2023
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 6,
+                "year": 2023
+            },
+            "company": "The Difference",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/thediffapp/",
+            "company_facebook_profile_url": null,
+            "title": "Full Stack Developer Intern",
+            "description": null,
+            "location": "New York City Metropolitan Area",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/thediffapp/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240927%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240927T010536Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=e376dad6545f5ad1585cc0b6a9ed511984cfda4f4efd623d9a0a998083a16f90"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 5,
+                "year": 2022
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 6,
+                "year": 2023
+            },
+            "company": "City University of New York-College of Staten Island",
+            "company_linkedin_profile_url": "https://www.linkedin.com/school/college-of-staten-island-city-university-of-new-york/",
+            "company_facebook_profile_url": null,
+            "title": "Tech Analyst",
+            "description": null,
+            "location": "Staten Island, New York",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQGWsEebXWV2DQ/company-logo_400_400/company-logo_400_400/0/1631329630657?e=1735171200&v=beta&t=QDb6g2InlIO0fVG2teILRUhoPZIRrH2n9B7neLnJj6o"
         }
     ],
     "education": [
         {
             "starts_at": {
                 "day": 1,
-                "month": 1,
-                "year": 2010
+                "month": 8,
+                "year": 2021
             },
-            "ends_at": null,
-            "field_of_study": "Neuroscience",
-            "degree_name": "Ph.D",
-            "school": "The Graduate Center, City University of New York",
-            "school_linkedin_profile_url": "https://www.linkedin.com/company/2677812/",
+            "ends_at": {
+                "day": 31,
+                "month": 5,
+                "year": 2025
+            },
+            "field_of_study": "Computer Science",
+            "degree_name": "Bachelor's degree",
+            "school": "City University of New York-College of Staten Island",
+            "school_linkedin_profile_url": "https://www.linkedin.com/school/college-of-staten-island-city-university-of-new-york/",
             "school_facebook_profile_url": null,
             "description": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/thegraduatecenter/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240827%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240827T005218Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=59ca0a676cc1efe65fb800de788d6c1268a3ad83fa44e44386d72b798e22de6e",
-            "grade": null,
-            "activities_and_societies": null
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/college-of-staten-island-city-university-of-new-york/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240927%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240927T010536Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=0cba685ca4f8fc744b2bed464e2993b8d0c87c6cf5e3b9505a16ec63469f0f64",
+            "grade": "3.94",
+            "activities_and_societies": "CSI Hack-a-project\nCollegiate Science & Technology Entry Program"
         },
         {
             "starts_at": {
                 "day": 1,
-                "month": 1,
-                "year": 1993
+                "month": 9,
+                "year": 2017
             },
-            "ends_at": null,
-            "field_of_study": null,
-            "degree_name": "Doctor of Medicine - MD",
-            "school": "Hanoi Medical University, Vietnam",
-            "school_linkedin_profile_url": null,
+            "ends_at": {
+                "day": 30,
+                "month": 6,
+                "year": 2021
+            },
+            "field_of_study": "General Education",
+            "degree_name": "High School Diploma",
+            "school": "Staten Island Tech High School",
+            "school_linkedin_profile_url": "https://www.linkedin.com/school/staten-island-tech-high-school/",
             "school_facebook_profile_url": null,
             "description": null,
-            "logo_url": null,
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/staten-island-tech-high-school/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240927%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240927T010536Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=659f78403c486c13205dbe939587593cba01929013596e3fe3ae1b2754ad668c",
             "grade": null,
             "activities_and_societies": null
         }
     ],
-    "connections": 98,
-    "activities": [
+    "volunteer_work": [
         {
-            "title": "An important finding from the BabySeq project: it's clear that parents and doctors support genomic sequencing in newborn medicine. Sequencing is\u2026",
-            "link": "https://www.linkedin.com/signup/cold-join",
-            "activity_status": "Liked by Ha Phan"
-        },
-        {
-            "title": "A new study from the Rare Diseases Clinical Research Network (RDCRN)'s #Dystonia Coalition provides insight into outcomes and long\u2010term safety and\u2026",
-            "link": "https://www.linkedin.com/signup/cold-join",
-            "activity_status": "Liked by Ha Phan"
-        },
-        {
-            "title": "I really enjoyed my time with District of Columbia Public Schools (DCPS) School Psychologists to discuss the PDD Behavior Inventory (PDDBI) on\u2026",
-            "link": "https://www.linkedin.com/signup/cold-join",
-            "activity_status": "Liked by Ha Phan"
+            "starts_at": {
+                "day": 1,
+                "month": 9,
+                "year": 2021
+            },
+            "ends_at": null,
+            "title": "Participant/Group Leader",
+            "cause": "CHILDREN",
+            "company": "Great Cycling Challenge",
+            "company_linkedin_profile_url": null,
+            "description": "The Great Cycling Challenge is a September event that raises funds for childhood cancer research.",
+            "logo_url": null
         }
     ],
-    "similarly_named_profiles": [
-        {
-            "name": "H\u00e0 Phan",
-            "link": "https://vn.linkedin.com/in/ha-phan-recruiter",
-            "summary": "Freelancer Recuiter - Newly graduated student looking for a job",
-            "location": "Ho Chi Minh City, Vietnam"
-        },
-        {
-            "name": "ha Phan",
-            "link": "https://vn.linkedin.com/in/ha-phan-75753b5a",
-            "summary": "pr",
-            "location": "Vietnam"
-        },
-        {
-            "name": "Ha Phan",
-            "link": "https://vn.linkedin.com/in/ha-phan-003bb024",
-            "summary": null,
-            "location": "Vietnam"
-        },
-        {
-            "name": "Ha Phan",
-            "link": "https://be.linkedin.com/in/haphan2",
-            "summary": "Part-Time CFO/ Regional Director East & West FlandersBusiness Strategy for SME | Transformation | Online CFO",
-            "location": "Antwerp"
-        }
-    ],
-    "groups": [
-        {
-            "name": "International Society for Autism Research | INSAR",
-            "url": "https://www.linkedin.com/groups/1213897"
-        },
-        {
-            "name": "Neonatal Intensive Innovations",
-            "url": "https://www.linkedin.com/groups/1840104"
-        }
-    ]
+    "connections": 500
 }

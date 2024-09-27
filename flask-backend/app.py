@@ -8,7 +8,13 @@ import logging
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app)
+#for deployed dev
+#CORS(app)
+
+#for local dev
+FRONTEND_URL = "http://localhost:3000"
+CORS(app, resources={r"/*": {"origins": FRONTEND_URL}})
+print(f"Flask backend is configured to accept requests from: {FRONTEND_URL}")
 
 # Set up logging
 logging.basicConfig(level=logging.DEBUG)
