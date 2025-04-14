@@ -14,9 +14,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.register = register;
 exports.login = login;
+exports.linkedinCallback = linkedinCallback;
 const bcrypt_1 = __importDefault(require("bcrypt"));
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 const server_1 = require("../server");
+const profileGenerationService_1 = require("../services/profileGenerationService");
 function register(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
@@ -52,6 +54,27 @@ function login(req, res) {
         }
         catch (error) {
             res.status(500).json({ error: 'Error logging in' });
+        }
+    });
+}
+function linkedinCallback(req, res) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const { user } = req;
+        if (!user) {
+            return res.status(401).json({ error: 'Authentication failed' });
+        }
+        try {
+            const token = jsonwebtoken_1.default.sign({ userId: user.id }, process.env.JWT_SECRET);
+            // If it's a new user, generate their profile
+            if (user.createdAt === user.updatedAt) {
+                const linkedinData = yield (0, profileGenerationService_1.scrapeLinkedInProfile)(user.linkedinUrl);
+                yield (0, profileGenerationService_1.generateUserProfile)(user.id, linkedinData);
+            }
+            res.json({ token, user: { id: user.id, email: user.email, name: user.name } });
+        }
+        catch (error) {
+            console.error('Error in LinkedIn callback:', error);
+            res.status(500).json({ error: 'Error processing LinkedIn login' });
         }
     });
 }

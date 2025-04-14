@@ -22,6 +22,8 @@ const matches_1 = __importDefault(require("./routes/matches"));
 const errorHandler_1 = require("./middleware/errorHandler");
 const database_1 = __importDefault(require("./config/database"));
 exports.prisma = database_1.default;
+const passport_1 = __importDefault(require("./config/passport"));
+const express_session_1 = __importDefault(require("express-session"));
 dotenv_1.default.config();
 const app = (0, express_1.default)();
 exports.app = app;
@@ -31,6 +33,13 @@ app.use('/auth', auth_1.default);
 app.use('/profiles', profiles_1.default);
 app.use('/matches', matches_1.default);
 app.use(errorHandler_1.errorHandler);
+app.use((0, express_session_1.default)({
+    secret: process.env.SESSION_SECRET,
+    resave: false,
+    saveUninitialized: false
+}));
+app.use(passport_1.default.initialize());
+app.use(passport_1.default.session());
 const PORT = process.env.PORT || 3000;
 function testDatabaseConnection() {
     return __awaiter(this, void 0, void 0, function* () {
@@ -61,4 +70,6 @@ function startServer() {
         }
     });
 }
+app.use(passport_1.default.initialize());
+app.use(passport_1.default.session());
 startServer();

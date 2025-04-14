@@ -54,7 +54,7 @@ With a single click, IceBrAIker generates a profile picture and a detailed view 
    cd flask-backend
    python app.py
    ```
-
+9:27
 ## Contribution
 
 We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting a pull request.

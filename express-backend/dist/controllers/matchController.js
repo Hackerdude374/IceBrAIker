@@ -11,25 +11,26 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.findMatches = findMatches;
 const server_1 = require("../server");
+const aiMatchingAnalysis_1 = require("../utils/aiMatchingAnalysis");
 function findMatches(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             const userProfile = yield server_1.prisma.userProfile.findUnique({
                 where: { userId: req.userId },
+                include: { user: true },
             });
             if (!userProfile) {
                 return res.status(404).json({ error: 'User profile not found' });
             }
-            const matches = yield server_1.prisma.userProfile.findMany({
-                where: {
-                    userId: { not: req.userId },
-                    skills: { hasSome: userProfile.skills },
-                    interests: { hasSome: userProfile.interests },
-                },
+            const favorites = yield server_1.prisma.favorite.findMany({
+                where: { userId: req.userId },
+                include: { user: true },
             });
+            const matches = yield (0, aiMatchingAnalysis_1.analyzeProfiles)(userProfile, favorites);
             res.json(matches);
         }
         catch (error) {
+            console.error('Error finding matches:', error);
             res.status(500).json({ error: 'Error finding matches' });
         }
     });
